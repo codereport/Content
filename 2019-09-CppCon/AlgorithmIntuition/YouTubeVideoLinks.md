@@ -1,6 +1,7 @@
 ### YouTube Video Links:
 |Speaker|Conference/Meetup|Year|Talk|
 |:-------------:|:--:|:--:|:-------------:|
+|Schott Schurr|CppCon| 2015|[constexpr: Applications](https://www.youtube.com/watch?v=qO-9yiAOQqc)|
 |Sean Parent | Going Native| 2013| [C++ Seasoning](https://www.youtube.com/watch?v=qH6sSOr-yk8) |
 |Marshall Clow| CppCon|2016|[STL Algorithms](https://www.youtube.com/watch?v=h4Jl1fk3MkQ)|
 |Kate Gregory | Meeting C++| 2017|[It's Complicated](https://www.youtube.com/watch?v=tTexD26jIN4)|
