@@ -1,3 +1,8 @@
+### Podcast Links:
+|Podcast|Guest|Date|Link|
+|:-----:|:---:|:--:|:--:|
+|CppCast|Kate Gregory|2015-10-14|[Episode 30: Stop Teaching C](https://cppcast.com/kate-gregory-stop-teaching-c/)|
+
 ### YouTube Video Links:
 |Speaker|Conference/Meetup|Year|Talk|
 |:-------------:|:--:|:--:|:-------------:|
