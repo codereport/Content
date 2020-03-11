@@ -1,6 +1,6 @@
 This is a work in progress ...
 
-### Reference Links:
+### Article Links:
 |Article|Author|Date|
 |:--:|:--:|:--:|
 |[Thrust, a Productivity-Oriented Library for CUDA](https://research.nvidia.com/publication/thrust-productivity-oriented-library-cuda)|Nathan Bell, Jared Hoberock|October 1, 2011|
