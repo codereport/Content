@@ -29,7 +29,7 @@ i = 0
 for t in tr_elements[0]:
     i += 1
     name = t.text_content()
-    print '%d:"%s"'%(i, name)
+    print('%d:"%s"'%(i, name))
     col.append((name, []))
 
 #Since out first row is the header, data is stored on the second row onwards
