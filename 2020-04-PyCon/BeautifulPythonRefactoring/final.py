@@ -16,11 +16,7 @@ doc = lh.fromstring(page.content)
 #Parse data that are stored between <tr>..</tr> of HTML
 tr_elements = doc.xpath('//tr')
 
-col = []
-
-for t in tr_elements[0]:
-    name = t.text_content()
-    col.append((name, []))
+col = [(t.text_content(), []) for t in tr_elements[0]]
 
 #Since out first row is the header, data is stored on the second row onwards
 for j in range(1, len(tr_elements)):
