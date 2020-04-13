@@ -7,18 +7,13 @@ import pandas as pd
 
 url = 'http://pokemondb.net/pokedex/all'
 
-#Create a handle, page, to handle the contents of the website
-page = requests.get(url)
+page = requests.get(url)                       # page handle
+doc  = lh.fromstring(page.content)             # website contents
+tr   = doc.xpath('//tr')                       # html <tr> data
+col  = [(t.text_content(), []) for t in tr[0]] # column titles
 
-#Store the contents of the website under doc
-doc = lh.fromstring(page.content)
-
-#Parse data that are stored between <tr>..</tr> of HTML
-tr_elements = doc.xpath('//tr')
-
-col = [(t.text_content(), []) for t in tr_elements[0]]
-
-for T in tr_elements[1:]:
+# scrape data
+for T in tr[1:]:
     for i, t in enumerate(T.iterchildren()):
         data = t.text_content() 
         col[i][1].append(int(data) if data.isnumeric() else data)
