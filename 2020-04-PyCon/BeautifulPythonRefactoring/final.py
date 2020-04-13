@@ -18,11 +18,7 @@ tr_elements = doc.xpath('//tr')
 
 col = [(t.text_content(), []) for t in tr_elements[0]]
 
-#Since out first row is the header, data is stored on the second row onwards
-for j in range(1, len(tr_elements)):
-    #T is our j'th row
-    T = tr_elements[j]
-
+for T in tr_elements[1:]:
     #i is the index of our column
     i = 0
 
