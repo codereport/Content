@@ -19,12 +19,9 @@ tr_elements = doc.xpath('//tr')
 col = [(t.text_content(), []) for t in tr_elements[0]]
 
 for T in tr_elements[1:]:
-    #Iterate through each element of the row
     for i, t in enumerate(T.iterchildren()):
         data = t.text_content() 
-        data = int(data) if data.isnumeric() else data
-        #Append the data to the empty list of the i'th column
-        col[i][1].append(data)
+        col[i][1].append(int(data) if data.isnumeric() else data)
 
 Dict = {title:column for (title,column) in col}
 df   = pd.DataFrame(Dict)
