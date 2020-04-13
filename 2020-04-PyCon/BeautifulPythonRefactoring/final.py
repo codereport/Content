@@ -19,11 +19,8 @@ tr_elements = doc.xpath('//tr')
 col = [(t.text_content(), []) for t in tr_elements[0]]
 
 for T in tr_elements[1:]:
-    #i is the index of our column
-    i = 0
-
     #Iterate through each element of the row
-    for t in T.iterchildren():
+    for i, t in enumerate(T.iterchildren()):
         data = t.text_content() 
         #Check if row is empty
         if i > 0:
@@ -34,8 +31,6 @@ for T in tr_elements[1:]:
                 pass
         #Append the data to the empty list of the i'th column
         col[i][1].append(data)
-        #Increment i for the next column
-        i += 1
 
 Dict = {title:column for (title,column) in col}
 df   = pd.DataFrame(Dict)
