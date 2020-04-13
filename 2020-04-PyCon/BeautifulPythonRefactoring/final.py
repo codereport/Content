@@ -22,13 +22,11 @@ for T in tr_elements[1:]:
     #Iterate through each element of the row
     for i, t in enumerate(T.iterchildren()):
         data = t.text_content() 
-        #Check if row is empty
-        if i > 0:
         #Convert any numerical value to integers
-            try:
-                data = int(data)
-            except:
-                pass
+        try:
+            data = int(data)
+        except:
+            pass
         #Append the data to the empty list of the i'th column
         col[i][1].append(data)
 
