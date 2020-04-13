@@ -23,10 +23,6 @@ for j in range(1, len(tr_elements)):
     #T is our j'th row
     T = tr_elements[j]
 
-    #If row is not of size 10, the //tr data is not from our table 
-    if len(T) != 10:
-        break
-
     #i is the index of our column
     i = 0
 
