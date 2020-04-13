@@ -7,18 +7,15 @@ import pandas as pd
 
 url = 'http://pokemondb.net/pokedex/all'
 
-page = requests.get(url)                       # page handle
-doc  = lh.fromstring(page.content)             # website contents
-tr   = doc.xpath('//tr')                       # html <tr> data
-col  = [(t.text_content(), []) for t in tr[0]] # column titles
+page   = requests.get(url)                 # page handle
+doc    = lh.fromstring(page.content)       # website contents
+tr     = doc.xpath('//tr')                 # html <tr> data
+titles = [t.text_content() for t in tr[0]] # column titles
 
-# scrape data
-for T in tr[1:]:
-    for i, t in enumerate(T.iterchildren()):
-        data = t.text_content() 
-        col[i][1].append(int(data) if data.isnumeric() else data)
+fmt    = lambda data : int(data) if data.isnumeric() else data
+cols   = zip(*[[fmt(t.text_content()) for t in T.iterchildren()] for T in tr[1:]])
 
-Dict = {title:column for (title,column) in col}
-df   = pd.DataFrame(Dict)
+Dict   = {title: column for title, column in zip(titles, cols)}
+df     = pd.DataFrame(Dict)
 
 print(df.head())
