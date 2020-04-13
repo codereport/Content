@@ -16,11 +16,6 @@ doc = lh.fromstring(page.content)
 #Parse data that are stored between <tr>..</tr> of HTML
 tr_elements = doc.xpath('//tr')
 
-#Check the length of the first 12 rows
-# [len(T) for T in tr_elements[:12]]
-
-tr_elements = doc.xpath('//tr')
-
 #Create empty list
 col = []
 i = 0
@@ -58,8 +53,6 @@ for j in range(1, len(tr_elements)):
         col[i][1].append(data)
         #Increment i for the next column
         i += 1
-
-# [len(C) for (title,C) in col]
 
 Dict = {title:column for (title,column) in col}
 df   = pd.DataFrame(Dict)
