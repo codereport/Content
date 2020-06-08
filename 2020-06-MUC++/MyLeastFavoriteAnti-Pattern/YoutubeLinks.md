@@ -6,3 +6,4 @@
 |Jason Turner|CppCon|2016|[Rich Code for Tiny Computers](https://www.youtube.com/watch?v=zBkNBP00wJE)|
 |Ben Deane|C++Now|2018|[Easy to Use, Hard to Misuse: Declarative Style in C++](https://www.youtube.com/watch?v=2ouxETt75R4)|
 |Andrey Breslav|Google I/O|2018|[How to Kotlin - from the Lead Kotlin Language Designer](https://www.youtube.com/watch?v=6P20npkvcb8)|
+|Sean Parent|BoostCon|2012|[Now What? A vignette in three parts](https://www.youtube.com/watch?v=iGenpw2NeKQ)|
