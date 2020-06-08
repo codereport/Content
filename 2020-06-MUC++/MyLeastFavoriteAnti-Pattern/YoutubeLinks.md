@@ -5,3 +5,4 @@
 |Sean Parent | Going Native| 2013| [C++ Seasoning](https://www.youtube.com/watch?v=qH6sSOr-yk8) |
 |Jason Turner|CppCon|2016|[Rich Code for Tiny Computers](https://www.youtube.com/watch?v=zBkNBP00wJE)|
 |Ben Deane|C++Now|2018|[Easy to Use, Hard to Misuse: Declarative Style in C++](https://www.youtube.com/watch?v=2ouxETt75R4)|
+|Andrey Breslav|Google I/O|2018|[How to Kotlin - from the Lead Kotlin Language Designer](https://www.youtube.com/watch?v=6P20npkvcb8)|
