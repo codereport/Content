@@ -4,7 +4,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 
 :green_heart: **= Conference** <br>
 :blue_heart: **= Meetup** <br>
-:star: **= Recommend version**
+:star: **= Recommended version**
 
 |Conference/Meetup|Year|Location|Talk|
 |:---------------|:--:|:--:|:--:|
