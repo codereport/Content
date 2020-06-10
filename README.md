@@ -24,7 +24,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 
 ## Lightning Talks
 
-YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7nPNCjA00m31MkNIlb)
+YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpnXpGfoHj3TMsMDL4oK)
 
 |Conference/Meetup|Year|Location|Talk|
 |:---------------|:--:|:--:|:--:|
