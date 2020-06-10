@@ -19,7 +19,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: code::dive|2019-11|Wroclaw, Poland|[Better Algorithm Intuition](https://youtu.be/0z-cv3gartw)|
 |:blue_heart: C++TO|2019-12|Toronto, Canada|[Better Algorithm Intuition](https://youtu.be/L0kwN3A-HkM)|
 |:green_heart: PyCon|2020-04|Online|:star: [Beautiful Python Refactoring](https://youtu.be/W-lZttZhsUY)|
-|:blue_heart: MUC++|2020-06|Online|[My Least Favorite Anti-Pattern](https://www.twitch.tv/videos/645919064)|
+|:blue_heart: MUC++|2020-06|Online|[My Least Favorite Anti-Pattern](https://youtu.be/VV9vwFsaQ6U)|
 |:green_heart: Italian C++|2020-06|Online|My Least Favorite Anti-Pattern|
 
 ## Lightning Talks
