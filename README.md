@@ -34,3 +34,11 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:blue_heart: C++TO|2019-11|Toronto, Canada|[Consistently Inconsistent](https://youtu.be/14zEh6QCevw)|
 |:green_heart: C++Now*|2020-05|YouTube|:star: [The STL Algorithm Cheat Sheet](https://youtu.be/LMmFpOhcQhA)|
 
+## Podcast Appearances
+
+|Podcast|Date|Episode #|Title|
+|:-:|:-:|:-:|:-:|
+|CppCast|February 23, 2018|Episode 139|[Competitive Coding](https://cppcast.com/conor-hoekstra/)|
+|Take Up Code|September 25, 2019|Episode 261| [CppCon: C++ Algorithms And Ranges.](https://www.takeupcode.com/podcast/261-cppcon-interview-with-conor-hoekstra-about-c-algorithms-and-ranges/)|
+|Talk Python To Me|August 1, 2020|Episode 275|[Beautiful Pythonic Refactorings](https://talkpython.fm/episodes/show/275/beautiful-pythonic-refactorings)|
+|cpp.chat|-|-|-|
