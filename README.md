@@ -21,6 +21,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: PyCon|2020-04|Online|:star: [Beautiful Python Refactoring](https://youtu.be/W-lZttZhsUY)|
 |:blue_heart: MUC++|2020-06|Online|[My Least Favorite Anti-Pattern](https://youtu.be/VV9vwFsaQ6U)|
 |:green_heart: Italian C++|2020-06|Online|[My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=CjHgL5EQdcY)|
+|:green_heart: CppCon|2020-09|Online|Structure and Interpretation of Computer Programs: SICP|
 
 ## Lightning Talks
 
