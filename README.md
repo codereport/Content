@@ -9,7 +9,7 @@
 YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7nPNCjA00m31MkNIlb)
 
 |Conference/Meetup|Year|Location|Talk|
-|:---------------|:--:|:--:|:--:|
+|:---------------|:------:|:--:|:--:|
 |:blue_heart: Bay Area C++ User Group|2019-01|Santa Clara, USA|Algorithm Intuition|
 |:green_heart: C++Now|2019-05|Aspen, USA|:star: [Algorithm Intuition](https://youtu.be/48gV1SNm3WA)|
 |:green_heart:  CppCon|2019-09|Aurora, USA|[Algorithm Intuition](https://youtu.be/pUEnO6SvAMo)|
@@ -22,6 +22,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: MUC++|2020-06|Online|[My Least Favorite Anti-Pattern](https://youtu.be/VV9vwFsaQ6U)|
 |:green_heart: Italian C++|2020-06|Online|:star: [My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=CjHgL5EQdcY)|
 |:green_heart: CppCon|2020-09|Online|Structure and Interpretation of Computer Programs: SICP|
+|:green_heart: Meeting C++|2020-11|TBD|C++ Concepts vs Rust Traits vs Haskell Typeclasses vs ...|
 
 ## Lightning Talks
 
