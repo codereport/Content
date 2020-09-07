@@ -2,7 +2,7 @@
 
 :green_heart: **= Conference** <br>
 :blue_heart: **= Meetup** <br>
-:star: **= Recommended version**
+:star: **= Recommended version** (only if there are multiples)
 
 ## Conference Talks
 
