@@ -1,6 +1,7 @@
-// https://www.godbolt.org/z/17KcE6
+// https://www.godbolt.org/z/hv6x8a
 
 // C++20 Scheme Interpreter (in progress)
+
 
 #include <iostream>
 #include <functional> // function
@@ -16,8 +17,8 @@
 #include <range/v3/view/slice.hpp>
 #include <range/v3/view/split.hpp>
 #include <range/v3/view/tail.hpp>
+#include <range/v3/view/take.hpp>
 #include <range/v3/view/take_while.hpp>
-#include <range/v3/view/transform.hpp>
 #include <range/v3/algorithm/find.hpp>
 #include <range/v3/range/conversion.hpp> // to
 
@@ -54,32 +55,41 @@ auto trim(std::string const& exp) -> std::string {
 class procedure_call {
 public:
     explicit procedure_call(std::string input) :
-        _sub_expressions(input 
+        procedure_call{input 
             | rv::slice(1, static_cast<int32_t>(input.size()) - 1)
-            | rv::split(' ')
-            | ranges::to<std::vector<std::string>>) {
-        std::cout << "#4 Procedure call: ";
-        print(); //print2();
-    }
+            | rv::split(' ')} {}
 
-    [[nodiscard]] auto procedure() const { return _sub_expressions.front(); }
-    [[nodiscard]] auto operands()  const { return rv::tail(_sub_expressions) 
-                                                | ranges::to<std::vector<std::string>>; }
+    [[nodiscard]] auto procedure() const { return _procedure; }
+    [[nodiscard]] auto arguments()  const { return _arguments; }
 
     void print() const {
-        std::ranges::copy(_sub_expressions, 
+        std::cout << _procedure << ' ';
+        std::ranges::copy(_arguments, 
             std::ostream_iterator<std::string>{std::cout," "});
         std::cout << '\n';
     }
 
-    void print2() const {
-        for (auto e : _sub_expressions)
-            std::cout << e << ' ';
-        std::cout << '\n';
+private:
+
+    // using split_view = ranges::split_view<ranges::subrange<__gnu_cxx::__normal_iterator
+    //     <char*, std::__cxx11::basic_string<char> >, __gnu_cxx::__normal_iterator
+    //     <char*, std::__cxx11::basic_string<char> >, ranges::subrange_kind::sized>, 
+    //     ranges::single_view<char> >;
+
+    explicit procedure_call(auto /* split_view */ rng) : 
+        _procedure{(rng 
+            | rv::take(1) 
+            | ranges::to<std::vector<std::string>>).front()},
+        _arguments{rng 
+            | rv::tail 
+            | ranges::to<std::vector<std::string>>} 
+    {
+        std::cout << "#4 Procedure call: ";
+        print();
     }
 
-private:
-    std::vector<std::string> _sub_expressions;
+    std::string              _procedure;
+    std::vector<std::string> _arguments;
 };
 
 using expression = std::variant<
@@ -97,23 +107,6 @@ auto const primitive_procedures = std::vector<ppp>
       {"-", [](int a, int b) { return a - b; }} };
 
 [[nodiscard]]
-auto is_primitive_procedure(auto proc) -> bool {
-    return ranges::find(primitive_procedures, proc, &ppp::first)
-        != std::end(primitive_procedures);
-}
-
-[[nodiscard]]
-auto apply_primitive_procedure(std::string const& proc, std::vector<std::string> const& operands) -> std::string {
-    auto const res = [&] {
-        auto procedural_value = 
-            ranges::find(primitive_procedures, proc, &ppp::first)->second;
-        return std::apply(procedural_value, std::make_tuple(std::stoi(operands.front()), 
-                                                            std::stoi(operands.back())));
-    } ();
-    return std::to_string(res);
-}
-
-[[nodiscard]]
 auto is_literal(std::string const& input) -> bool {
     return std::isdigit(input.front()) // number{}
         || input.front() == '"';       // string{}
@@ -121,6 +114,7 @@ auto is_literal(std::string const& input) -> bool {
 
 [[nodiscard]]
 auto to_literal(std::string const& input) -> literal {
+    std::cout << "#1 Literal\n";
     if (std::isdigit(input.front()))
         return number{std::stoi(input)};
     else {
@@ -164,18 +158,45 @@ auto to_expression(std::string const& input) -> expression {
 }
 
 [[nodiscard]]
-auto apply(auto pc) -> std::string {
-    if (is_primitive_procedure(pc.procedure()))
-        return "   "s + apply_primitive_procedure(pc.procedure(), pc.operands());
-    return {};
+auto is_primitive_procedure(std::string const& proc) -> bool {
+    return ranges::find(primitive_procedures, proc, &ppp::first)
+        != std::end(primitive_procedures);
+}
+
+using value_type = int; // int should probably std::variant of all "value types"
+
+[[nodiscard]]
+auto apply_primitive_procedure(std::string const& proc, auto const& args) -> value_type {
+    // TODO this should be the result of eval(variable_reference) which is variable reference
+    auto procedural_value = ranges::find(primitive_procedures, proc, &ppp::first)->second;
+    return std::apply(procedural_value, args);
 }
 
 [[nodiscard]]
-auto eval(std::string const& input) {
-    auto const e = to_expression(input);
-    if (std::holds_alternative<literal>(e)) {
+auto apply(std::string proc, auto args) -> value_type {
+    if (is_primitive_procedure(proc))
+        return apply_primitive_procedure(proc, args);
+    return {};
+}
+
+auto eval(std::string const& input) -> value_type;
+
+[[nodiscard]]
+auto list_to_values(std::vector<std::string> const& expressions) {
+    auto values = expressions
+        | std::ranges::views::transform([](auto exp) { return eval(exp); })
+        | ranges::to<std::vector<value_type>>;
+    return std::make_tuple(values.front(), values.back());
+}
+
+[[nodiscard]]
+auto eval(std::string const& input) -> value_type {
+    if (auto const e = to_expression(input);
+            std::holds_alternative<literal>(e)) {
         auto const l = std::get<literal>(e);
-        std::cout << "got literal\n";
+        // TODO use std::visit for all literals
+        if (std::holds_alternative<number>(l))
+            return std::get<number>(l).value;
     }
     else if (std::holds_alternative<special_form>(e)) {
         auto const pc = std::get<special_form>(e);
@@ -183,15 +204,15 @@ auto eval(std::string const& input) {
     }
     else if (std::holds_alternative<procedure_call>(e)) {
         auto const pc = std::get<procedure_call>(e);
-        return apply(pc);
+        return apply(pc.procedure(), list_to_values(pc.arguments()));
     }
-    return input;
+    return 0;
 }
 
 int main() {
-    std::cout << eval("(+ 1 2)") << '\n';
-    std::cout << eval("(* 5 2)") << '\n';
-    std::cout << eval("(- 6 3)") << '\n';
+    std::cout << std::to_string( eval("(+ 1 2)") ) << '\n';
+    std::cout << std::to_string( eval("(* 5 3)") ) << '\n';
+    std::cout << std::to_string( eval("(- 6 4)") ) << '\n';
     std::cout << eval("(define x 42)") << '\n';
     std::cout << "(list \"cat\" \"dog\")" << '\n';
     return 0;
