@@ -2,7 +2,6 @@
 
 // C++20 Scheme Interpreter (in progress)
 
-
 #include <iostream>
 #include <functional> // function
 #include <ranges>     // copy
