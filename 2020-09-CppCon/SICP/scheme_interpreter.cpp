@@ -1,4 +1,4 @@
-// https://www.godbolt.org/z/s51oPx
+// https://www.godbolt.org/z/1qxshs
 
 // C++20 Scheme Interpreter (in progress)
 
@@ -32,7 +32,7 @@ struct _if {};     // TODO
 struct _lambda {}; // TODO
 
 using literal = std::variant<number, string, boolean>;
-struct variable_reference { std::string name; };
+struct variable { std::string name; };
 using special_form = std::variant<_define, _if, _lambda>; // TODO cons, cond, quote
 
 // TODO replace with: 
@@ -54,8 +54,8 @@ public:
             | rv::slice(1, static_cast<int32_t>(input.size()) - 1)
             | rv::split(' ')} {}
 
-    [[nodiscard]] auto procedure() const { return _procedure; }
-    [[nodiscard]] auto arguments() const { return _arguments; }
+    [[nodiscard]] auto procedure() const noexcept { return _procedure; }
+    [[nodiscard]] auto arguments() const noexcept { return _arguments; }
 
     void print() const {
         std::cout << _procedure << ' ';
@@ -89,7 +89,7 @@ private:
 
 using expression = std::variant<
     literal,             // aka self-evaluating
-    variable_reference,
+    variable,            // aka variable reference
     special_form,
     procedure_call>;     // aka application or combination
 
@@ -119,12 +119,12 @@ auto to_literal(std::string const& input) -> literal {
 }
 
 [[nodiscard]]
-auto is_variable_reference(std::string const& input) -> bool {
+auto is_variable(std::string const& input) -> bool {
     return std::isalpha(input.front());
 }
 
-auto to_variable_reference(std::string const& input) -> variable_reference {
-    return variable_reference{input};
+auto to_variable(std::string const& input) -> variable {
+    return variable{input};
 }
 
 [[nodiscard]]
@@ -140,15 +140,15 @@ auto is_special_form(std::string const& input) -> std::optional<std::string> {
 }
 
 [[nodiscard]]
-auto to_expression(std::string const& input) -> expression {
-    auto trimmed_input = trim(input);
-    if (is_literal(trimmed_input))
-        return to_literal(trimmed_input);
-    if (is_variable_reference(trimmed_input))
-        return to_variable_reference(trimmed_input);
-    if (auto sf = is_special_form(trimmed_input); sf.has_value())
-        return special_form{};
-    else 
+auto parse_expression(std::string const& input) -> expression {
+    auto in = trim(input);
+    if (is_literal(in))
+        return to_literal(in);
+    else if (is_variable(in))                               
+        return to_variable(in);
+    else if (auto sf = is_special_form(in); sf.has_value()) 
+        return special_form{}; // to_special_form(sf.value());
+    else                                                    
         return procedure_call{input};
 }
 
@@ -186,7 +186,7 @@ auto list_to_values(std::vector<std::string> const& expressions) {
 
 [[nodiscard]]
 auto eval(std::string const& input) -> value_type {
-    if (auto const e = to_expression(input); std::holds_alternative<literal>(e)) {
+    if (auto const e = parse_expression(input); std::holds_alternative<literal>(e)) {
         // TODO use std::visit for all literals
         if (auto const l = std::get<literal>(e); std::holds_alternative<number>(l))
             return std::get<number>(l).value;
