@@ -1,23 +1,19 @@
-// https://www.godbolt.org/z/hv6x8a
+// https://www.godbolt.org/z/s51oPx
 
 // C++20 Scheme Interpreter (in progress)
 
 #include <iostream>
 #include <functional> // function
-#include <ranges>     // copy
-#include <string>
+#include <ranges>     // algorithms: copy; views: transform, take_while, drop
+#include <string>                              // reverse, drop_while
 #include <unordered_set>
 #include <variant>
 #include <vector>
 
-#include <range/v3/view/drop.hpp>
-#include <range/v3/view/drop_while.hpp>
-#include <range/v3/view/reverse.hpp>
 #include <range/v3/view/slice.hpp>
 #include <range/v3/view/split.hpp>
 #include <range/v3/view/tail.hpp>
 #include <range/v3/view/take.hpp>
-#include <range/v3/view/take_while.hpp>
 #include <range/v3/algorithm/find.hpp>
 #include <range/v3/range/conversion.hpp> // to
 
@@ -44,10 +40,10 @@ using special_form = std::variant<_define, _if, _lambda>; // TODO cons, cond, qu
 [[nodiscard]]
 auto trim(std::string const& exp) -> std::string {
     return exp 
-        | rv::drop_while([](auto c) { return c == ' ';})
-        | rv::reverse
-        | rv::drop_while([](auto c) { return c == ' ';})
-        | rv::reverse
+        | std::ranges::views::drop_while([](auto c) { return c == ' ';})
+        | std::ranges::views::reverse
+        | std::ranges::views::drop_while([](auto c) { return c == ' ';})
+        | std::ranges::views::reverse
         | ranges::to<std::string>;
 }
 
@@ -59,7 +55,7 @@ public:
             | rv::split(' ')} {}
 
     [[nodiscard]] auto procedure() const { return _procedure; }
-    [[nodiscard]] auto arguments()  const { return _arguments; }
+    [[nodiscard]] auto arguments() const { return _arguments; }
 
     void print() const {
         std::cout << _procedure << ' ';
@@ -190,11 +186,9 @@ auto list_to_values(std::vector<std::string> const& expressions) {
 
 [[nodiscard]]
 auto eval(std::string const& input) -> value_type {
-    if (auto const e = to_expression(input);
-            std::holds_alternative<literal>(e)) {
-        auto const l = std::get<literal>(e);
+    if (auto const e = to_expression(input); std::holds_alternative<literal>(e)) {
         // TODO use std::visit for all literals
-        if (std::holds_alternative<number>(l))
+        if (auto const l = std::get<literal>(e); std::holds_alternative<number>(l))
             return std::get<number>(l).value;
     }
     else if (std::holds_alternative<special_form>(e)) {
