@@ -1,4 +1,4 @@
-// https://www.godbolt.org/z/1qxshs
+// https://www.godbolt.org/z/MsWKcz
 
 // C++20 Scheme Interpreter (in progress)
 
@@ -39,11 +39,11 @@ using special_form = std::variant<_define, _if, _lambda>; // TODO cons, cond, qu
 // https://www.boost.org/doc/libs/1_60_0/doc/html/boost/algorithm/trim.html
 [[nodiscard]]
 auto trim(std::string const& exp) -> std::string {
+    using namespace std::ranges::views;
+    auto is_space = [](auto c) { return c == ' ';};
     return exp 
-        | std::ranges::views::drop_while([](auto c) { return c == ' ';})
-        | std::ranges::views::reverse
-        | std::ranges::views::drop_while([](auto c) { return c == ' ';})
-        | std::ranges::views::reverse
+        | drop_while(is_space) | reverse
+        | drop_while(is_space) | reverse
         | ranges::to<std::string>;
 }
 
@@ -93,8 +93,8 @@ using expression = std::variant<
     special_form,
     procedure_call>;     // aka application or combination
 
-// primitive procedure pair
-using ppp = std::pair<std::string, std::function<int(int,int)>>;
+using pv_type = std::function<int(int,int)>;     // procedural value type
+using ppp     = std::pair<std::string, pv_type>; // primitive procedure pair
 
 auto const primitive_procedures = std::vector<ppp>
     { {"+", [](int a, int b) { return a + b; }},
@@ -109,9 +109,11 @@ auto is_literal(std::string const& input) -> bool {
 
 [[nodiscard]]
 auto to_literal(std::string const& input) -> literal {
-    std::cout << "#1 Literal\n";
-    if (std::isdigit(input.front()))
+    std::cout << "#1 Literal-";
+    if (std::isdigit(input.front())) {
+        std::cout << "number: " << input << '\n';
         return number{std::stoi(input)};
+    }
     else {
         assert(input.front() == '"');
         return string{input};
@@ -120,10 +122,14 @@ auto to_literal(std::string const& input) -> literal {
 
 [[nodiscard]]
 auto is_variable(std::string const& input) -> bool {
-    return std::isalpha(input.front());
+    return input.front() != '(' && 
+        (std::isalpha(input.front()) ||
+         std::ispunct(input.front())); // a bit hacky
 }
 
+[[nodiscard]]
 auto to_variable(std::string const& input) -> variable {
+    std::cout << "#2 Variable: " << input << '\n';
     return variable{input};
 }
 
@@ -158,20 +164,20 @@ auto is_primitive_procedure(std::string const& proc) -> bool {
         != std::end(primitive_procedures);
 }
 
-using value_type = int; // int should probably std::variant of all "value types"
+using value_type = std::variant<int, pv_type>; // all "value types"
 
 [[nodiscard]]
-auto apply_primitive_procedure(std::string const& proc, auto const& args) -> value_type {
-    // TODO this should be the result of eval(variable_reference) which is variable reference
-    auto procedural_value = ranges::find(primitive_procedures, proc, &ppp::first)->second;
-    return std::apply(procedural_value, args);
+auto apply_primitive_procedure(pv_type proc, auto const& args) -> value_type {
+    return std::apply(proc, args);
 }
 
 [[nodiscard]]
-auto apply(std::string proc, auto args) -> value_type {
-    if (is_primitive_procedure(proc))
-        return apply_primitive_procedure(proc, args);
-    return {};
+auto apply(pv_type pv, auto args) -> value_type {
+    // TODO add tagged_pv_type 
+    // if (is_primitive_procedure(proc)) {
+    return apply_primitive_procedure(pv, args);
+    // }
+    return int{};
 }
 
 auto eval(std::string const& input) -> value_type;
@@ -179,9 +185,15 @@ auto eval(std::string const& input) -> value_type;
 [[nodiscard]]
 auto list_to_values(std::vector<std::string> const& expressions) {
     auto values = expressions
-        | std::ranges::views::transform([](auto exp) { return eval(exp); })
-        | ranges::to<std::vector<value_type>>;
+        | std::ranges::views::transform([](auto exp) { return std::get<int>(eval(exp)); })
+        | ranges::to<std::vector<int>>; // subset of value_type
     return std::make_tuple(values.front(), values.back());
+}
+
+[[nodiscard]]
+auto lookup_variable_value(std::string const& name) -> value_type {
+    // TODO unhardcode variables only being primitive procedures :)
+    return ranges::find(primitive_procedures, name, &ppp::first)->second;
 }
 
 [[nodiscard]]
@@ -190,23 +202,24 @@ auto eval(std::string const& input) -> value_type {
         // TODO use std::visit for all literals
         if (auto const l = std::get<literal>(e); std::holds_alternative<number>(l))
             return std::get<number>(l).value;
-    }
-    else if (std::holds_alternative<special_form>(e)) {
-        auto const pc = std::get<special_form>(e);
+    } else if (std::holds_alternative<variable>(e)) {
+        return lookup_variable_value(std::get<variable>(e).name);
+    } else if (std::holds_alternative<special_form>(e)) {
+        auto const sf = std::get<special_form>(e);
         std::cout << "got special form\n";
-    }
-    else if (std::holds_alternative<procedure_call>(e)) {
+    } else if (std::holds_alternative<procedure_call>(e)) {
         auto const pc = std::get<procedure_call>(e);
-        return apply(pc.procedure(), list_to_values(pc.arguments()));
+        return apply(
+            std::get<pv_type>(eval(pc.procedure())),
+            list_to_values(pc.arguments()));
     }
     return 0;
 }
 
 int main() {
-    std::cout << std::to_string( eval("(+ 1 2)") ) << '\n';
-    std::cout << std::to_string( eval("(* 5 3)") ) << '\n';
-    std::cout << std::to_string( eval("(- 6 4)") ) << '\n';
-    std::cout << eval("(define x 42)") << '\n';
-    std::cout << "(list \"cat\" \"dog\")" << '\n';
+    std::cout << std::get<int>( eval("(+ 1 2)") ) << '\n' ;
+    std::cout << std::get<int>( eval("(* 5 3)") ) << '\n';
+    std::cout << std::get<int>( eval("(- 6 4)") ) << '\n';
+    std::cout << std::get<int>( eval("(define x 42)") ) << '\n';
     return 0;
 }
