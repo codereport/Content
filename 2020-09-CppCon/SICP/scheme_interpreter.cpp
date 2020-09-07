@@ -1,4 +1,4 @@
-// https://www.godbolt.org/z/1Mjjxs
+// https://www.godbolt.org/z/17KcE6
 
 // C++20 Scheme Interpreter (in progress)
 
@@ -24,7 +24,7 @@
 using namespace std::string_literals;
 namespace rv = ranges::views;
 
-std::unordered_set special_forms = 
+std::unordered_set const special_forms = 
     { "cond"s, "cons"s, "define"s, "if"s, "lambda"s, "quote"s };
 
 struct number { int value; };
@@ -41,6 +41,7 @@ using special_form = std::variant<_define, _if, _lambda>; // TODO cons, cond, qu
 
 // TODO replace with: 
 // https://www.boost.org/doc/libs/1_60_0/doc/html/boost/algorithm/trim.html
+[[nodiscard]]
 auto trim(std::string const& exp) -> std::string {
     return exp 
         | rv::drop_while([](auto c) { return c == ' ';})
@@ -95,23 +96,30 @@ auto const primitive_procedures = std::vector<ppp>
       {"*", [](int a, int b) { return a * b; }},
       {"-", [](int a, int b) { return a - b; }} };
 
-auto apply_primitive_procedure(auto proc, auto operands) {
+[[nodiscard]]
+auto is_primitive_procedure(auto proc) -> bool {
+    return ranges::find(primitive_procedures, proc, &ppp::first)
+        != std::end(primitive_procedures);
+}
+
+[[nodiscard]]
+auto apply_primitive_procedure(std::string const& proc, std::vector<std::string> const& operands) -> std::string {
     auto const res = [&] {
-        // primitive-procedure?
-        if (auto it = ranges::find(primitive_procedures, proc, &ppp::first);
-                it != std::end(primitive_procedures))
-            return std::apply(it->second, std::pair{std::stoi(operands.front()), 
-                                                    std::stoi(operands.back())});
-        return -1;
+        auto procedural_value = 
+            ranges::find(primitive_procedures, proc, &ppp::first)->second;
+        return std::apply(procedural_value, std::make_tuple(std::stoi(operands.front()), 
+                                                            std::stoi(operands.back())));
     } ();
     return std::to_string(res);
 }
 
+[[nodiscard]]
 auto is_literal(std::string const& input) -> bool {
     return std::isdigit(input.front()) // number{}
         || input.front() == '"';       // string{}
 }
 
+[[nodiscard]]
 auto to_literal(std::string const& input) -> literal {
     if (std::isdigit(input.front()))
         return number{std::stoi(input)};
@@ -121,6 +129,7 @@ auto to_literal(std::string const& input) -> literal {
     }
 }
 
+[[nodiscard]]
 auto is_variable_reference(std::string const& input) -> bool {
     return std::isalpha(input.front());
 }
@@ -129,6 +138,7 @@ auto to_variable_reference(std::string const& input) -> variable_reference {
     return variable_reference{input};
 }
 
+[[nodiscard]]
 auto is_special_form(std::string const& input) -> std::optional<std::string> {
     // assert(input.front() == "("); TODO add to to_special_form
     if (input.front() != '(') return std::nullopt;
@@ -140,6 +150,7 @@ auto is_special_form(std::string const& input) -> std::optional<std::string> {
                                            : std::nullopt;
 }
 
+[[nodiscard]]
 auto to_expression(std::string const& input) -> expression {
     auto trimmed_input = trim(input);
     if (is_literal(trimmed_input))
@@ -152,6 +163,14 @@ auto to_expression(std::string const& input) -> expression {
         return procedure_call{input};
 }
 
+[[nodiscard]]
+auto apply(auto pc) -> std::string {
+    if (is_primitive_procedure(pc.procedure()))
+        return "   "s + apply_primitive_procedure(pc.procedure(), pc.operands());
+    return {};
+}
+
+[[nodiscard]]
 auto eval(std::string const& input) {
     auto const e = to_expression(input);
     if (std::holds_alternative<literal>(e)) {
@@ -164,7 +183,7 @@ auto eval(std::string const& input) {
     }
     else if (std::holds_alternative<procedure_call>(e)) {
         auto const pc = std::get<procedure_call>(e);
-        return "   "s + apply_primitive_procedure(pc.procedure(), pc.operands());
+        return apply(pc);
     }
     return input;
 }
