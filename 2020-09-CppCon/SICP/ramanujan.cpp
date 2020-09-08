@@ -50,8 +50,7 @@ int main() {
 // ideally:
 
 // auto ramanujans 
-//     = rv::ordered_triangle_product(weight, rv::iota(1),rv::iota(1)) 
-//     | rv::transform([](auto t) { return ram{t}; })
-//     | rv::adjacent_filter(std::equal_to{})
+//     = rv::ordered_triangle_product(weight_proj, rv::iota(1),rv::iota(1)) 
+//     | rv::adjacent_filter(std::equal_to{}, weight_proj)
 //     | rv::drop(1)
 //     | rv::take(5);
