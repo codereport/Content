@@ -1,6 +1,5 @@
 // https://www.godbolt.org/z/hcnaPb
 
-
 #include <iostream>
 #include <ranges>
 
