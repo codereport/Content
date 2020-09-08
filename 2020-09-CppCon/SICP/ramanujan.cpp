@@ -1,7 +1,6 @@
-// https://www.godbolt.org/z/KfvnMd
+// https://www.godbolt.org/z/sd797E
 
 #include <iostream>
-#include <cmath>
 #include <ranges>
 
 #include <range/v3/view/adjacent_filter.hpp>
@@ -20,8 +19,8 @@ auto ramanujan_numbers() {
     constexpr int upto = 33;
 
     auto sum_cubes = [](auto const& t) -> int { 
-        return std::pow(std::get<0>(t), 3) 
-             + std::pow(std::get<1>(t), 3); 
+        auto const [a, b] = t;
+        return (a * a * a) + (b * b * b); 
     };
 
     auto wpairs = rv::cartesian_product(rv::iota(1, upto),rv::iota(1, upto)) 
