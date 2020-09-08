@@ -1,4 +1,5 @@
-// https://www.godbolt.org/z/h7aoqo
+// https://www.godbolt.org/z/hcnaPb
+
 
 #include <iostream>
 #include <ranges>
@@ -17,13 +18,13 @@ namespace rv = ranges::views;
 namespace ra = ranges::actions;
 
 struct ram { 
-    int a, b, w; 
-    explicit ram(auto const& tuple) {
-        auto const [x, y] = tuple;
-        a = x, b = y, w = x*x*x + y*y*y;
-    }
+    int a, b, weight; 
+    explicit ram(auto const& tuple) : 
+        a{std::get<0>(tuple)},
+        b{std::get<1>(tuple)},
+        weight{a*a*a + b*b*b} {}
     bool operator==(ram const& o) const { 
-        return w == o.w && a != o.b; 
+        return weight == o.weight; 
     }
 };
 
@@ -35,14 +36,14 @@ int main() {
         | rv::transform([](auto t) { return ram{t}; })
         | rv::filter([](auto r) { return r.a < r.b; })
         | ranges::to<std::vector<ram>>
-        | ra::sort(std::less{}, &ram::w);
+        | ra::sort(std::less{}, &ram::weight);
     
     auto ramanujans = wpairs
         | rv::adjacent_filter(std::equal_to{})
         | rv::drop(1);
 
     for (auto const& r : ramanujans)
-        std::cout << r.w << '\n';
+        std::cout << r.weight << '\n';
 
     return 0;
 }
