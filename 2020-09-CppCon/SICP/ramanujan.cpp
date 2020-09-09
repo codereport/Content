@@ -46,7 +46,6 @@ int main() {
 
 // auto ramanujans 
 //     = rv::ordered_triangle_product(weight, rv::iota(1),rv::iota(1)) 
-//     | rv::transform([](auto t) { return ram{t}; })
+//     | rv::transform(weight)
 //     | rv::adjacent_filter(std::equal_to{})
-//     | rv::drop(1)
 //     | rv::take(5);
