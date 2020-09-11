@@ -1,4 +1,6 @@
 
+// https://www.godbolt.org/z/7eTdov
+
 #include <iostream>
 #include <numeric>
 #include <vector>
