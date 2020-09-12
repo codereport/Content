@@ -1,7 +1,7 @@
 
-// https://www.godbolt.org/z/Eh181a
+// https://www.godbolt.org/z/zncs8E
 
-#include <iostream>
+#include <fmt/core.h>
 
 enum class msg : bool { FIRST, SECOND };
 
@@ -16,8 +16,8 @@ int main() {
 
     auto p = pair(42, 1729);
 
-    std::cout << p(msg::FIRST)  << '\n'; // 42
-    std::cout << p(msg::SECOND) << '\n'; // 1729
+    fmt::print("{}\n", p(msg::FIRST));  // 42
+    fmt::print("{}\n", p(msg::SECOND)); // 1729
 
     return 0;
 }
