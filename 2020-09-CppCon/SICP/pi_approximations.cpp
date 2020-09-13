@@ -1,5 +1,5 @@
 
-// https://www.godbolt.org/z/joh4c3
+// https://www.godbolt.org/z/7WxEWr
 
 #include <vector>
 #include <numeric>   
@@ -38,7 +38,7 @@ auto leibniz_pi_approximation(int n) {
 }
 
 auto leibniz_pi_approximation2(int n) {
-    std::vector signs = {1,-1};
+    auto const signs = {1,-1};
     return (rv::zip_with(
                 [](auto e, auto sign) { return sign * 1.0 / e; }, 
                 rv::iota(0, n) | rv::transform([](auto e){ return 1 + 2 * e;}),
