@@ -23,7 +23,7 @@ auto ramanujan_numbers() {
         return (a * a * a) + (b * b * b); 
     };
 
-    auto wpairs = rv::cartesian_product(rv::iota(1, upto),rv::iota(1, upto)) 
+    auto wpairs = rv::cartesian_product(rv::iota(1, upto), rv::iota(1, upto)) 
         | rv::filter([](auto r) { return std::get<0>(r) < std::get<1>(r); })
         | rv::transform(sum_cubes)
         | ranges::to<std::vector<int>>
