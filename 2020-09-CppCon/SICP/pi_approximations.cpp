@@ -1,5 +1,5 @@
 
-// https://www.godbolt.org/z/7WxEWr
+// https://www.godbolt.org/z/YEMKM6
 
 #include <vector>
 #include <numeric>   
@@ -10,6 +10,7 @@
 #include <range/v3/view/transform.hpp>
 #include <range/v3/view/cycle.hpp>
 #include <range/v3/view/zip_with.hpp>
+#include <range/v3/view/drop.hpp>
 
 #include <fmt/core.h>
 
@@ -54,11 +55,35 @@ auto leibniz_pi_approximation2_alt(int n) {
           | hs::accumulate(0.0, std::plus{})) * 4;
 }
 
+auto john_wallis_pi_approximation(int n) {
+    auto y = rv::iota(1, n + 1) 
+        | rv::transform([](auto e) { return 2 * e; }) 
+        | rv::drop(1);
+    auto z = y | rv::transform([](auto e) { return e - 1; });
+    auto a = y | hs::accumulate(1.0, std::multiplies{});
+    auto b = z | hs::accumulate(1.0, std::multiplies{});
+    return 4 * (a * a) / (b * b) / n;
+}
+
+auto john_wallis_pi_approximation_alt(int n) {
+    auto y = rv::iota(1, n + 1) 
+        | rv::transform([](auto e) { return 2.0 * e; }) 
+        | rv::drop(1);
+    auto z = y | rv::transform([](auto e) { return e - 1; });
+    auto t = std::transform_reduce(
+        ranges::cbegin(y), ranges::cend(y), ranges::cbegin(z), 1.0, 
+        std::multiplies{}, 
+        std::divides{});
+    return 4 * t * t / n;
+}
+
 int main () {
 
     fmt::print("{}\n", leibniz_pi_approximation(10000));
     fmt::print("{}\n", leibniz_pi_approximation2(10000));
     fmt::print("{}\n", leibniz_pi_approximation2_alt(10000));
+    fmt::print("{}\n", john_wallis_pi_approximation(50));
+    fmt::print("{}\n", john_wallis_pi_approximation_alt(10000));
 
    return 0;
 }
