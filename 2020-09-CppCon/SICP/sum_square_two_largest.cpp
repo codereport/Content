@@ -10,7 +10,8 @@
 
 #include <fmt/core.h>
 
-auto solution(auto const& v) {
+// before I removed swap
+auto solution_swap(auto const& v) {
     auto const [a, b] = std::accumulate(
         std::cbegin(v),
         std::cend(v),
@@ -19,6 +20,21 @@ auto solution(auto const& v) {
             auto [a, b] = acc;
             if      (e > a) { std::swap(a, b); a = e; } 
             else if (e > b) {                  b = e; }
+            return std::pair{a, b};
+        });
+    return a * a + b * b;
+}
+
+// after I realized my blunder
+auto solution(auto const& v) {
+    auto const [a, b] = std::accumulate(
+        std::cbegin(v),
+        std::cend(v),
+        std::pair{0, 0},
+        [](auto acc, auto e) {
+            auto [a, b] = acc;
+            if      (e > a) { b = a; a = e; } 
+            else if (e > b) { b = e; }
             return std::pair{a, b};
         });
     return a * a + b * b;
