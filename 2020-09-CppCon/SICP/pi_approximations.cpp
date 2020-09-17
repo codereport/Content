@@ -1,5 +1,5 @@
 
-// https://www.godbolt.org/z/YEMKM6
+// https://www.godbolt.org/z/4dMr4T
 
 #include <vector>
 #include <numeric>   
@@ -10,7 +10,7 @@
 #include <range/v3/view/transform.hpp>
 #include <range/v3/view/cycle.hpp>
 #include <range/v3/view/zip_with.hpp>
-#include <range/v3/view/drop.hpp>
+#include <range/v3/view/tail.hpp>
 
 #include <fmt/core.h>
 
@@ -58,7 +58,7 @@ auto leibniz_pi_approximation2_alt(int n) {
 auto john_wallis_pi_approximation(int n) {
     auto y = rv::iota(1, n + 1) 
         | rv::transform([](auto e) { return 2 * e; }) 
-        | rv::drop(1);
+        | rv::tail;
     auto z = y | rv::transform([](auto e) { return e - 1; });
     auto a = y | hs::accumulate(1.0, std::multiplies{});
     auto b = z | hs::accumulate(1.0, std::multiplies{});
@@ -68,7 +68,7 @@ auto john_wallis_pi_approximation(int n) {
 auto john_wallis_pi_approximation_alt(int n) {
     auto y = rv::iota(1, n + 1) 
         | rv::transform([](auto e) { return 2.0 * e; }) 
-        | rv::drop(1);
+        | rv::tail;
     auto z = y | rv::transform([](auto e) { return e - 1; });
     auto t = std::transform_reduce(
         ranges::cbegin(y), ranges::cend(y), ranges::cbegin(z), 1.0, 
