@@ -19,7 +19,7 @@ auto fib(auto n) {
 auto even_fibs(auto n) {
     return rv::iota(0, n+1)
          | rv::transform([](auto e) { return fib(e); })
-         | rv::filter([](auto e) { return e % 2 == 1; });
+         | rv::filter([](auto e) { return e % 2 == 0; });
 }
 
 int main() {
