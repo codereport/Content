@@ -21,9 +21,9 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: PyCon|2020-04|Online|:star: [Beautiful Python Refactoring](https://youtu.be/W-lZttZhsUY)|
 |:blue_heart: MUC++|2020-06|Online|[My Least Favorite Anti-Pattern](https://youtu.be/VV9vwFsaQ6U)|
 |:green_heart: Italian C++|2020-06|Online|:star: [My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=CjHgL5EQdcY)|
-|:green_heart: CppCon|2020-09|Online|Structure and Interpretation of Computer Programs|
+|:green_heart: CppCon|2020-09|Online|:star: Structure and Interpretation of Computer Programs|
 |:green_heart: C++ Russia|2020-11|Online|ITM: My Least Favorite Anti-Pattern|
-|:green_heart: Meeting C++|2020-11|Online|C++ Concepts - Rust Traits - Haskell Typeclasses|
+|:green_heart: Meeting C++|2020-11|Online|:star: C++ Concepts - Rust Traits - Haskell Typeclasses|
 
 ## Lightning Talks
 
@@ -36,6 +36,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:green_heart: Meeting C++|2019-11|Berlin, Germany|:star: [Consistently Inconsistent](https://youtu.be/tsfaE-eDusg)|
 |:blue_heart: C++TO|2019-11|Toronto, Canada|[Consistently Inconsistent](https://youtu.be/14zEh6QCevw)|
 |:green_heart: C++Now*|2020-05|YouTube|:star: [The STL Algorithm Cheat Sheet](https://youtu.be/LMmFpOhcQhA)|
+|:green_heart: CppCon|2020-09|Online|:star: SICP Cover Demystified|
 
 ## Podcast Appearances
 
