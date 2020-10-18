@@ -35,7 +35,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:green_heart: Meeting C++|2019-11|Berlin, Germany|:star: [Consistently Inconsistent](https://youtu.be/tsfaE-eDusg)|
 |:blue_heart: C++TO|2019-11|Toronto, Canada|[Consistently Inconsistent](https://youtu.be/14zEh6QCevw)|
 |:green_heart: C++Now*|2020-05|YouTube|:star: [The STL Algorithm Cheat Sheet](https://youtu.be/LMmFpOhcQhA)|
-|:green_heart: CppCon|2020-09|Online|:star: SICP Cover Demystified|
+|:green_heart: CppCon|2020-09|Online|:star: [SICP Cover Demystified](https://youtu.be/e0vnRZN5GB0)|
 
 ## Podcast Appearances
 
