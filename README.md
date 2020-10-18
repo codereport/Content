@@ -22,7 +22,9 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: MUC++|2020-06|Online|[My Least Favorite Anti-Pattern](https://youtu.be/VV9vwFsaQ6U)|
 |:green_heart: Italian C++|2020-06|Online|:star: [My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=CjHgL5EQdcY)|
 |:green_heart: CppCon|2020-09|Online|:star: [Structure and Interpretation of Computer Programs](https://youtu.be/7oV7hiAsVTI)|
+|:blue_heart: C++TO|2020-11|Online|C++ Concepts - Rust Traits - Haskell Typeclasses|
 |:green_heart: Meeting C++|2020-11|Online|:star: C++ Concepts - Rust Traits - Haskell Typeclasses|
+|:green_heart: Russia C++|2020-11|Online|:star: ITM: My Least Favorite Anti-Pattern|
 
 ## Lightning Talks
 
