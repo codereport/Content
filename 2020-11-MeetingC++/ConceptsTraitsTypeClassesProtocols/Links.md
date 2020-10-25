@@ -9,6 +9,7 @@
 |Speaker|Conference/Meetup|Year|Talk|
 |:-------------:|:--:|:--:|:-------------:|
 |Panel|LangNext|2014|[C++ vs Rust vs D vs Go](https://www.youtube.com/watch?v=BBbv1ej0fFo)|
+|Chris Lattner|WWDC|2014|[Swift Introduction](https://www.youtube.com/watch?v=MO7Ta0DvEWA)|
 |Dave Abrahams|WWDC|2015|[Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/play/wwdc2015/408/)|
 |Payas Rajan|C++ London Meetup|2020|[Are Graphs Hard in Rust?](https://www.youtube.com/watch?v=kGaU5kU-5rw)|
 |Henrik Niemeyer|C++ London Meetup|2020|[A Friendly Introduction to Rust](https://www.youtube.com/watch?v=NpBk_H7S3zM)|
