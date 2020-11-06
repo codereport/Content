@@ -8,9 +8,9 @@ data Circle    = Circle {r :: Float}
 data Rectangle = Rectangle {w :: Float, h :: Float}
 
 instance Shape Circle where
-    name      (Circle    _)   = "Circle"
-    area      (Circle    r)   = pi * r ^ 2
-    perimeter (Circle    r)   = 2 * pi * r
+    name      (Circle _)   = "Circle"
+    area      (Circle r)   = pi * r ^ 2
+    perimeter (Circle r)   = 2 * pi * r
 
 instance Shape Rectangle where
     name      (Rectangle _ _) = "Rectangle"
