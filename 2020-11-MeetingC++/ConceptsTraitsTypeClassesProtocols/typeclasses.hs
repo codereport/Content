@@ -4,13 +4,15 @@ class Shape a where
     area      :: a -> Float
     perimeter :: a -> Float
 
-data Shapes = Circle    {r :: Float} |
-              Rectangle {w :: Float, h :: Float}
+data Circle    = Circle {r :: Float}
+data Rectangle = Rectangle {w :: Float, h :: Float}
 
-instance Shape Shapes where
+instance Shape Circle where
     name      (Circle    _)   = "Circle"
     area      (Circle    r)   = pi * r ^ 2
     perimeter (Circle    r)   = 2 * pi * r
+
+instance Shape Rectangle where
     name      (Rectangle _ _) = "Rectangle"
     area      (Rectangle w h) = w * h
     perimeter (Rectangle w h) = 2 * w + 2 * h
