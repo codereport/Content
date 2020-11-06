@@ -58,8 +58,6 @@ int main () {
     auto const c = circle{1};
     auto const r = rectangle{2, 3};
 
-    fmt::print("{}\n", is_string<char, std::string>::value);
-
     print_shape_info(c);
     print_shape_info(r);
     // print_shape_info(42);
