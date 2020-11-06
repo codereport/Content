@@ -1,5 +1,6 @@
 
 // Copy and paste to: http://online.swiftplayground.run/ to run
+// https://www.godbolt.org/z/993WvW
 
 protocol Shape {
     func name()      -> String
