@@ -10,7 +10,7 @@ trait Shape {
 }
 
 struct Circle    { r: f32 }
-struct Rectangle { w: f32 h: f32 }
+struct Rectangle { w: f32, h: f32 }
 
 impl Shape for Circle {
     fn name(&self)      -> String { "Circle".to_string() }
