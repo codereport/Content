@@ -12,6 +12,7 @@
 |Panel|LangNext|2014|[C++ vs Rust vs D vs Go](https://www.youtube.com/watch?v=BBbv1ej0fFo)|
 |Chris Lattner|WWDC|2014|[Swift Introduction](https://www.youtube.com/watch?v=MO7Ta0DvEWA)|
 |Dave Abrahams|WWDC|2015|[Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/play/wwdc2015/408/)|
+|Marijn Haverbeke|RustFest|2016|[The Rust That Could Have Been](https://youtu.be/olbTX95hdbg)|
 |Sean Allen|YouTube Video|2019|[Swift Programming Language Introduction - A Brief History](https://www.youtube.com/watch?v=4P_ZsOqELBo)|
 |Context Free (Tom Palmer)|YouTube Video|2020|[Demo: C++20 Concepts Feature](https://www.youtube.com/watch?v=B_KjoLid5gw)|
 |Payas Rajan|C++ London Meetup|2020|[Are Graphs Hard in Rust?](https://www.youtube.com/watch?v=kGaU5kU-5rw)|
