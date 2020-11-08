@@ -23,6 +23,13 @@
 |Payas Rajan|C++ London Meetup|2020|[Are Graphs Hard in Rust?](https://www.youtube.com/watch?v=kGaU5kU-5rw)|
 |Henrik Niemeyer|C++ London Meetup|2020|[A Friendly Introduction to Rust](https://www.youtube.com/watch?v=NpBk_H7S3zM)|
 
+### Paper Links:
+|Author|Date|Link|
+|:-----:|:--:|:--:|
+|Paul Roe<br>Clemens Szyperski|1997|[Lightweight Parametric Polymorphism for Oberon](http://norayr.am/papers/10.1.1.48.8930.pdf)|
+|Jeremy G. Sieka<br>Andrew Lumsdaine|2008|[A language for generic programming in the large](https://www.sciencedirect.com/science/article/pii/S0167642308001123/pdf?md5=a61258443e662f40b4e151af2658345c&pid=1-s2.0-S0167642308001123-main.pdf)|
+|Yizhou Zhang<br>Andrew C. Myers|2020|[Unifying Interfaces, Type Classes, and Family Polymorphism](https://cs.uwaterloo.ca/~yizhou/papers/familia-oopsla2017-tr.pdf)|
+
 ### Article/Other Links:
 |Author|Site|Date|Link|
 |:-----:|:---:|:--:|:--:|
