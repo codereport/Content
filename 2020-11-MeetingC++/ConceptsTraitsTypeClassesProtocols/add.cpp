@@ -1,7 +1,9 @@
 
-// https://www.godbolt.org/z/3c4G5e
+// https://www.godbolt.org/z/61vn9v
 
 #include <fmt/core.h>
+
+// auto add(int a, int b) -> int { return a + b; }
 
 template <typename T>
 auto add(T a, T b) -> T { return a + b; }
