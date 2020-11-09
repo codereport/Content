@@ -1,7 +1,7 @@
 ### Podcast Links:
 |Podcast|Guest|Date|Link|
 |:-----:|:---:|:--:|:--:|
-|Magic Read Along|-|2016-12-01|[I Am Not Full of Beans!](http://www.magicreadalong.com/episode/28)|
+|Magic Read Along|-|2016-12-01|[Episode 28: I Am Not Full of Beans!](http://www.magicreadalong.com/episode/28)|
 |The Swift <br>Community Podcast|-|2019 - 2020|[All Episodes (1 - 8)](https://www.swiftcommunitypodcast.org/)|
 |Swift by Sundell|Dave Abrahams|2020-04-23|[Polymorphic Interfaces](https://www.swiftbysundell.com/podcast/71/)|
 |Swiftly Speaking|Chris Lattner|2020-06-18|[Episode 11](https://www.youtube.com/watch?v=OAaQhW4ifu0)|
