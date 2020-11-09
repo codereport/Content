@@ -26,6 +26,7 @@
 ### Paper Links:
 |Author|Date|Link|
 |:-----:|:--:|:--:|
+|Philip Wadler<br>Stephen Blott|1988|[How to make ad hoc polymorphism less ad hoc](https://people.csail.mit.edu/dnj/teaching/6898/papers/wadler88.pdf)|
 |Paul Roe<br>Clemens Szyperski|1997|[Lightweight Parametric Polymorphism for Oberon](http://norayr.am/papers/10.1.1.48.8930.pdf)|
 |Jeremy G. Siek<br>Andrew Lumsdaine|2008|[A language for generic programming in the large](https://www.sciencedirect.com/science/article/pii/S0167642308001123/pdf?md5=a61258443e662f40b4e151af2658345c&pid=1-s2.0-S0167642308001123-main.pdf)|
 |Yizhou Zhang<br>Andrew C. Myers|2020|[Unifying Interfaces, Type Classes, and Family Polymorphism](https://cs.uwaterloo.ca/~yizhou/papers/familia-oopsla2017-tr.pdf)|
