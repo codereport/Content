@@ -36,5 +36,4 @@ fn main() {
 
     print_shape_info(c);
     print_shape_info(r);
-    
 }
