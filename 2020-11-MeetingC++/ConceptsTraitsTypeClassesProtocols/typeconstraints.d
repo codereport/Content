@@ -25,7 +25,7 @@ class Circle {
 class Rectangle {
     float w, h;
     this(float width, float height) { w = width; h = height; }
-    string name()      const { return "Rectable"; }
+    string name()      const { return "Rectangle"; }
     float  area()      const { return w * h; }
     float  perimeter() const { return 2 * w + 2 * h; }
 }
