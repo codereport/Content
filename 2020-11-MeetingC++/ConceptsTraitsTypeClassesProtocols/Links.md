@@ -35,4 +35,6 @@
 |Author|Site|Date|Link|
 |:-----:|:---:|:--:|:--:|
 |matt_d|HackerNews|2016-12-16|[Concepts: The Future of Generic Programming](https://news.ycombinator.com/item?id=13224344)|
+|Austin_Aaron_Conlon|reddit/cpp|2020-01-13|[Influence of C++ on Swift](https://old.reddit.com/r/cpp/comments/eo10jo/influence_of_c_on_swift/)|
+|David Vandevoorde|Quora|2020-01-13|[What are similarities and differences between C++ and Swift?](https://www.quora.com/What-are-similarities-and-differences-between-C-and-Swift)|
 
