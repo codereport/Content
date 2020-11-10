@@ -14,6 +14,7 @@
 |Panel|LangNext|2014|[C++ vs Rust vs D vs Go](https://www.youtube.com/watch?v=BBbv1ej0fFo)|
 |Chris Lattner|WWDC|2014|[Swift Introduction](https://www.youtube.com/watch?v=MO7Ta0DvEWA)|
 |Dave Abrahams|WWDC|2015|[Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/play/wwdc2015/408/)|
+|Scott Schurr|CppCon|2015|[constexpr: Applications](https://www.youtube.com/watch?v=qO-9yiAOQqc)|
 |Marijn Haverbeke|RustFest|2016|[The Rust That Could Have Been](https://youtu.be/olbTX95hdbg)|
 |Slava Pestov<br>John McCall|LLVM Developers' Meeting|2017|[Implementing Swift Generics](https://www.youtube.com/watch?v=ctS8FzqcRug)|
 |Bryan Cantrill|Systems We Run Meetup|2018|[The Summer of RUST](https://www.youtube.com/watch?v=LjFM8vw3pbU)|
