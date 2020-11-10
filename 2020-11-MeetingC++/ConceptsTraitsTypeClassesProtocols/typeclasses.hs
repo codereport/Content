@@ -1,4 +1,52 @@
 
+-- originally failing
+
+data Circle    = Circle {r :: Float}
+data Rectangle = Rectangle {w :: Float, h :: Float}
+
+name :: Circle -> String
+name (Circle _) = "Circle"
+
+area :: Circle -> Float
+area (Circle r) = pi * r ^ 2
+
+perimeter :: Circle -> Float
+perimeter (Circle r) = 2 * pi * r
+
+name :: Rectangle -> String
+name (Rectangle _ _) = "Rectangle"
+
+area :: Rectangle -> Float
+area (Rectangle w h) = w * h
+
+perimeter :: Rectangle -> Float
+perimeter (Rectangle w h) = 2 * w + 2 * h
+
+-- originally working
+
+data Circle    = Circle {r :: Float}
+data Rectangle = Rectangle {w :: Float, h :: Float}
+
+circleName :: Circle -> String
+circleName (Circle _) = "Circle"
+
+circleArea :: Circle -> Float
+circleArea (Circle r) = pi * r ^ 2
+
+circlePerimeter :: Circle -> Float
+circlePerimeter (Circle r) = 2 * pi * r
+
+rectangleName :: Rectangle -> String
+rectangleName (Rectangle _ _) = "Rectangle"
+
+rectangleArea :: Rectangle -> Float
+rectangleArea (Rectangle w h) = w * h
+
+rectanglePerimeter :: Rectangle -> Float
+rectanglePerimeter (Rectangle w h) = 2 * w + 2 * h
+
+-- final
+
 class Shape a where
     name      :: a -> String
     area      :: a -> Float
