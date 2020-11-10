@@ -7,7 +7,6 @@
 #include <concepts>
 #include <fmt/core.h>
 
-// using namespace std::string_literals;
 using namespace std::numbers;
 
 template <typename T, typename S>
@@ -60,7 +59,6 @@ int main () {
 
     print_shape_info(c);
     print_shape_info(r);
-    // print_shape_info(42);
 
     return 0;
 }
