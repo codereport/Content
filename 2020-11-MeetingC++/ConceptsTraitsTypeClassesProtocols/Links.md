@@ -23,6 +23,7 @@
 |Daniel Steinberg|GOTO|2019|[What’s New in Swift](https://www.youtube.com/watch?v=6P-nh3uNnsQ)|
 |Kevlin Henney|C++ on Sea|2019|[The Forgotten Art of Structured Programming](https://youtu.be/SFv8Wm2HdNM)|
 |Conor Hoekstra|Meeting C++|2019|[Consistently Inconsistent](https://youtu.be/tsfaE-eDusg)|
+|Philip Wadler|Chalmers FP Seminar Series|2020|[Featherweight Go](https://youtu.be/Dq0WFigax_c)|
 |Context Free (Tom Palmer)|YouTube Video|2020|[Demo: C++20 Concepts Feature](https://www.youtube.com/watch?v=B_KjoLid5gw)|
 |Payas Rajan|C++ London Meetup|2020|[Are Graphs Hard in Rust?](https://www.youtube.com/watch?v=kGaU5kU-5rw)|
 |Henrik Niemeyer|C++ London Meetup|2020|[A Friendly Introduction to Rust](https://www.youtube.com/watch?v=NpBk_H7S3zM)|
