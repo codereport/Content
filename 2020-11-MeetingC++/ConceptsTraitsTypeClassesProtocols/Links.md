@@ -34,6 +34,7 @@
 |:-----:|:--:|:--:|
 |Philip Wadler<br>Stephen Blott|1988|[How to make ad hoc polymorphism less ad hoc](https://people.csail.mit.edu/dnj/teaching/6898/papers/wadler88.pdf)|
 |Paul Roe<br>Clemens Szyperski|1997|[Lightweight Parametric Polymorphism for Oberon](http://norayr.am/papers/10.1.1.48.8930.pdf)|
+|Ronald Garcia et al.|2003|[A Comparative Study of Language Support for Generic Programming](https://parasol.tamu.edu/~jarvi/papers/cmp_gp.pdf)|
 |Jeremy G. Siek<br>Andrew Lumsdaine|2008|[A language for generic programming in the large](https://www.sciencedirect.com/science/article/pii/S0167642308001123/pdf?md5=a61258443e662f40b4e151af2658345c&pid=1-s2.0-S0167642308001123-main.pdf)|
 |Yizhou Zhang<br>Andrew C. Myers|2020|[Unifying Interfaces, Type Classes, and Family Polymorphism](https://cs.uwaterloo.ca/~yizhou/papers/familia-oopsla2017-tr.pdf)|
 
@@ -42,6 +43,7 @@
 |:-----:|:---:|:--:|:--:|
 |Philip Fong|URegina|2008-04-02|[CS 115: Parametric Polymorphism: Template Functions](http://www2.cs.uregina.ca/~saxton/CS115/Notes/Templates/func.html)|
 |Zuu|StackOverflow|2016-04-16|[Why is C++ said not to support parametric polymorphism?](https://stackoverflow.com/questions/36948205/why-is-c-said-not-to-support-parametric-polymorphism)|
+|Bryan Feeney|Blog|2016-05-19|[Associated Types and Haskell](http://amixtureofmusings.com/2016/05/19/associated-types-and-haskell/)|
 |matt_d|HackerNews|2016-12-16|[Concepts: The Future of Generic Programming](https://news.ycombinator.com/item?id=13224344)|
 |Austin_Aaron_Conlon|reddit/cpp|2020-01-13|[Influence of C++ on Swift](https://old.reddit.com/r/cpp/comments/eo10jo/influence_of_c_on_swift/)|
 |David Vandevoorde|Quora|2020-01-13|[What are similarities and differences between C++ and Swift?](https://www.quora.com/What-are-similarities-and-differences-between-C-and-Swift)|
