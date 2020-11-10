@@ -27,6 +27,7 @@
 |Context Free (Tom Palmer)|YouTube Video|2020|[Demo: C++20 Concepts Feature](https://www.youtube.com/watch?v=B_KjoLid5gw)|
 |Payas Rajan|C++ London Meetup|2020|[Are Graphs Hard in Rust?](https://www.youtube.com/watch?v=kGaU5kU-5rw)|
 |Henrik Niemeyer|C++ London Meetup|2020|[A Friendly Introduction to Rust](https://www.youtube.com/watch?v=NpBk_H7S3zM)|
+|James Munns|C++ London Meetup|2020|[Access All Arenas](https://www.youtube.com/watch?v=HiWkMFE8uRE)|
 
 ### Paper Links:
 |Author|Date|Link|
@@ -39,7 +40,9 @@
 ### Article/Other Links:
 |Author|Site|Date|Link|
 |:-----:|:---:|:--:|:--:|
+|Philip Fong|URegina|2008-04-02|[CS 115: Parametric Polymorphism: Template Functions](http://www2.cs.uregina.ca/~saxton/CS115/Notes/Templates/func.html)|
+|Zuu|StackOverflow|2016-04-16|[Why is C++ said not to support parametric polymorphism?](https://stackoverflow.com/questions/36948205/why-is-c-said-not-to-support-parametric-polymorphism)|
 |matt_d|HackerNews|2016-12-16|[Concepts: The Future of Generic Programming](https://news.ycombinator.com/item?id=13224344)|
 |Austin_Aaron_Conlon|reddit/cpp|2020-01-13|[Influence of C++ on Swift](https://old.reddit.com/r/cpp/comments/eo10jo/influence_of_c_on_swift/)|
 |David Vandevoorde|Quora|2020-01-13|[What are similarities and differences between C++ and Swift?](https://www.quora.com/What-are-similarities-and-differences-between-C-and-Swift)|
-
+|-|Wikipedia|-|[Parametric Polymorphism](https://en.wikipedia.org/wiki/Parametric_polymorphism)|
