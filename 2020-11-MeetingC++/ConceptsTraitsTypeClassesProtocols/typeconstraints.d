@@ -45,5 +45,4 @@ void main() {
     
     printShapeInfo(c);
     printShapeInfo(r);
-    //printShapeInfo(42);
 }
