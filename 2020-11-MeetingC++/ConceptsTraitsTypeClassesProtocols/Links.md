@@ -19,6 +19,7 @@
 |Bryan Cantrill|Systems We Run Meetup|2018|[The Summer of RUST](https://www.youtube.com/watch?v=LjFM8vw3pbU)|
 |Sean Allen|YouTube Video|2019|[Swift Programming Language Introduction - A Brief History](https://www.youtube.com/watch?v=4P_ZsOqELBo)|
 |Daniel Steinberg|GOTO|2019|[What’s New in Swift](https://www.youtube.com/watch?v=6P-nh3uNnsQ)|
+|Kevlin Henney|C++ on Sea|2019|[The Forgotten Art of Structured Programming](https://youtu.be/SFv8Wm2HdNM)|
 |Context Free (Tom Palmer)|YouTube Video|2020|[Demo: C++20 Concepts Feature](https://www.youtube.com/watch?v=B_KjoLid5gw)|
 |Payas Rajan|C++ London Meetup|2020|[Are Graphs Hard in Rust?](https://www.youtube.com/watch?v=kGaU5kU-5rw)|
 |Henrik Niemeyer|C++ London Meetup|2020|[A Friendly Introduction to Rust](https://www.youtube.com/watch?v=NpBk_H7S3zM)|
