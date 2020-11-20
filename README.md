@@ -48,3 +48,4 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |Take Up Code|2019-09-25|Episode 261| [CppCon: C++ Algorithms And Ranges.](https://www.takeupcode.com/podcast/261-cppcon-interview-with-conor-hoekstra-about-c-algorithms-and-ranges/)|
 |Talk Python To Me|2020-08-01|Episode 275|[Beautiful Pythonic Refactorings](https://talkpython.fm/episodes/show/275/beautiful-pythonic-refactorings)|
 |cpp.chat|2020-10-08|Episode 75|[I Really Like Sugar](https://cpp.chat/75/)|
+|CppCast|2020-11-19|Episode 274|[Concepts and Algorithm Intuition](https://cppcast.com/concepts-algorithm-intuition/)|
