@@ -42,4 +42,27 @@ This is a list of keynote talks from major C++ conferences.
 
 ### CppCon
 
-`// TODO`
+`// WIP`
+
+#### Condensed
+
+|Year|Speaker|Speaker|Speaker|Speaker|Speaker|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|2020|[Bjarne Stroustrup](https://youtu.be/ERzENfQ51Ck)|[Marc Gregoire](https://youtu.be/FRkJCvHWdwQ)|[Emery Berger](https://www.youtube.com/watch?v=koTf7u0v41o)|[Lisa Lippincott](https://youtu.be/Zjy8RCb8p7M)|[Herb Sutter](https://youtu.be/6lurOCdaj0Y)|
+|2019|[Bjarne Stroustrup](https://youtu.be/u_ij0YNkFUs)|[Andrei Alexandrescu](https://www.youtube.com/watch?v=FJJTYQYB1JQ)|[Ben Smith](https://www.youtube.com/watch?v=5N4b-rU-OAA)|[Sean Parent](https://www.youtube.com/watch?v=ejF6qqohp3M)|[Herb Sutter](https://www.youtube.com/watch?v=ARYP83yNAWk)|
+|2018|[]()|[]()|[]()|[]()|[]()|
+
+#### Expanded
+
+|Year|Speaker|Keynote|
+|:-:|:-:|:-:|
+|2020|Bjarne Stroustrup|[The Beauty and Power of "Primitive" C++](https://youtu.be/ERzENfQ51Ck)|
+|2020|Marc Gregoire|[C++20: An (Almost) Complete Overview](https://youtu.be/FRkJCvHWdwQ)|
+|2020|Emery Berger|[Performance Matters](https://www.youtube.com/watch?v=koTf7u0v41o)|
+|2020|Lisa Lippincott|[Neighborhoods Banding Together: Reasoning Globally about Programs](https://youtu.be/Zjy8RCb8p7M)|
+|2020|Herb Sutter|[Empirically Measuring, & Reducing, C++’s Accidental Complexity](https://youtu.be/6lurOCdaj0Y)|
+|2019|Bjarne Stroustrup|[C++20: C++ at 40](https://youtu.be/u_ij0YNkFUs)|
+|2019|Andrei Alexandrescu|[Speed Is Found In The Minds of People](https://www.youtube.com/watch?v=FJJTYQYB1JQ)|
+|2019|Ben Smith|[Applied WebAssembly: Compiling and Running C++ in Your Web Browser](https://www.youtube.com/watch?v=5N4b-rU-OAA)|
+|2019|Sean Parent|[Better Code: Relationships](https://www.youtube.com/watch?v=ejF6qqohp3M)|
+|2019|Herb Sutter|[De-fragmenting C++: Making Exceptions and RTTI More Affordable and Usable](https://www.youtube.com/watch?v=ARYP83yNAWk)|
