@@ -20,7 +20,7 @@ This is a list of keynote talks from major C++ conferences.
 
 |Year|Speaker|Keynote|
 |:-:|:-:|:-:|
-|2020|-|-|
+|2020|-|_COVID cancelled_|
 |2019|Daveed Vandevoorde|[C++ Constants](https://www.youtube.com/watch?v=m9tcmTjGeho)|
 |2019|Hana Dusíková|[Compile Time Regular Expressions with A Deterministic Finite Automaton](https://www.youtube.com/watch?v=IO3MO450WX4)|
 |2019|David Sankel|[The C++ Reflection TS](https://www.youtube.com/watch?v=VMuML6vLSus)|
