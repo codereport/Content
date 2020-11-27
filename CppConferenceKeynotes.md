@@ -51,9 +51,9 @@ This is a list of keynote talks from major C++ conferences.
 |2020|[Bjarne Stroustrup](https://youtu.be/ERzENfQ51Ck)|[Marc Gregoire](https://youtu.be/FRkJCvHWdwQ)|[Emery Berger](https://www.youtube.com/watch?v=koTf7u0v41o)|[Lisa Lippincott](https://youtu.be/Zjy8RCb8p7M)|[Herb Sutter](https://youtu.be/6lurOCdaj0Y)|
 |2019|[Bjarne Stroustrup](https://youtu.be/u_ij0YNkFUs)|[Andrei Alexandrescu](https://www.youtube.com/watch?v=FJJTYQYB1JQ)|[Ben Smith](https://www.youtube.com/watch?v=5N4b-rU-OAA)|[Sean Parent](https://www.youtube.com/watch?v=ejF6qqohp3M)|[Herb Sutter](https://www.youtube.com/watch?v=ARYP83yNAWk)|
 |2018|[Bjarne Stroustrup](https://www.youtube.com/watch?v=HddFGPTAmtU)|[Mark Elendt](https://www.youtube.com/watch?v=2YXwg0n9e7E)|[Kate Gregory](https://www.youtube.com/watch?v=n0Ak6xtVXno)|[Herb Sutter](https://www.youtube.com/watch?v=80BZxujhY38)|[Chandler Carruth](https://www.youtube.com/watch?v=_f7O3IfIR2k)|
-|2017|
-|2016|
-|2015|
+|2017|[Bjarne Stroustrup](https://www.youtube.com/watch?v=fX2W3nNjJIo)|[Titus Winters](https://www.youtube.com/watch?v=tISy7EJQPzI)|[Herb Sutter](https://youtu.be/4AfRAVcThyA)|[Lars Knoll](https://www.youtube.com/watch?v=YWiAUUblD34)|[Matt Godbolt](https://www.youtube.com/watch?v=bSkpMdDe4g4)|
+|2016|[Bjarne Stroustrup](https://www.youtube.com/watch?v=_wzc7a3McOs)|[Dan Saks](https://www.youtube.com/watch?v=D7Sd8A6_fYU)|[Jason Turner](https://youtu.be/zBkNBP00wJE)|[David Schwartz](https://www.youtube.com/watch?v=w4jq4frE5v4)|[Herb Sutter](https://www.youtube.com/watch?v=JfmTagWcqoE)|
+|2015|[Bjarne Stroustrup](https://www.youtube.com/watch?v=1OEu9C51K2A)|[Herb Sutter](https://www.youtube.com/watch?v=hEx5DNLWGgA)|[Sean Parent](https://www.youtube.com/watch?v=sWgDk-o-6ZE)|[Chandler Carruth](https://www.youtube.com/watch?v=nXaxk27zwlk)|[Eric Niebler](https://www.youtube.com/watch?v=mFUXNMfaciE)|
 |2014|[Bjarne Stroustrup](https://www.youtube.com/watch?v=nesCaocNjtQ)|[Mark Maimone](https://www.youtube.com/watch?v=3SdSKZFoUa8)|[Mike Acton](https://www.youtube.com/watch?v=rX0ItVEVjHc)|
 
 #### Expanded
@@ -75,6 +75,21 @@ This is a list of keynote talks from major C++ conferences.
 |2018|Kate Gregory|[Simplicity: Not Just For Beginners](https://www.youtube.com/watch?v=n0Ak6xtVXno)|
 |2018|Herb Sutter|[Thoughts on a more powerful and simpler C++ (5 of N)](https://www.youtube.com/watch?v=80BZxujhY38)|
 |2018|Chandler Carruth|[Spectre: Secrets, Side-Channels, Sandboxes, and Security](https://www.youtube.com/watch?v=_f7O3IfIR2k)|
+|2017|Bjarne Stroustrup|[Learning and Teaching Modern C++](https://www.youtube.com/watch?v=fX2W3nNjJIo)
+|2017|Titus Winters|[C++ as a "Live at Head" Language](https://www.youtube.com/watch?v=tISy7EJQPzI)|
+|2017|Herb Sutter|[Meta: Thoughts on generative C++](https://youtu.be/4AfRAVcThyA)|
+|2017|Lars Knoll|[Qt as a C++ Framework: History, Present State and Future](https://www.youtube.com/watch?v=YWiAUUblD34)|
+|2017|Matt Godbolt|[What Has My Compiler Done for Me Lately? Unbolting the Compiler's Lid](https://www.youtube.com/watch?v=bSkpMdDe4g4)|
+|2016|Bjarne Stroustrup|[The Evolution of C++ Past, Present and Future](https://www.youtube.com/watch?v=_wzc7a3McOs)|
+|2016|Dan Saks|[extern c: Talking to C Programmers about C++](https://www.youtube.com/watch?v=D7Sd8A6_fYU)|
+|2016|Jason Turner|[Rich Code for Tiny Computers: A Simple Commodore 64 Game in C++17](https://youtu.be/zBkNBP00wJE)|
+|2016|David Schwartz|[Developing Blockchain Software](https://www.youtube.com/watch?v=w4jq4frE5v4)|
+|2016|Herb Sutter|[Leak-Freedom in C++... By Default](https://www.youtube.com/watch?v=JfmTagWcqoE)|
+|2015|Bjarne Stroustrup|[Writing Good C++14](https://www.youtube.com/watch?v=1OEu9C51K2A)|
+|2015|Herb Sutter|[Writing Good C++14... By Default](https://www.youtube.com/watch?v=hEx5DNLWGgA)|
+|2015|Sean Parent|[Better Code: Data Structures](https://www.youtube.com/watch?v=sWgDk-o-6ZE)|
+|2015|Chandler Carruth|[Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!](https://www.youtube.com/watch?v=nXaxk27zwlk)|
+|2015|Eric Niebler|[Ranges for the Standard Library](https://www.youtube.com/watch?v=mFUXNMfaciE)|
 |2014|Bjarne Stroustrup|[Make Simple Tasks Simple!](https://www.youtube.com/watch?v=nesCaocNjtQ)|
 |2014|Mark Maimone|[C++ on Mars: Incorporating C++ into Mars Rover Flight Software](https://www.youtube.com/watch?v=3SdSKZFoUa8)|
 |2014|Mike Acton|[Data-Oriented Design and C++](https://www.youtube.com/watch?v=rX0ItVEVjHc)|
