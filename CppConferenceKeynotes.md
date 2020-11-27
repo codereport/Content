@@ -42,8 +42,6 @@ This is a list of keynote talks from major C++ conferences.
 
 ### CppCon
 
-`// WIP`
-
 #### Condensed
 
 |Year|Speaker|Speaker|Speaker|Speaker|Speaker|
