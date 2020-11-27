@@ -51,6 +51,10 @@ This is a list of keynote talks from major C++ conferences.
 |2020|[Bjarne Stroustrup](https://youtu.be/ERzENfQ51Ck)|[Marc Gregoire](https://youtu.be/FRkJCvHWdwQ)|[Emery Berger](https://www.youtube.com/watch?v=koTf7u0v41o)|[Lisa Lippincott](https://youtu.be/Zjy8RCb8p7M)|[Herb Sutter](https://youtu.be/6lurOCdaj0Y)|
 |2019|[Bjarne Stroustrup](https://youtu.be/u_ij0YNkFUs)|[Andrei Alexandrescu](https://www.youtube.com/watch?v=FJJTYQYB1JQ)|[Ben Smith](https://www.youtube.com/watch?v=5N4b-rU-OAA)|[Sean Parent](https://www.youtube.com/watch?v=ejF6qqohp3M)|[Herb Sutter](https://www.youtube.com/watch?v=ARYP83yNAWk)|
 |2018|[Bjarne Stroustrup](https://www.youtube.com/watch?v=HddFGPTAmtU)|[Mark Elendt](https://www.youtube.com/watch?v=2YXwg0n9e7E)|[Kate Gregory](https://www.youtube.com/watch?v=n0Ak6xtVXno)|[Herb Sutter](https://www.youtube.com/watch?v=80BZxujhY38)|[Chandler Carruth](https://www.youtube.com/watch?v=_f7O3IfIR2k)|
+|2017|
+|2016|
+|2015|
+|2014|[Bjarne Stroustrup](https://www.youtube.com/watch?v=nesCaocNjtQ)|[Mark Maimone](https://www.youtube.com/watch?v=3SdSKZFoUa8)|[Mike Acton](https://www.youtube.com/watch?v=rX0ItVEVjHc)|
 
 #### Expanded
 
@@ -71,3 +75,6 @@ This is a list of keynote talks from major C++ conferences.
 |2018|Kate Gregory|[Simplicity: Not Just For Beginners](https://www.youtube.com/watch?v=n0Ak6xtVXno)|
 |2018|Herb Sutter|[Thoughts on a more powerful and simpler C++ (5 of N)](https://www.youtube.com/watch?v=80BZxujhY38)|
 |2018|Chandler Carruth|[Spectre: Secrets, Side-Channels, Sandboxes, and Security](https://www.youtube.com/watch?v=_f7O3IfIR2k)|
+|2014|Bjarne Stroustrup|[Make Simple Tasks Simple!](https://www.youtube.com/watch?v=nesCaocNjtQ)|
+|2014|Mark Maimone|[C++ on Mars: Incorporating C++ into Mars Rover Flight Software](https://www.youtube.com/watch?v=3SdSKZFoUa8)|
+|2014|Mike Acton|[Data-Oriented Design and C++](https://www.youtube.com/watch?v=rX0ItVEVjHc)|
