@@ -27,6 +27,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: Meeting C++|2020-11|Online|[C++ Concepts - Rust Traits - Haskell Typeclasses](https://www.youtube.com/watch?v=Qh7QdG5RK9E)|
 |:green_heart: C++ Russia|2020-11|Online|ITM: My Least Favorite Anti-Pattern|
 |:green_heart: ACCU |2021-03|Online|C++ Concepts - Rust Traits - Haskell Typeclasses|
+|:green_heart: APL Seeds |2021-03|Online|Algorithms as a Tool of Thought|
 |:green_heart: GTC|2021-04|Online|Thrust and the C++ Standard Algorithms|
 
 ## Lightning Talks
