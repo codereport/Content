@@ -1,5 +1,5 @@
 
-// Godbolt 1: https://www.godbolt.org/z/oWacc7
+// Godbolt: https://www.godbolt.org/z/zrafGW
 
 #include <string>
 #include <numbers>
@@ -8,16 +8,6 @@
 #include <fmt/core.h>
 
 using namespace std::numbers;
-
-template <typename T, typename S>
-struct is_string {
-  static const bool value = false;
-};
-
-template <class T, class Traits, class Alloc>
-struct is_string<T, std::basic_string<T, Traits, Alloc>> {
-  static const bool value = true;
-};
 
 class circle {
     float r;
@@ -38,11 +28,8 @@ public:
 };
 
 template <typename S>
-concept string = is_string<char, S>::value;
-
-template <typename S>
 concept shape = requires(S s) {
-    { s.name() }      -> string;
+    { s.name() }      -> std::same_as<std::string>;
     { s.area() }      -> std::floating_point;
     { s.perimeter() } -> std::floating_point;
 };
