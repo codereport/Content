@@ -1,3 +1,4 @@
+// CUDA Thrust
 // Version 1 (bad)
 
 #include <algorithm>
