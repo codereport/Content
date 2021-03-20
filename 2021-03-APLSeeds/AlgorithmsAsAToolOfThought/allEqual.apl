@@ -9,8 +9,10 @@ allEqual ← {∧/2=/⍵}
 allEqual ← ∧/(⊃=⊢)
 allEqual ← ∧/(⊃⍷⊢)
 allEqual ← (1=≢)∪
-allEqual ← 1∘≥≢(⊣⌸⊢)
-allEqual ← =/(⌊/,⌈/)
+allEqual ← (1≥≢)(⊣⌸⊢)
+allEqual ← ⌊/=⌈/ 
 allEqual ← ∧/2=/⊢
 allEqual ← (((⊃=⊢)⊢⍤/⊢)≡⊢)
 allEqual ← ((≢⊢⍤/⊃)≡⊢)
+
+allEqual ← ⊃=.∧⊢ ⍝ Thanks to Aaron Hsu
