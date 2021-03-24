@@ -1,4 +1,4 @@
-// https://www.godbolt.org/z/7hcxqd
+// Godbolt: https://www.godbolt.org/z/7hcxqd
 
 #include <vector>
 #include <algorithm>
