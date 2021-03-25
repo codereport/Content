@@ -15,4 +15,4 @@ allEqual ← ∧/2=/⊢
 allEqual ← (((⊃=⊢)⊢⍤/⊢)≡⊢)
 allEqual ← ((≢⊢⍤/⊃)≡⊢)
 
-allEqual ← ⊃=.∧⊢ ⍝ Thanks to Aaron Hsu
+allEqual ← ⊃∧.=⊢ ⍝ Thanks to Aaron Hsu
