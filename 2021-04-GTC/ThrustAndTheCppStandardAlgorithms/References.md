@@ -1,4 +1,3 @@
-This is a work in progress ...
 
 ### Article Links:
 |Article|Author|Date|
