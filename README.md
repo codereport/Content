@@ -28,7 +28,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: C++ Russia|2020-11|Online|ITM: My Least Favorite Anti-Pattern|
 |:green_heart: ACCU |2021-03|Online|C++ Concepts - Rust Traits - Haskell Typeclasses|
 |:blue_heart: Britsh APL |2021-03|Online|Algorithms as a Tool of Thought|
-|:green_heart: APL Seeds |2021-03|Online|Algorithms as a Tool of Thought|
+|:green_heart: APL Seeds |2021-03|Online|[Algorithms as a Tool of Thought](https://youtu.be/GZuZgCDql6g)|
 |:green_heart: GTC|2021-04|Online|Thrust and the C++ Standard Algorithms|
 
 ## Lightning Talks
