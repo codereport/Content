@@ -28,8 +28,8 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: C++ Russia|2020-11|Online|ITM: My Least Favorite Anti-Pattern|
 |:green_heart: ACCU |2021-03|Online|[C++ Concepts - Rust Traits - Haskell Typeclasses](https://www.youtube.com/watch?v=iPVoCTgvi8M)|
 |:blue_heart: Britsh APL |2021-03|Online|Algorithms as a Tool of Thought|
-|:green_heart: APL Seeds |2021-03|Online|[Algorithms as a Tool of Thought](https://youtu.be/GZuZgCDql6g)|
-|:green_heart: GTC|2021-04|Online|[Thrust and the C++ Standard Algorithms](https://gtc21.event.nvidia.com/media/Thrust%20and%20the%20C%2B%2B%20Standard%20Algorithms%20%5BS31532%5D/1_im6dgp9u)|
+|:green_heart: APL Seeds |2021-03|Online|:star: [Algorithms as a Tool of Thought](https://youtu.be/GZuZgCDql6g)|
+|:green_heart: GTC|2021-04|Online|:star: [Thrust and the C++ Standard Algorithms](https://gtc21.event.nvidia.com/media/Thrust%20and%20the%20C%2B%2B%20Standard%20Algorithms%20%5BS31532%5D/1_im6dgp9u)|
 
 ## Lightning Talks
 
