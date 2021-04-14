@@ -1,4 +1,6 @@
 
+## Thrust Resources
+
 ### Article Links:
 |Article|Author|Date|
 |:--:|:--:|:--:|
@@ -25,3 +27,19 @@
 |[Parallelizing the Standard Algorithms Library](https://www.youtube.com/watch?v=enPZSqXr3QU)|Jared Hoberock|CppCon 2014|
 |[Inside Thrust: Building Parallel Algorithms with Bulk](https://www.youtube.com/watch?v=4v24yYoyLf4)|Jared Hoberock|GTC 2014|
 |[C++17 PARALLEL ALGORITHMS FOR NVIDIA GPUS WITH PGI C++](https://developer.nvidia.com/gtc/2019/video/S9770)|David Olsen|GTC 2019|
+
+## C++ Algorithms Resources
+
+|Speaker|Conference/Meetup|Year|Talk|
+|:-------------:|:--:|:--:|:-------------:|
+|Sean Parent | Going Native| 2013| [C++ Seasoning](https://www.youtube.com/watch?v=qH6sSOr-yk8) |
+|Marshall Clow| CppCon|2016|[STL Algorithms](https://www.youtube.com/watch?v=h4Jl1fk3MkQ)|
+|Jonathan Boccara | ACCU | 2018 | [105 STL Algorithms in Less Than an Hour](https://www.youtube.com/watch?v=bXkWuUe9V2)|
+|Conor Hoekstra|C++Now|2019|[Algorithm Intuition](https://youtu.be/48gV1SNm3WA)|
+|Conor Hoekstra|C++Now|2019|[Better Algorithm Intuition](https://youtu.be/TSZzvo4htTQ)|
+
+## GTC 2021 Links
+
+|Speaker|Talk|
+|:-------------:|:--:|
+|Bryce Lelbach|[The NVIDIA C++ Library](https://gtc21.event.nvidia.com/media/The%20NVIDIA%20C%2B%2B%20Standard%20Library%20%5BS31359%5D/1_cz8o1n4j)|
