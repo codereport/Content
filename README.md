@@ -21,11 +21,11 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: C++TO|2019-12|Toronto, Canada|[Better Algorithm Intuition](https://youtu.be/L0kwN3A-HkM)|
 |:green_heart: PyCon|2020-04|Online|:star: [Beautiful Python Refactoring](https://youtu.be/W-lZttZhsUY)|
 |:blue_heart: MUC++|2020-06|Online|[My Least Favorite Anti-Pattern](https://youtu.be/VV9vwFsaQ6U)|
-|:green_heart: Italian C++|2020-06|Online|:star: [My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=CjHgL5EQdcY)|
+|:green_heart: Italian C++|2020-06|Online|[My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=CjHgL5EQdcY)|
 |:green_heart: CppCon|2020-09|Online|:star: [Structure and Interpretation of Computer Programs](https://youtu.be/7oV7hiAsVTI)|
 |:blue_heart: C++TO|2020-11|Online|C++ Concepts - Rust Traits - Haskell Typeclasses|
 |:green_heart: Meeting C++|2020-11|Online|[C++ Concepts - Rust Traits - Haskell Typeclasses](https://www.youtube.com/watch?v=Qh7QdG5RK9E)|
-|:green_heart: C++ Russia|2020-11|Online|ITM: My Least Favorite Anti-Pattern|
+|:green_heart: C++ Russia|2020-11|Online|:star: [ITM: My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=vOgyn1jcKGY)|
 |:green_heart: ACCU |2021-03|Online|[C++ Concepts - Rust Traits - Haskell Typeclasses](https://www.youtube.com/watch?v=iPVoCTgvi8M)|
 |:blue_heart: Britsh APL |2021-03|Online|Algorithms as a Tool of Thought|
 |:green_heart: APL Seeds |2021-03|Online|:star: [Algorithms as a Tool of Thought](https://youtu.be/GZuZgCDql6g)|
