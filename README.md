@@ -30,6 +30,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: Britsh APL |2021-03|Online|Algorithms as a Tool of Thought|
 |:green_heart: APL Seeds |2021-03|Online|:star: [Algorithms as a Tool of Thought](https://youtu.be/GZuZgCDql6g)|
 |:green_heart: GTC|2021-04|Online|:star: [Thrust and the C++ Standard Algorithms](https://gtc21.event.nvidia.com/media/Thrust%20and%20the%20C%2B%2B%20Standard%20Algorithms%20%5BS31532%5D/1_im6dgp9u)|
+|:green_heart: Strange Loop*|2021-10|YouTube|Functional vs Array Programming|
 
 ## Lightning Talks
 
@@ -44,6 +45,8 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:green_heart: C++Now*|2020-05|YouTube|:star: [The STL Algorithm Cheat Sheet](https://youtu.be/LMmFpOhcQhA)|
 |:green_heart: CppCon|2020-09|Online|:star: [SICP Cover Demystified](https://youtu.be/e0vnRZN5GB0)|
 |:green_heart: ACCU |2021-03|Online|:star: [Algorithm Selection](https://www.youtube.com/watch?v=nV4uXgyDCqc)|
+
+* ~ Unofficially
 
 ## Podcast Appearances
 
