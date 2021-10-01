@@ -46,7 +46,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:green_heart: CppCon|2020-09|Online|:star: [SICP Cover Demystified](https://youtu.be/e0vnRZN5GB0)|
 |:green_heart: ACCU |2021-03|Online|:star: [Algorithm Selection](https://www.youtube.com/watch?v=nV4uXgyDCqc)|
 
-* ~ Unofficially
+`* ~ Unofficially`
 
 ## Podcast Appearances
 
