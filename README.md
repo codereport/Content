@@ -39,7 +39,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |Conference/Meetup|Year|Location|Talk|
 |:---------------|:--:|:--:|:--:|
 |:green_heart: C++Now|2019-05|Aspen, USA|:star: [C++ Algorithms in Haskell](https://youtu.be/dTO3-1C1-t0)|
-|:green_heart: CppCon|2019-09|Aurora, USA|:star: [C++23 Ranges: slide & stride](https://youtu.be/-_lqZJK2vjI)|
+|:green_heart: CppCon|2019-09|Aurora, USA|:star: [C++23 Ranges: `slide` & `stride`](https://youtu.be/-_lqZJK2vjI)|
 |:green_heart: Meeting C++|2019-11|Berlin, Germany|:star: [Consistently Inconsistent](https://youtu.be/tsfaE-eDusg)|
 |:blue_heart: C++TO|2019-11|Toronto, Canada|[Consistently Inconsistent](https://youtu.be/14zEh6QCevw)|
 |:green_heart: C++Now*|2020-05|YouTube|:star: [The STL Algorithm Cheat Sheet](https://youtu.be/LMmFpOhcQhA)|
