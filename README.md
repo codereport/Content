@@ -31,6 +31,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: APL Seeds |2021-03|Online|:star: [Algorithms as a Tool of Thought](https://youtu.be/GZuZgCDql6g)|
 |:green_heart: GTC|2021-04|Online|:star: [Thrust and the C++ Standard Algorithms](https://gtc21.event.nvidia.com/media/Thrust%20and%20the%20C%2B%2B%20Standard%20Algorithms%20%5BS31532%5D/1_im6dgp9u)|
 |:green_heart: Strange Loop*|2021-10|YouTube|:star: [Functional vs Array Programming](https://www.youtube.com/watch?v=UogkQ67d0nY)|
+|:green_heart: PyCon 2022*|2022-02|YouTube|:star: Hacking Wordle with Python|
 
 ## Lightning Talks
 
