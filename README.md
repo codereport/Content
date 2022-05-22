@@ -33,6 +33,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: Strange Loop*|2021-10|YouTube|:star: [Functional vs Array Programming](https://www.youtube.com/watch?v=UogkQ67d0nY)|
 |:green_heart: ARRAY|2022-06|San Diego, USA|Combinatory Logic and Combinators in Array Languages|
 |:green_heart: CppNorth|2022-07|Toronto, Canada|The Twin Algorithms|
+|:green_heart: YouTube|2022-07|Online|The Twin Algorithms|
 |:green_heart: ???|2022-??|???|Enter the Matrix|
 |:green_heart: ???|2022-??|???|Composition Intuition|
 
