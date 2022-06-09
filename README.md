@@ -66,7 +66,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 
 ## Publications
 
-|Type|Title|Date|Conference/Journal/Institution|
+|Type|Title|Date|Where|
 |:-:|:-:|:-:|:-:|
-|MSc Thesis|A Combinator, N-Dimensional Array Library In Smalltalk|2022-05|Toronto Metropolitan University|
-|Paper|Combinatory Logic and Combinators in Array Languages|2022-06|[ARRAY 2022](https://pldi22.sigplan.org/home/ARRAY-2022)|
+|MSc Thesis|[A Combinator, N-Dimensional Array Library In Smalltalk](https://github.com/codereport/Content/blob/main/Publications/MSc_Thesis_A_Combinator_NDimenstional_Array_Library_in_Smalltalk.pdf)|2022-05|[TMU](https://www.torontomu.ca/)|
+|Paper|[Combinatory Logic and Combinators in Array Languages](https://github.com/codereport/Content/blob/main/Publications/Combinatory_Logic_and_Combinators_in_Array_Languages.pdf)|2022-06|[ARRAY 2022](https://pldi22.sigplan.org/home/ARRAY-2022)|
