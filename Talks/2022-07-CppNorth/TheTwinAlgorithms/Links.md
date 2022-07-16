@@ -26,7 +26,7 @@
 ### Article/Other Links:
 |Author|Site|Date|Link|
 |:-----:|:---:|:--:|:--:|
-|Bernard Legrand|2006-06-22|⭐ [APL – a Glimpse of Heaven](http://archive.vector.org.uk/art10011550)
+|Bernard Legrand|Vector|2006-06-22|⭐ [APL – a Glimpse of Heaven](http://archive.vector.org.uk/art10011550)
 |algoshift|HackerNews|2010-12-15|[What's so cool about APL? (comment)](https://news.ycombinator.com/item?id=2009527)|
 |Noelkd|HackerNews|2014-05-28|[	APL – a Glimpse of Heaven (2006) (vector.org.uk)](https://news.ycombinator.com/item?id=7813204)|
 |Conor Hoekstra|GitHub|2022-03-12|[Combinator Introductions](https://github.com/codereport/meeting-notes/blob/master/2022-03-12-Deep-Dive-on-New-Combinators.md#combinator-introductions)|
