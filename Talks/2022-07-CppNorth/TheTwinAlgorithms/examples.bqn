@@ -6,6 +6,13 @@
     +`↕5
 ⟨ 0 1 3 6 10 ⟩
 
+    # C++ Algorithms
+    _AnyOf   ← { ∨´𝔽𝕩}
+    _AllOf   ← { ∧´𝔽𝕩}
+    _NoneOf  ← {¬∨´𝔽𝕩}
+    _CountIf ← { +´𝔽𝕩}
+    Count    ← { +´𝕨=𝕩}
+
     # FilterOutHTMLTags
     FilterOutHTMLTags ← {𝕩/˜¬(⊢∨≠`)𝕩∊"<>"}
     FilterOutHTMLTags "<div>Hello <b>CppNorth!</b></div>" 
