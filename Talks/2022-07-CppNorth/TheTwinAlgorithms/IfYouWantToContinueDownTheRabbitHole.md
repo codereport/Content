@@ -10,6 +10,6 @@
 |Rodrigo Serrão|Video|2022|[Why APL is a language worth knowing](https://www.youtube.com/watch?v=j-qlYcIl61o)|
 |Conor Hoekstra|Video|2021|[Algorithms as a Tool of Thought](https://www.youtube.com/watch?v=GZuZgCDql6g)|
 |---||||
-|Marshall Lochbaum|LambdaConf|2020|[Outer Product as an Introduction to APL and a Pretty Cool Thing in General](https://www.youtube.com/watch?v=WlUHw4hC4OY)|
+|Marshall Lochbaum|Video|2020|[Outer Product as an Introduction to APL and a Pretty Cool Thing in General](https://www.youtube.com/watch?v=WlUHw4hC4OY)|
 |---||||
 |ArrayCast|Podcast|2021-Present|[ArrayCast](www.arraycast.com)|
