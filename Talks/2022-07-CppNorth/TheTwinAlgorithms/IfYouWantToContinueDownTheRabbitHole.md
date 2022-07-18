@@ -12,4 +12,5 @@
 |---||||
 |Marshall Lochbaum|Video|2020|[Outer Product as an Introduction to APL and a Pretty Cool Thing in General](https://www.youtube.com/watch?v=WlUHw4hC4OY)|
 |---||||
+|CoRecursive|Podcast|2021|[Episode 65 - From Competitive Programming to APL](https://corecursive.com/065-competitive-coding-with-conor-hoekstra/)|
 |ArrayCast|Podcast|2021-Present|[ArrayCast](www.arraycast.com)|
