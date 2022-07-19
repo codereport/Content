@@ -19,7 +19,7 @@ int main() {
 
     auto conf = "C++North!"s;
     rotate(conf.begin(), conf.begin() + 3, conf.end());
-    fmt::print("{}\n", conf);
+    fmt::print("{}\n", conf); // North!Cpp
 
     return 0;
 }
