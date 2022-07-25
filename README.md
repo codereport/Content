@@ -37,7 +37,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: YouTube|2022-08|Online|A Look at Array Languages|
 |:blue_heart: Dyalog APL|2022-09|Toronto, Canada|A Look at Array Languages|
 |:blue_heart: Dyalog APL|2022-09|New York, USA|A Look at Array Languages|
-|:green_heart: Paradigm Conference|2022-09|Online|TBA|
+|:green_heart: Paradigm Conf|2022-09|Online|TBA|
 |:green_heart: ???|2022-??|???|Enter the Matrix|
 |:green_heart: ???|2022-??|???|Composition Intuition|
 
