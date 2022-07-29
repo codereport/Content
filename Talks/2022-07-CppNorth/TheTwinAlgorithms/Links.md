@@ -1,6 +1,7 @@
 ### Podcast Links:
 |Podcast|Guest|Date|Link|
 |:-----:|:---:|:--:|:--:|
+|LambdaCast|-|2016-2019|[Link to All Episodes](https://soundcloud.com/lambda-cast)|
 |Functional Geekery|Alex Weiner|2016-08-30|[Episode 64 – Alex Weiner](https://www.functionalgeekery.com/episode-64-alex-weiner/)|
 |Functional Geekery|Morten Kromberg|2016-09-06|[Episode 65 – Morten Kromberg](https://www.functionalgeekery.com/episode-65-morten-kromberg/)|
 |Functional Geekery|Anthony Cipriano|2016-11-29|[Episode 76 – Anthony Cipriano](https://www.functionalgeekery.com/episode-76-anthony-cipriano/)|
