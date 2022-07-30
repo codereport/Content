@@ -30,6 +30,7 @@
 ### Article/Other Links:
 |Author|Site|Date|Link|
 |:-----:|:---:|:--:|:--:|
+|-|ETI Canada|19179-03|[APL: Good for the Brain](https://github.com/codereport/Content/blob/main/Talks/2022-07-CppNorth/TheTwinAlgorithms/APL%20Good%20for%20the%20Brain.pdf)|
 |Bernard Legrand|Vector|2006-06-22|⭐ [APL – a Glimpse of Heaven](http://archive.vector.org.uk/art10011550)
 |algoshift|HackerNews|2010-12-15|[What's so cool about APL? (comment)](https://news.ycombinator.com/item?id=2009527)|
 |Scott Locklin|Locklin on Science|2013-07-13|[Ruins of forgotten empires: APL languages](https://scottlocklin.wordpress.com/2013/07/28/ruins-of-forgotten-empires-apl-languages/)|
