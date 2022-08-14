@@ -40,6 +40,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: Paradigm Conf|2022-09|Online|TBA|
 |:green_heart: ???|2022-??|???|Enter the Matrix|
 |:green_heart: ???|2022-??|???|Composition Intuition|
+|:green_heart: ???|2023-??|???|blackbird|
 
 ## Lightning Talks
 
