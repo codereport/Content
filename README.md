@@ -32,11 +32,11 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: GTC|2021-04|Online|:star: [Thrust and the C++ Standard Algorithms](https://gtc21.event.nvidia.com/media/Thrust%20and%20the%20C%2B%2B%20Standard%20Algorithms%20%5BS31532%5D/1_im6dgp9u)|
 |:green_heart: Strange Loop*|2021-10|YouTube|:star: [Functional vs Array Programming](https://www.youtube.com/watch?v=UogkQ67d0nY)|
 |:green_heart: ARRAY|2022-06|San Diego, USA|Combinatory Logic and Combinators in Array Languages|
-|:green_heart: CppNorth|2022-07|Toronto, Canada|The Twin Algorithms|
-|:green_heart: YouTube|2022-07|Online|[The Twin Algorithms](https://www.youtube.com/watch?v=NiferfBvN3s)|
-|:blue_heart: YouTube|2022-08|Online|A Look at Array Languages|
+|:green_heart: CppNorth|2022-07|Toronto, Canada|[The Twin Algorithms](https://www.youtube.com/watch?v=w37XnvIf6qE)|
+|:green_heart: YouTube|2022-07|Online|:star: [The Twin Algorithms](https://www.youtube.com/watch?v=NiferfBvN3s)|
 |:blue_heart: Dyalog APL|2022-09|Toronto, Canada|A Look at Array Languages|
 |:blue_heart: Dyalog APL|2022-09|New York, USA|A Look at Array Languages|
+|:blue_heart: YouTube|2022-09|Online|A Look at Array Languages|
 |:green_heart: Paradigm Conf|2022-09|Online|TBA|
 |:green_heart: ???|2022-??|???|Enter the Matrix|
 |:green_heart: ???|2022-??|???|Composition Intuition|
