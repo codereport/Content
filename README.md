@@ -36,7 +36,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: YouTube|2022-07|Online|:star: [The Twin Algorithms](https://www.youtube.com/watch?v=NiferfBvN3s)|
 |:blue_heart: Dyalog APL|2022-09|Toronto, Canada|A Look at Array Languages|
 |:blue_heart: Dyalog APL|2022-09|New York, USA|A Look at Array Languages|
-|:blue_heart: YouTube|2022-09|Online|A Look at Array Languages|
+|:blue_heart: YouTube|2022-09|Online|:star: [A Look at Array Languages](https://youtu.be/8ynsN4nJxzU)|
 |:green_heart: Paradigm Conf|2022-09|Online|TBA|
 |:green_heart: ???|2022-??|???|Enter the Matrix|
 |:green_heart: ???|2022-??|???|Composition Intuition|
