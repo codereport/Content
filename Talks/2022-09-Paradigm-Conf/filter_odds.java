@@ -19,6 +19,13 @@ public class MyClass {
                    .collect(Collectors.toList());
     }
 
+    public static Integer sumFirstTwoOdds(List<Integer> list) {
+        return list.stream()
+                   .filter(e -> e % 2 == 1)
+                   .limit(2)
+                   .reduce(0, Integer::sum);
+    }
+
 
     public static void main(String args[]) {
 
@@ -26,5 +33,6 @@ public class MyClass {
 
         System.out.println(filterOdds (list));
         System.out.println(filterOdds1(list));
+        System.out.println(sumFirstTwoOdds(list));
     }
 }
