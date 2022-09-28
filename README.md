@@ -80,8 +80,8 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 
 |Type|Name|Started|
 |:-:|:-:|:-:|
-|YouTube|[The `code_report` Channel](https://www.youtube.com/c/codereport)|Jan 15, 2018|
-|Blog|[The `code_report` Blog](https://codereport.github.io/)|Apr 10, 2020|
-|Podcast|[ADSP: Algorithms + Data Structures = Programs](https://adspthepodcast.com/)|Nov 20, 2020|
-|Podcast|[ArrayCast](https://www.arraycast.com/)|May 15, 2021|
-|Podcast|[The Programming Language Podcast](https://www.buzzsprout.com/1951960)|Mar 8, 2022|
+|YouTube|[The `code_report` Channel](https://www.youtube.com/c/codereport)|2018-01-15|
+|Blog|[The `code_report` Blog](https://codereport.github.io/)|2020-04-10|
+|Podcast|[ADSP: Algorithms + Data Structures = Programs](https://adspthepodcast.com/)|2020-11-20|
+|Podcast|[ArrayCast](https://www.arraycast.com/)|2021-05-15|
+|Podcast|[The Programming Language Podcast](https://www.buzzsprout.com/1951960)|2022-03-08|
