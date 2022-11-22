@@ -37,9 +37,11 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: Dyalog APL|2022-09|Toronto, Canada|A Look at Array Languages|
 |:blue_heart: Dyalog APL|2022-09|New York, USA|A Look at Array Languages|
 |:blue_heart: YouTube|2022-09|Online|:star: [A Look at Array Languages](https://youtu.be/8ynsN4nJxzU)|
-|:green_heart: Paradigm Conf|2022-09|Online|Popular vs Less Well Known Programming Languages|
-|:green_heart: ???|2022-??|???|Enter the Matrix|
-|:green_heart: ???|2022-??|???|Composition Intuition|
+|:green_heart: Paradigm Conf|2022-09|Online|:star: [Popular vs Less Well Known Programming Languages](https://www.youtube.com/watch?v=8oKAHQsh1oM)|
+|:blue_heart: HelwanU GDSC|2022-10|Online|A Look at Array Languages|
+|:green_heart: code::dive|2022-11|Wroclaw, Poland|Beautiful Python Refactoring II|
+|:green_heart: ???|2023-??|???|Enter the Matrix|
+|:green_heart: ???|2023-??|???|Composition Intuition|
 |:green_heart: ???|2023-??|???|blackbird|
 
 ## Lightning Talks
@@ -75,3 +77,13 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:-:|:-:|:-:|:-:|
 |MSc Thesis|2022-05|[A Combinator, N-Dimensional Array Library In Smalltalk](https://github.com/codereport/Content/blob/main/Publications/MSc_Thesis_A_Combinator_NDimenstional_Array_Library_in_Smalltalk.pdf)|[TMU](https://www.torontomu.ca/)|
 |Paper|2022-06|[Combinatory Logic and Combinators in Array Languages](https://github.com/codereport/Content/blob/main/Publications/Combinatory_Logic_and_Combinators_in_Array_Languages.pdf)|[ARRAY 2022](https://pldi22.sigplan.org/home/ARRAY-2022)|
+
+## Personal YouTube / Podcasts / Blog
+
+|Type|Name|Started|
+|:-:|:-:|:-:|
+|YouTube|[The `code_report` Channel](https://www.youtube.com/c/codereport)|2018-01-15|
+|Blog|[The `code_report` Blog](https://codereport.github.io/)|2020-04-10|
+|Podcast|[ADSP: Algorithms + Data Structures = Programs](https://adspthepodcast.com/)|2020-11-20|
+|Podcast|[ArrayCast](https://www.arraycast.com/)|2021-05-15|
+|Podcast|[The Programming Language Podcast](https://www.buzzsprout.com/1951960)|2022-03-08|
