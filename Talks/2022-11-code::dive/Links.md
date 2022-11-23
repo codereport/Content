@@ -7,6 +7,7 @@
 | Conference/Meetup |    Speaker     | Year  |                             Talk                             |
 | :---------------: | :------------: | :---: | :----------------------------------------------------------: |
 |       PyCon       | Conor Hoekstra | 2020  | [Beautiful Python Refactoring](https://youtu.be/W-lZttZhsUY) |
+| YouTube | boringcactus | 2021 | ["The World’s Fastest Scrabble Program" (1988) from the Ground Up](https://www.youtube.com/watch?v=9cytoYiF9uY) |
 
 ### REFACTOR Git Commits
 
@@ -19,6 +20,5 @@
 |  3a   | `Enum` vs 2 `Bool`s | [67d6faa](https://github.com/codereport/scrabble/commit/67d6faac7a461f7fa49a10e88b9315a1562bc2ab) |
 |  3b   |      Use Enums      | [acd6d66](https://github.com/codereport/scrabble/commit/acd6d66c6e54475c9768d91eaaf87a3f5c6a59bb) |
 |   4   |     `Optional`      | [9a378bf](https://github.com/codereport/scrabble/commit/9a378bf75642f6f3fc204ca219e0a26ca39d17eb) |
-|   5   |  Avoid Duplication  | [171db09](https://github.com/codereport/scrabble/commit/171db0901edf23d7403cccfe9622beb2659bf472) |
-|   6   | Name the Algorithm  | [b7eb49b](https://github.com/codereport/scrabble/commit/b7eb49b83ca3257b030646f17f15f291858f55bc) |
-|   7   |      Avoid ITM      | [17c2657](https://github.com/codereport/scrabble/commit/17c26575a8723fd4094f4c3b00dd5d0b2d868775) |
+|   5   | Name the Algorithm  | [b7eb49b](https://github.com/codereport/scrabble/commit/b7eb49b83ca3257b030646f17f15f291858f55bc) |
+|   6   |      Avoid ITM      | [17c2657](https://github.com/codereport/scrabble/commit/17c26575a8723fd4094f4c3b00dd5d0b2d868775) |
