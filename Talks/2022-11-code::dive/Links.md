@@ -19,3 +19,4 @@
 |  3a   | `Enum` vs 2 `Bool`s | [67d6faa](https://github.com/codereport/scrabble/commit/67d6faac7a461f7fa49a10e88b9315a1562bc2ab) |
 |   4   |     `Optional`      | [9a378bf](https://github.com/codereport/scrabble/commit/9a378bf75642f6f3fc204ca219e0a26ca39d17eb) |
 |   5   |  Avoid Duplication  | [171db09](https://github.com/codereport/scrabble/commit/171db0901edf23d7403cccfe9622beb2659bf472) |
+|       | Name the Algorithm  | [b7eb49b](https://github.com/codereport/scrabble/commit/b7eb49b83ca3257b030646f17f15f291858f55bc) |
