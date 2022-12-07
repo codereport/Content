@@ -59,6 +59,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:green_heart: C++Now*|2020-05|YouTube|:star: [The STL Algorithm Cheat Sheet](https://youtu.be/LMmFpOhcQhA)|
 |:green_heart: CppCon|2020-09|Online|:star: [SICP Cover Demystified](https://youtu.be/e0vnRZN5GB0)|
 |:green_heart: ACCU |2021-03|Online|:star: [Algorithm Selection](https://www.youtube.com/watch?v=nV4uXgyDCqc)|
+|:blue_heart: YouTube|2022-12|Online|:star: From C to C++ to Rust to Haskell?|
 
 `* ~ Unofficially`
 
