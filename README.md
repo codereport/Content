@@ -3,6 +3,7 @@
 :green_heart: **= Conference** <br>
 :blue_heart: **= Meetup** <br>
 :star: **= Recommended version**
+:four_leaf_clover: = Submitted by not accepted
 
 ## Conference Talks
 
@@ -40,8 +41,9 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: Paradigm Conf|2022-09|Online|:star: [Popular vs Less Well Known Programming Languages](https://www.youtube.com/watch?v=8oKAHQsh1oM)|
 |:blue_heart: HelwanU GDSC|2022-10|Online|A Look at Array Languages|
 |:green_heart: code::dive|2022-11|Wroclaw, Poland|:star: [Beautiful Python Refactoring II](https://youtu.be/15j0SvA17-w?t=12777)|
+|:green_heart: :four_leaf_clover: PyCon |2023-04|Salt Lake City, USA|Beautiful Python Refactoring II|
+|:green_heart: :four_leaf_clover: LambdaDays|2023-06|Krakow, Poland|Composition Intuition|
 |:green_heart: ???|2023-??|???|Enter the Matrix|
-|:green_heart: ???|2023-??|???|Composition Intuition|
 |:green_heart: ???|2023-??|???|blackbird|
 
 ## Lightning Talks
@@ -77,6 +79,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:-:|:-:|:-:|:-:|
 |MSc Thesis|2022-05|[A Combinator, N-Dimensional Array Library In Smalltalk](https://github.com/codereport/Content/blob/main/Publications/MSc_Thesis_A_Combinator_NDimenstional_Array_Library_in_Smalltalk.pdf)|[TMU](https://www.torontomu.ca/)|
 |Paper|2022-06|[Combinatory Logic and Combinators in Array Languages](https://github.com/codereport/Content/blob/main/Publications/Combinatory_Logic_and_Combinators_in_Array_Languages.pdf)|[ARRAY 2022](https://pldi22.sigplan.org/home/ARRAY-2022)|
+|Paper|:four_leaf_clover:|A Hierarchical Look at Combinators|[The Computer Science Journal](https://journals.agh.edu.pl/csci)|
 
 ## Personal YouTube / Podcasts / Blog
 
