@@ -43,8 +43,6 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: code::dive|2022-11|Wroclaw, Poland|:star: [Beautiful Python Refactoring II](https://youtu.be/15j0SvA17-w?t=12777)|
 |:green_heart: :four_leaf_clover: PyCon |2023-04|Salt Lake City, USA|Beautiful Python Refactoring II|
 |:green_heart: LambdaDays|2023-06|Krakow, Poland|Composition Intuition|
-|:green_heart: ???|2023-??|???|Enter the Matrix|
-|:green_heart: ???|2023-??|???|blackbird|
 
 ## Lightning Talks
 
