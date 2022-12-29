@@ -89,3 +89,20 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |Podcast|[ADSP: Algorithms + Data Structures = Programs](https://adspthepodcast.com/)|2020-11-20|
 |Podcast|[ArrayCast](https://www.arraycast.com/)|2021-05-15|
 |Podcast|[The Programming Language Podcast](https://www.buzzsprout.com/1951960)|2022-03-08|
+
+## Websites
+
+|Website|Status|Type|
+|:-:|:-:|:-:|
+|[combinatorylogic.com](https://combinatorylogic.com/)|:construction:|:information_source:|
+|hoogletranslate.com|:no_entry:|:information_source:|
+|[thatsarotate.com](https://thatsarotate.com)|:heavy_check_mark:|:video_camera:|
+|[norawloops.com](https://norawloops.com)|:heavy_check_mark:|:video_camera:|
+|[adspthepodcast.com](https://adspthepodcast.com/)|:heavy_check_mark:|:microphone:|
+
+* :heavy_check_mark: Up and running
+* :construction: Under Construction
+* :no_entry: TODO
+* :information_source: Resource
+* :microphone: Podcast
+* :video_camera: Link to YouTube Video Time Stamp
