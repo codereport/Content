@@ -100,9 +100,8 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |[norawloops.com](https://norawloops.com)|:heavy_check_mark:|:video_camera:|
 |[adspthepodcast.com](https://adspthepodcast.com/)|:heavy_check_mark:|:microphone:|
 
-* :heavy_check_mark: Up and running
-* :construction: Under Construction
-* :no_entry: TODO
-* :information_source: Resource
-* :microphone: Podcast
-* :video_camera: Link to YouTube Video Time Stamp
+||Status||Type|
+|:-:|:-:|:-:|:-:|
+|:heavy_check_mark:| Up and running|:information_source: |Resource|
+|:construction:| Under Construction|:microphone:| Podcast|
+| :no_entry:| TODO|:video_camera:| Link to YouTube Video Time Stamp|
