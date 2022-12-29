@@ -104,4 +104,4 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:-:|:-:|:-:|:-:|
 |:heavy_check_mark:| Up and running|:information_source: |Resource|
 |:construction:| Under Construction|:microphone:| Podcast|
-| :no_entry:| TODO|:video_camera:| Link to YouTube Video Time Stamp|
+| :no_entry:| TODO|:video_camera:| YouTube Time Stamp|
