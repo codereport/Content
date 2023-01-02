@@ -3,7 +3,7 @@
 :green_heart: **= Conference** <br>
 :blue_heart: **= Meetup** <br>
 :star: **= Recommended version** <br>
-:four_leaf_clover: **= Submitted by not accepted**
+:four_leaf_clover: **= Submitted but not accepted**
 
 ## Conference Talks
 
