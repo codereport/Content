@@ -42,6 +42,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: HelwanU GDSC|2022-10|Online|A Look at Array Languages|
 |:green_heart: code::dive|2022-11|Wroclaw, Poland|:star: [Beautiful Python Refactoring II](https://www.youtube.com/watch?v=nXZQfdxWgh0)|
 |:green_heart::four_leaf_clover: PyCon |2023-04|Salt Lake City, USA|Beautiful Python Refactoring II|
+|:green_heart::four_leaf_clover: Clojure/conj|2023-04|Durham, USA|Algorithm Intuition in Clojure|
 |:green_heart: LambdaDays|2023-06|Krakow, Poland|Composition Intuition|
 |:green_heart::four_leaf_clover: C++ on Sea|2023-06|Folkestone, UK|New Algorithms in C++23|
 
@@ -96,6 +97,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |Website|Status|Type|
 |:-:|:-:|:-:|
 |[combinatorylogic.com](https://combinatorylogic.com/)|:construction:|:information_source:|
+|[plrank.com](https://plrank.com)|:heavy_check_mark:|:information_source:|
 |hoogletranslate.com|:no_entry:|:information_source:|
 |[thatsarotate.com](https://thatsarotate.com)|:heavy_check_mark:|:video_camera:|
 |[norawloops.com](https://norawloops.com)|:heavy_check_mark:|:video_camera:|
