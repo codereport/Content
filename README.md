@@ -41,10 +41,10 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: Paradigm Conf|2022-09|Online|:star: [Popular vs Less Well Known Programming Languages](https://www.youtube.com/watch?v=8oKAHQsh1oM)|
 |:blue_heart: HelwanU GDSC|2022-10|Online|A Look at Array Languages|
 |:green_heart: code::dive|2022-11|Wroclaw, Poland|:star: [Beautiful Python Refactoring II](https://www.youtube.com/watch?v=nXZQfdxWgh0)|
-|:green_heart::four_leaf_clover: PyCon |2023-04|Salt Lake City, USA|Beautiful Python Refactoring II|
 |:green_heart::four_leaf_clover: Clojure/conj|2023-04|Durham, USA|Algorithm Intuition in Clojure|
 |:green_heart: LambdaDays|2023-06|Krakow, Poland|Composition Intuition|
 |:green_heart::four_leaf_clover: C++ on Sea|2023-06|Folkestone, UK|New Algorithms in C++23|
+|:green_heart::four_leaf_clover: CppNorth|2023-07|Toronto, Canada|New Algorithms in C++23|
 
 ## Lightning Talks
 
