@@ -101,6 +101,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |[thatsarotate.com](https://www.youtube.com/watch?v=NiferfBvN3s&t=1398s)|:heavy_check_mark:|:video_camera:|
 |[norawloops.com](https://www.youtube.com/watch?v=NiferfBvN3s)|:heavy_check_mark:|:video_camera:|
 |[adspthepodcast.com](https://adspthepodcast.com/)|:heavy_check_mark:|:microphone:|
+|[runforthefunofit.com](https://runforthefunofit.com/)|:heavy_check_mark:|:microphone:|
 
 ||Status||Type|
 |:-:|:-:|:-:|:-:|
