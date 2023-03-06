@@ -1,4 +1,4 @@
-// https://godbolt.org/z/bfY4qf8Pj
+// https://godbolt.org/z/KeMabhaqz
 // 64 instructions using gcc 12.2 and -O3
 // 76 instructions using gcc 12.2 and -O2
 
