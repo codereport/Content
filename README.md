@@ -45,7 +45,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: LambdaDays|2023-06|Krakow, Poland|Composition Intuition|
 |:green_heart::four_leaf_clover: Italian C++|2023-06|Rome, Italy|New Algorithms in C++23|
 |:green_heart: C++ on Sea|2023-06|Folkestone, UK|New Algorithms in C++23|
-|:green_heart::four_leaf_clover: CppNorth|2023-07|Toronto, Canada|New Algorithms in C++23|
+|:green_heart: CppNorth|2023-07|Toronto, Canada|New Algorithms in C++23|
 
 ## Lightning Talks
 
