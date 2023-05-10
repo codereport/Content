@@ -1,11 +1,11 @@
 ### Code Links
 
-|         Example          | Language | GitHub Link |          Godbolt Link           |
-| :----------------------: | :------: | :---------: | :-----------------------------: |
-|      Sushi for Two       |  Circle  |             | https://godbolt.org/z/Mca5jKq85 |
-| Maximum Consecutive Ones |  Circle  |             |                                 |
-|         Max Gap          |  Circle  |             | https://godbolt.org/z/4xz1c3j4v |
-|  `filter_html_tags_out`  |  Circle  |             | https://godbolt.org/z/3Yndh1Pvf |
+|         Example          | Language |                                                  GitHub Link                                                  |          Godbolt Link           |
+| :----------------------: | :------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------: |
+|      Sushi for Two       |  Circle  |        [Link](https://github.com/codereport/top10/blob/main/05_sushi_for_two/sushi_for_two_circle.cpp)        | https://godbolt.org/z/Mca5jKq85 |
+| Maximum Consecutive Ones |  Circle  |                                                                                                               |                                 |
+|         Max Gap          |  Circle  |              [Link](https://github.com/codereport/top10/blob/main/06_max_gap/max_gap_circle.cpp)              | https://godbolt.org/z/4xz1c3j4v |
+|  `filter_html_tags_out`  |  Circle  | [Link](https://github.com/codereport/Content/blob/main/Talks/2023-06-ItalianC%2B%2B/filter_out_html_tags.cpp) | https://godbolt.org/z/3Yndh1Pvf |
 
 <!-- 
 ### Podcast Links:
