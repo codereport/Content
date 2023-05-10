@@ -2,6 +2,7 @@
 
 |         Example          | Language |                                                  GitHub Link                                                  |          Godbolt Link           |
 | :----------------------: | :------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------: |
+|    Warm Up: Negatives    |   C++    |                                                                                                               | https://godbolt.org/z/x3zGPWT7q |
 |      Sushi for Two       |  Circle  |        [Link](https://github.com/codereport/top10/blob/main/05_sushi_for_two/sushi_for_two_circle.cpp)        | https://godbolt.org/z/Mca5jKq85 |
 | Maximum Consecutive Ones |  Circle  |                                                                                                               |                                 |
 |         Max Gap          |  Circle  |              [Link](https://github.com/codereport/top10/blob/main/06_max_gap/max_gap_circle.cpp)              | https://godbolt.org/z/4xz1c3j4v |
