@@ -1,4 +1,4 @@
-// Godbolt: https://godbolt.org/z/3Yndh1Pvf
+// Godbolt: https://godbolt.org/z/KK3vhz18d
 
 #include <algorithm>
 #include <ranges>
@@ -23,7 +23,7 @@ auto filter_out_html_tags(std::string_view sv) {
         |> zip_transform(std::logical_or{}, $, scan_left($, true, std::not_equal_to{}))
         |> zip($, sv)
         |> filter($, [](auto t) { return not std::get<0>(t); })
-        |> transform($, [](auto t) { return std::get<1>(t); });
+        |> values($);
 }
 
 int main() {
