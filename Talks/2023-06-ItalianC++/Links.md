@@ -8,7 +8,7 @@
 | Maximum Consecutive Ones |  Circle  |         [Link](https://github.com/codereport/top10/blob/main/02_mco/max_consecutive_ones_circle.cpp)          | https://godbolt.org/z/Mc11bWGd3 |
 |         Max Gap          |   C++    |                 [Link](https://github.com/codereport/top10/blob/main/06_max_gap/max_gap.cpp)                  | https://godbolt.org/z/P43EhYcsj |
 |         Max Gap          |  Circle  |              [Link](https://github.com/codereport/top10/blob/main/06_max_gap/max_gap_circle.cpp)              | https://godbolt.org/z/4xz1c3j4v |
-|  `filter_out_html_tags`  |  Circle  | [Link](https://github.com/codereport/Content/blob/main/Talks/2023-06-ItalianC%2B%2B/filter_out_html_tags.cpp) | https://godbolt.org/z/KK3vhz18d |
+|  `filter_out_html_tags`  |  Circle  | [Link](https://github.com/codereport/Content/blob/main/Talks/2023-06-ItalianC%2B%2B/filter_out_html_tags.cpp) | https://godbolt.org/z/on5xMG5ax |
 
 <!-- 
 ### Podcast Links:
