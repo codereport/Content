@@ -3,8 +3,8 @@
 |         Example          | Language |                                                  GitHub Link                                                  |          Godbolt Link           |
 | :----------------------: | :------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------: |
 |    Warm Up: Negatives    |   C++    |      [Link](https://github.com/codereport/Content/blob/main/Talks/2023-06-ItalianC%2B%2B/negatives.cpp)       | https://godbolt.org/z/8TEevabqd |
-|      Sushi for Two       |  Circle  |        [Link](https://github.com/codereport/top10/blob/main/05_sushi_for_two/sushi_for_two_circle.cpp)        | https://godbolt.org/z/Mca5jKq85 |
 |      Sushi for Two       |   C++    |           [Link](https://github.com/codereport/top10/blob/main/05_sushi_for_two/sushi_for_two.cpp)            | https://godbolt.org/z/69Kh8baz3 |
+|      Sushi for Two       |  Circle  |        [Link](https://github.com/codereport/top10/blob/main/05_sushi_for_two/sushi_for_two_circle.cpp)        | https://godbolt.org/z/P6PxMnhMz |
 | Maximum Consecutive Ones |  Circle  |         [Link](https://github.com/codereport/top10/blob/main/02_mco/max_consecutive_ones_circle.cpp)          | https://godbolt.org/z/Mc11bWGd3 |
 |         Max Gap          |   C++    |                 [Link](https://github.com/codereport/top10/blob/main/06_max_gap/max_gap.cpp)                  | https://godbolt.org/z/P43EhYcsj |
 |         Max Gap          |  Circle  |              [Link](https://github.com/codereport/top10/blob/main/06_max_gap/max_gap_circle.cpp)              | https://godbolt.org/z/4xz1c3j4v |
