@@ -2,7 +2,7 @@
 
 |         Example          | Language |                                                  GitHub Link                                                  |          Godbolt Link           |
 | :----------------------: | :------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------: |
-|    Warm Up: Negatives    |   C++    |      [Link](https://github.com/codereport/Content/blob/main/Talks/2023-06-ItalianC%2B%2B/negatives.cpp)       | https://godbolt.org/z/x3zGPWT7q |
+|    Warm Up: Negatives    |   C++    |      [Link](https://github.com/codereport/Content/blob/main/Talks/2023-06-ItalianC%2B%2B/negatives.cpp)       | https://godbolt.org/z/8TEevabqd |
 |      Sushi for Two       |  Circle  |        [Link](https://github.com/codereport/top10/blob/main/05_sushi_for_two/sushi_for_two_circle.cpp)        | https://godbolt.org/z/Mca5jKq85 |
 | Sushi for Two | C++ | | https://godbolt.org/z/69Kh8baz3 |
 | Maximum Consecutive Ones |  Circle  |         [Link](https://github.com/codereport/top10/blob/main/02_mco/max_consecutive_ones_circle.cpp)          | https://godbolt.org/z/Mc11bWGd3 |
