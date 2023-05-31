@@ -22,15 +22,4 @@
 
 <!-- 
 | Maximum Consecutive Ones |  Circle  |         [Link](https://github.com/codereport/top10/blob/main/02_mco/max_consecutive_ones_circle.cpp)          | https://godbolt.org/z/Mc11bWGd3 |
-
-### Podcast Links:
-|      Podcast       |    Guest    |    Date    |                                         Link                                          |
-| :----------------: | :---------: | :--------: | :-----------------------------------------------------------------------------------: |
-| Functional Geekery | Alex Weiner | 2016-08-30 | [Episode 64 – Alex Weiner](https://www.functionalgeekery.com/episode-64-alex-weiner/) |
-
-
-
-### Article/Other Links:
-| Author | Site  | Date  | Link  |
-| :----: | :---: | :---: | :---: |
  -->
