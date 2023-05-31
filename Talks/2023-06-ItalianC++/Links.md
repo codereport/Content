@@ -16,9 +16,10 @@
 |  Revzin et al.  | 2022  |         [Exploring the Design Space for a Pipeline Operator](wg21.link/p2672)          |
 
 ### YouTube Video Links:
-|   Speaker    | Conference/Meetup | Year  |                                      Talk                                       |
-| :----------: | :---------------: | :---: | :-----------------------------------------------------------------------------: |
-| Sam Westrick |       PPoPP       | 2002  | [Parallel Block-Delayed Sequences](https://www.youtube.com/watch?v=jWaG90FbWKY) |
+|    Speaker     | Conference/Meetup | Year  |                                      Talk                                       |
+| :------------: | :---------------: | :---: | :-----------------------------------------------------------------------------: |
+|  Sam Westrick  |       PPoPP       | 2022  | [Parallel Block-Delayed Sequences](https://www.youtube.com/watch?v=jWaG90FbWKY) |
+| Conor Hoekstra |     C++North      | 2022  |       [The Twin Algorithms](https://www.youtube.com/watch?v=NiferfBvN3s)        |
 
 <!-- 
 | Maximum Consecutive Ones |  Circle  |         [Link](https://github.com/codereport/top10/blob/main/02_mco/max_consecutive_ones_circle.cpp)          | https://godbolt.org/z/Mc11bWGd3 |
