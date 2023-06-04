@@ -1,6 +1,7 @@
-<!-- ### Code Links
-
-|        Max Gap         |   C++    |                 [Link](https://github.com/codereport/top10/blob/main/06_max_gap/max_gap.cpp)                  | https://godbolt.org/z/P43EhYcsj | -->
+### Code Links
+|    Probelm    | Language |              Link               |
+| :-----------: | :------: | :-----------------------------: |
+| Exact Matches |   C++    | https://godbolt.org/z/dhWdGqhY6 |
 
 ### Paper Links:
 |     Author     | Date  |                                                                           Link                                                                           |
@@ -15,6 +16,7 @@ See www.combinatorylogic.com/table.html for a full list of combinatory logic pap
 | :----------------------: | :---------------: | :---: | :-------------------------------------------------------------------------------------------------------: |
 | John Scholes & Roger Hui |    Dyalog Conf    | 2011  |              [What is Functional Programming?](https://www.youtube.com/watch?v=bQlH49krwbk)               |
 |        Amar Shah         |    StrangeLoop    | 2016  |                     [Point-Free or Die](https://www.youtube.com/watch?v=seVSlKazsNk)                      |
+|      Björn Fahller       |    Meeting C++    | 2018  |       [Higher Order Functions for ordinary developers](https://www.youtube.com/watch?v=qL6zUn7iiLg)       |
 |    Marshall Lochbaum     |    Dyalog Conf    | 2019  |    [Tacit Techniques with Dyalog version 18.0 Operators](https://www.youtube.com/watch?v=czWC4tjwzOQ)     |
 |     Adám Brudzewsky      |  Dyalog Webinar   | 2019  | [Language Features of Dyalog version 18.0 in Depth - Part 1](https://www.youtube.com/watch?v=Hln3zryunsw) |
 |      Conor Hoekstra      |      YouTube      | 2021  |              [Functional vs Array Programming](https://www.youtube.com/watch?v=UogkQ67d0nY)               |
@@ -23,12 +25,9 @@ See www.combinatorylogic.com/table.html for a full list of combinatory logic pap
 
 ### Articles 
 
-|  Author  |                                          Title                                           |
-| :------: | :--------------------------------------------------------------------------------------: |
-| Tcl Wiki | [Tacit Programming - The Tcler's Wiki](https://wiki.tcl-lang.org/page/Tacit+programming) |
-|   Wiki   |           [Combinatory Logic](https://en.wikipedia.org/wiki/Combinatory_logic)           |
-
-
-<!-- 
-| Maximum Consecutive Ones |  Circle  |         [Link](https://github.com/codereport/top10/blob/main/02_mco/max_consecutive_ones_circle.cpp)          | https://godbolt.org/z/Mc11bWGd3 |
- -->
+|  Author  |                                             Title                                             |
+| :------: | :-------------------------------------------------------------------------------------------: |
+| Tcl Wiki |   [Tacit Programming - The Tcler's Wiki](https://wiki.tcl-lang.org/page/Tacit+programming)    |
+|   Wiki   |             [Combinatory Logic](https://en.wikipedia.org/wiki/Combinatory_logic)              |
+| APL Wiki |                [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)                |
+| BQN Docs | [Tacit Programming - Combinators](https://mlochbaum.github.io/BQN/doc/tacit.html#combinators) |
