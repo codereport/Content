@@ -48,6 +48,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: C++ on Sea|2023-06|Folkestone, UK|New Algorithms in C++23|
 |:green_heart: CppNorth|2023-07|Toronto, Canada|New Algorithms in C++23|
 |:green_heart: iO Engineering Virtual Meetup|2023-07|Online|New Algorithms in C++23|
+|:blue_heart: YouTube|2023-??|Online|Composition Intuition|
 
 ## Lightning Talks
 
@@ -78,6 +79,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |CppCast|2020-11-19|Episode 274|[Concepts and Algorithm Intuition](https://cppcast.com/concepts-algorithm-intuition/)|
 |CoRecursive|2021-06-02|Episode 60|[From Competitive Programming to APL](https://corecursive.com/065-competitive-coding-with-conor-hoekstra/)|
 |Software Unscripted|2023-??-??|TBD|
+|Lost in Lambduhs|2023-??-??|TBD|
 
 ## Publications
 
