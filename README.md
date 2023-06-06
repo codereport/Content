@@ -79,7 +79,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |CppCast|2020-11-19|Episode 274|[Concepts and Algorithm Intuition](https://cppcast.com/concepts-algorithm-intuition/)|
 |CoRecursive|2021-06-02|Episode 60|[From Competitive Programming to APL](https://corecursive.com/065-competitive-coding-with-conor-hoekstra/)|
 |Software Unscripted|2023-??-??|TBD|
-|Lost in Lambduhs|2023-??-??|TBD|
+|Lost in Lambduhhs|2023-??-??|TBD|
 
 ## Publications
 
