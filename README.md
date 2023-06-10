@@ -42,13 +42,13 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: HelwanU GDSC|2022-10|Online|A Look at Array Languages|
 |:green_heart: code::dive|2022-11|Wroclaw, Poland|:star: [Beautiful Python Refactoring II](https://www.youtube.com/watch?v=nXZQfdxWgh0)|
 |:green_heart: KX Con|2023-05|Montauk, USA|Algorithms in q|
-|:green_heart: YouTube|2023-05|Online|Algorithms in q|
 |:green_heart: LambdaDays|2023-06|Krakow, Poland|Composition Intuition|
 |:green_heart: Italian C++|2023-06|Rome, Italy|New Algorithms in C++23|
 |:green_heart: C++ on Sea|2023-06|Folkestone, UK|New Algorithms in C++23|
 |:green_heart: CppNorth|2023-07|Toronto, Canada|New Algorithms in C++23|
 |:green_heart: iO Engineering Virtual Meetup|2023-07|Online|New Algorithms in C++23|
 |:blue_heart: YouTube|2023-??|Online|Composition Intuition|
+|:green_heart: YouTube|2023-??|Online|Algorithms in q|
 
 ## Lightning Talks
 
