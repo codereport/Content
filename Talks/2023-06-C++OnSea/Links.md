@@ -2,6 +2,7 @@
 
 |        Example         | Language |                                                  GitHub Link                                                  |          Godbolt Link           |
 | :--------------------: | :------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------: |
+| C++23 Ranges Status| C++ | [Link](https://github.com/codereport/ranges-examples/blob/main/cpp23_ranges_status.md) | GCC: https://godbolt.org/z/vsfT6e96b |
 |   Warm Up: Negatives   |   C++    |      [Link](https://github.com/codereport/Content/blob/main/Talks/2023-06-C%2B%2BOnSea/negatives.cpp)       | https://godbolt.org/z/8TEevabqd |
 |     Sushi for Two      |   C++    |           [Link](https://github.com/codereport/top10/blob/main/05_sushi_for_two/sushi_for_two.cpp)            | https://godbolt.org/z/69Kh8baz3 |
 |     Sushi for Two      |  Circle  |        [Link](https://github.com/codereport/top10/blob/main/05_sushi_for_two/sushi_for_two_circle.cpp)        | https://godbolt.org/z/P6PxMnhMz |
