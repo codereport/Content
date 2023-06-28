@@ -1,11 +1,7 @@
 #include <algorithm>
-#include <ranges>
 #include <vector>
 
 #include <fmt/ranges.h>
-
-using namespace std::views;
-using namespace combinators;
 
 // original youtube comment from OMGclueless
 // auto sushi_for_two(std::vector<int> sushi) {
