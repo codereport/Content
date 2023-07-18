@@ -2,6 +2,7 @@
 |    Probelm    | Language |              Link               |
 | :-----------: | :------: | :-----------------------------: |
 | Exact Matches |   C++    | https://godbolt.org/z/dhWdGqhY6 |
+| Sum of Special Squares | All | https://github.com/codereport/LeetCode/tree/master/Problem%20354P1 |
 
 ### Paper Links:
 |     Author     | Date  |                                                                           Link                                                                           |
