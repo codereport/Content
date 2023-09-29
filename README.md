@@ -45,7 +45,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: LambdaDays|2023-06|Krakow, Poland|Composition Intuition|
 |:green_heart: Italian C++|2023-06|Rome, Italy|[New Algorithms in C++23](https://www.youtube.com/watch?v=5FU7Gtkb0IA)|
 |:green_heart: C++ on Sea|2023-06|Folkestone, UK|[New Algorithms in C++23](https://www.youtube.com/watch?v=uYFRnsMD9ks)|
-|:green_heart: CppNorth|2023-07|Toronto, Canada|[Composition Intuition](https://www.youtube.com/watch?v=JELcdZLre3s)|
+|:green_heart: CppNorth|2023-07|Toronto, Canada|:star: [Composition Intuition](https://www.youtube.com/watch?v=JELcdZLre3s)|
 |:green_heart: CppNorth|2023-07|Toronto, Canada|[New Algorithms in C++23](https://www.youtube.com/watch?v=VZPKHqeUQqQ)|
 |:blue_heart: iO Engineering Virtual Meetup|2023-07|Online|[New Algorithms in C++23](https://youtu.be/d5-jboUZ7w8?t=3758)|
 |:blue_heart: Dyalog APL|2023-10|Toronto, Canada|Why Combinators?|
