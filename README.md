@@ -82,8 +82,8 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |cpp.chat|2020-10-08|Episode 75|[I Really Like Sugar](https://cpp.chat/75/)|
 |CppCast|2020-11-19|Episode 274|[Concepts and Algorithm Intuition](https://cppcast.com/concepts-algorithm-intuition/)|
 |CoRecursive|2021-06-02|Episode 60|[From Competitive Programming to APL](https://corecursive.com/065-competitive-coding-with-conor-hoekstra/)|
+|Oxide and Friends|2023-10-16|Episode 93|coming soon|
 |Software Unscripted|2023-??-??|TBD|
-|Lost in Lambduhhs|2023-??-??|TBD|
 
 ## Publications
 
