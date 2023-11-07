@@ -91,6 +91,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:-:|:-:|:-:|:-:|
 |MSc Thesis|2022-05|[A Combinator, N-Dimensional Array Library In Smalltalk](https://github.com/codereport/Content/blob/main/Publications/MSc_Thesis_A_Combinator_NDimenstional_Array_Library_in_Smalltalk.pdf)|[TMU](https://www.torontomu.ca/)|
 |Paper|2022-06|[Combinatory Logic and Combinators in Array Languages](https://github.com/codereport/Content/blob/main/Publications/Combinatory_Logic_and_Combinators_in_Array_Languages.pdf)|[ARRAY 2022](https://pldi22.sigplan.org/home/ARRAY-2022)|
+|Paper|2024-06|Combinators and Train Programming|:four_leaf_clover::four_leaf_clover:|
 
 ## Personal YouTube / Podcasts / Blog
 
