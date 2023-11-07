@@ -68,7 +68,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:green_heart: ACCU |2021-03|Online|:star: [Algorithm Selection](https://www.youtube.com/watch?v=nV4uXgyDCqc)|
 |:blue_heart: YouTube|2022-12|Online|:star: [From C ➡️ C++ ➡️ Rust](https://youtu.be/wGCWlI4A5z4)|
 |:green_heart: LambdaDays |2023-06|Krakow, Poland|:star: [C++ vs Haskell vs BQN](https://www.youtube.com/watch?v=XJ3QWOSZ8Nk)|
-|:green_heart: C++ On Sea|2023-06|Folkstone, UK|C++ vs Haskell vs BQN|
+|:green_heart: C++ On Sea|2023-06|Folkstone, UK|[C++ vs Haskell vs BQN](https://youtu.be/OSlo22JL8h0?si=81-VbBLWXQ7dJe1S&t=3187)|
 
 `* ~ Unofficially`
 
