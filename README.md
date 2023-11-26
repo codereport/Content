@@ -83,7 +83,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |CppCast|2020-11-19|Episode 274|[Concepts and Algorithm Intuition](https://cppcast.com/concepts-algorithm-intuition/)|
 |CoRecursive|2021-06-02|Episode 60|[From Competitive Programming to APL](https://corecursive.com/065-competitive-coding-with-conor-hoekstra/)|
 |Oxide and Friends|2023-10-16|Episode 93|[Settling Beef](https://www.youtube.com/watch?v=jZs3hEBXcSw)|
-|Software Unscripted|2023-??-??|TBD|
+|Software Unscripted|2023-11-26|Episode 77|[How Programming has Changed](https://open.spotify.com/episode/6srG2IXZaUY1dJIHYLr46b)
 
 ## Publications
 
