@@ -102,7 +102,6 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |Blog|[The `code_report` Blog](https://codereport.github.io/)|2020-04-10|
 |Podcast|[ADSP: Algorithms + Data Structures = Programs](https://adspthepodcast.com/)|2020-11-20|
 |Podcast|[ArrayCast](https://www.arraycast.com/)|2021-05-15|
-|Podcast|[The Programming Language Podcast](https://www.buzzsprout.com/1951960)|2022-03-08|
 
 ## Websites
 
