@@ -50,7 +50,6 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: iO Engineering Virtual Meetup|2023-07|Online|[New Algorithms in C++23](https://youtu.be/d5-jboUZ7w8?t=3758)|
 |:blue_heart: Dyalog APL|2023-10|Toronto, Canada|Why Combinators?|
 |:green_heart: APL Implementer's Workshop|2023-10|Indian Lake, USA|Why Combinators?|
-|:green_heart: GTC|2024-04|San Jose, USA|TBA|
 |:green_heart: ??|2024-??|??|Composition Intuition II|
 
 ## Lightning Talks
