@@ -42,7 +42,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: HelwanU GDSC|2022-10|Online|A Look at Array Languages|
 |:green_heart: code::dive|2022-11|Wroclaw, Poland|:star: [Beautiful Python Refactoring II](https://www.youtube.com/watch?v=nXZQfdxWgh0)|
 |:green_heart: KX Con|2023-05|Montauk, USA|[Algorithms in q](https://www.youtube.com/watch?v=7ANmsW7crIQ)|
-|:green_heart: LambdaDays|2023-06|Krakow, Poland|Composition Intuition|
+|:green_heart: LambdaDays|2023-06|Krakow, Poland|[Composition Intuition](https://www.youtube.com/watch?v=Mj8jxYS-hi4)|
 |:green_heart: Italian C++|2023-06|Rome, Italy|[New Algorithms in C++23](https://www.youtube.com/watch?v=5FU7Gtkb0IA)|
 |:green_heart: C++ on Sea|2023-06|Folkestone, UK|[New Algorithms in C++23](https://www.youtube.com/watch?v=uYFRnsMD9ks)|
 |:green_heart: CppNorth|2023-07|Toronto, Canada|:star: [Composition Intuition](https://www.youtube.com/watch?v=JELcdZLre3s)|
