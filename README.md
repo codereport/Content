@@ -30,7 +30,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: ACCU |2021-03|Online|[C++ Concepts - Rust Traits - Haskell Typeclasses](https://www.youtube.com/watch?v=iPVoCTgvi8M)|
 |:blue_heart: Britsh APL |2021-03|Online|Algorithms as a Tool of Thought|
 |:green_heart: APL Seeds |2021-03|Online|:star: [Algorithms as a Tool of Thought](https://youtu.be/GZuZgCDql6g)|
-|:green_heart: GTC|2021-04|Online|:star: [Thrust and the C++ Standard Algorithms](https://gtc21.event.nvidia.com/media/Thrust%20and%20the%20C%2B%2B%20Standard%20Algorithms%20%5BS31532%5D/1_im6dgp9u)|
+|:green_heart: GTC|2021-04|Online|:star: [Thrust and the C++ Standard Algorithms](https://www.youtube.com/watch?v=zlJg9mCNfkQ)|
 |:green_heart: Strange Loop*|2021-10|YouTube|:star: [Functional vs Array Programming](https://www.youtube.com/watch?v=UogkQ67d0nY)|
 |:green_heart: ARRAY|2022-06|San Diego, USA|Combinatory Logic and Combinators in Array Languages|
 |:green_heart: CppNorth|2022-07|Toronto, Canada|[The Twin Algorithms](https://www.youtube.com/watch?v=w37XnvIf6qE)|
