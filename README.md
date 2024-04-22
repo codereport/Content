@@ -51,7 +51,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: Dyalog APL|2023-10|Toronto, Canada|Why Combinators?|
 |:green_heart: Minnowbrook¹|2023-10|Indian Lake, USA|Why Combinators?|
 |:green_heart: NDC Oslo|2024-06|Oslo, Norway|The Power of Function Composition|
-|:green_heart: ARRAY|2024-06|Copenhagen, Denmark|Trains & Chains: Function Composition in Array Languages|
+|:green_heart: ARRAY|2024-06|Copenhagen, Denmark|Trains & Chains|
 |:green_heart: CppNorth|2024-07|Toronto, Canada|Composition Intuition II|
 |:green_heart: Iverson College|2024-08|Cambridge, UK| TBA |
 
