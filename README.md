@@ -51,7 +51,6 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: Dyalog APL|2023-10|Toronto, Canada|Why Combinators?|
 |:green_heart: Minnowbrook¹|2023-10|Indian Lake, USA|Why Combinators?|
 |:green_heart: NDC Oslo|2024-06|Oslo, Norway|The Power of Function Composition|
-|:green_heart: ARRAY|2024-06|Copenhagen, Denmark|Trains & Chains|
 |:green_heart: CppNorth|2024-07|Toronto, Canada|Composition Intuition II|
 |:green_heart: Iverson College|2024-08|Cambridge, UK| TBA |
 
@@ -96,7 +95,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:-:|:-:|:-:|:-:|
 |MSc Thesis|2022-05|[A Combinator, N-Dimensional Array Library In Smalltalk](https://github.com/codereport/Content/blob/main/Publications/MSc_Thesis_A_Combinator_NDimenstional_Array_Library_in_Smalltalk.pdf)|[TMU](https://www.torontomu.ca/)|
 |Paper|2022-06|[Combinatory Logic and Combinators in Array Languages](https://github.com/codereport/Content/blob/main/Publications/Combinatory_Logic_and_Combinators_in_Array_Languages.pdf)|[ARRAY 2022](https://pldi22.sigplan.org/home/ARRAY-2022)|
-|Paper|2024-06|Trains & Chains: Function Composition in Array Languages|[ARRAY 2024](https://pldi24.sigplan.org/home/ARRAY-2024)|
+|Paper|202?-??|Trains & Chains: Function Composition in Array Languages|??|
 
 ## Personal YouTube / Podcasts / Blog
 
