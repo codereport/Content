@@ -16,7 +16,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: Bay Area C++|2019-06|San Fran, USA|Algorithm Intuition|
 |:green_heart:  CppCon|2019-09|Aurora, USA|[Algorithm Intuition](https://youtu.be/pUEnO6SvAMo)|
 |:blue_heart: Bay Area C++|2019-10|Santa Clara, USA|Better Algorithm Intuition|
-|:green_heart: ACCU Belfast|2019-11|Beflast, UK|Better Algorithm Intuition|
+|:green_heart: ACCU Belfast|2019-11|Belfast, UK|Better Algorithm Intuition|
 |:green_heart: Meeting C++|2019-11|Berlin, Germany|:star: [Better Algorithm Intuition](https://youtu.be/TSZzvo4htTQ)|
 |:green_heart: code::dive|2019-11|Wroclaw, Poland|[Better Algorithm Intuition](https://youtu.be/0z-cv3gartw)|
 |:blue_heart: C++TO|2019-12|Toronto, Canada|[Better Algorithm Intuition](https://youtu.be/L0kwN3A-HkM)|
