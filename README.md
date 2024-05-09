@@ -105,6 +105,8 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |Blog|[The `code_report` Blog](https://codereport.github.io/)|2020-04-10|
 |Podcast|[ADSP: Algorithms + Data Structures = Programs](https://adspthepodcast.com/)|2020-11-20|
 |Podcast|[ArrayCast](https://www.arraycast.com/)|2021-05-15|
+|Podcast|[RUN FOR THE FUN OF IT!](https://runforthefunofit.com/)|2023-02-20|
+|Podcast|[Tacit Talk](https://tacittalk.com/)|2024-05-10|
 
 ## Websites
 
@@ -117,6 +119,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |[norawloops.com](https://www.youtube.com/watch?v=NiferfBvN3s)|:heavy_check_mark:|:video_camera:|
 |[adspthepodcast.com](https://adspthepodcast.com/)|:heavy_check_mark:|:microphone:|
 |[runforthefunofit.com](https://runforthefunofit.com/)|:heavy_check_mark:|:microphone:|
+|[tacittalk.com](https://tacittalk.com/)|:heavy_check_mark:|:microphone:|
 
 ||Status||Type|
 |:-:|:-:|:-:|:-:|
