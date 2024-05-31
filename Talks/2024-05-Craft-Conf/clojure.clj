@@ -1,5 +1,4 @@
 ; Solution 1
-
 (defn is-special-array [nums]
   (->> nums
        (partition 2 1)
