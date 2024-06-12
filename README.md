@@ -54,6 +54,8 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: NDC Oslo|2024-06|Oslo, Norway|The Power of Function Composition|
 |:green_heart: CppNorth|2024-07|Toronto, Canada|Composition Intuition II|
 |:green_heart: Iverson College|2024-08|Cambridge, UK| TBA |
+|:green_heart: 🍀 Lambda World|2024-10|Cadiz, Spain| Dreaming in Combinators|
+|:green_heart: 🍀 C++ Under the Sea|2024-10|Breda, Netherlands|Arrays, Fusion and CPU vs GPU|
 
 1 - Also known as: APL Implementer's Workshop
 
