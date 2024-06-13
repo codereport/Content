@@ -50,10 +50,12 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: iO Engineering Virtual Meetup|2023-07|Online|[New Algorithms in C++23](https://youtu.be/d5-jboUZ7w8?t=3758)|
 |:blue_heart: Dyalog APL|2023-10|Toronto, Canada|Why Combinators?|
 |:green_heart: Minnowbrook¹|2023-10|Indian Lake, USA|Why Combinators?|
-|:green_heart: Craft Conf|2024-05|Budapest, Hungary|The Power of Function Composition|
+|:green_heart: Craft Conf|2024-05|Budapest, Hungary|[The Power of Function Composition](https://www.youtube.com/watch?v=umb5vTP_g7c)|
 |:green_heart: NDC Oslo|2024-06|Oslo, Norway|The Power of Function Composition|
 |:green_heart: CppNorth|2024-07|Toronto, Canada|Composition Intuition II|
 |:green_heart: Iverson College|2024-08|Cambridge, UK| TBA |
+|:green_heart: 🍀 Lambda World|2024-10|Cadiz, Spain| Dreaming in Combinators|
+|:green_heart: 🍀 C++ Under the Sea|2024-10|Breda, Netherlands|Arrays, Fusion and CPU vs GPU|
 
 1 - Also known as: APL Implementer's Workshop
 
