@@ -79,6 +79,12 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 
 `* ~ Unofficially`
 
+## Workshops
+
+|Conference/Meetup|Year|Location|Talk|
+|:---------------|:--:|:--:|:--:|
+|:green_heart: Lambda World|2024-10|Cadiz, Spain|Tacit Programming in BQN, Kap and Uiua|
+
 ## Podcast Appearances
 
 |Podcast|Date|Episode #|Title|
