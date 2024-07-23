@@ -1,12 +1,9 @@
 #include <algorithm>
 #include <iostream>
-#include <ranges>
 #include <string_view>
 #include <vector>
 
 using namespace std::string_literals;
-
-namespace rv = std::ranges::views; // std::views
 
 auto sort_string(std::vector<int> nums, std::string_view chars) -> std::string {
   auto pairs = std::vector<std::pair<int, char>>(nums.size());
