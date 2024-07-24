@@ -16,7 +16,7 @@ namespace v3 = ranges;
 auto sort_string(std::span<int> nums, std::string_view chars) -> std::string {
   return rv::zip(nums, chars)                                   //
          | v3::to<std::vector>                                  //
-         | ranges::action::sort                                 //
+         | v3::action::sort                                     //
          | rv::transform([](auto p) { return std::get<1>(p); }) //
          | v3::to<std::string>;
 }
