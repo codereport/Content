@@ -1,4 +1,4 @@
-import Data.List (sortOn)
+import Data.List (sort)
 import Data.Composition (.:)
 
-sortString = map snd .: sortOn fst .: zip
+sortString = map snd .: sort .: zip
