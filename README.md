@@ -47,7 +47,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: C++ on Sea|2023-06|Folkestone, UK|[New Algorithms in C++23](https://www.youtube.com/watch?v=uYFRnsMD9ks)|
 |:green_heart: CppNorth|2023-07|Toronto, Canada|:star: [Composition Intuition](https://www.youtube.com/watch?v=JELcdZLre3s)|
 |:green_heart: CppNorth|2023-07|Toronto, Canada|:star: [New Algorithms in C++23](https://www.youtube.com/watch?v=VZPKHqeUQqQ)|
-|:blue_heart: iO Engineering Virtual Meetup|2023-07|Online|[New Algorithms in C++23](https://youtu.be/d5-jboUZ7w8?t=3758)|
+|:blue_heart: iO EVM*|2023-07|Online|[New Algorithms in C++23](https://youtu.be/d5-jboUZ7w8?t=3758)|
 |:blue_heart: Dyalog APL|2023-10|Toronto, Canada|Why Combinators?|
 |:green_heart: Minnowbrook¹|2023-10|Indian Lake, USA|Why Combinators?|
 |:green_heart: Craft Conf|2024-05|Budapest, Hungary|[The Power of Function Composition](https://www.youtube.com/watch?v=umb5vTP_g7c)|
@@ -58,6 +58,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: C++ Under the Sea|2024-10|Breda, Netherlands|Arrays, Fusion and CPU vs GPU|
 
 1 - Also known as: APL Implementer's Workshop
+* - Engineering Virtual Meetup
 
 ## Lightning Talks
 
