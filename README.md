@@ -57,8 +57,8 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: Lambda World|2024-10|Cadiz, Spain| The Power of Function Composition|
 |:green_heart: C++ Under the Sea|2024-10|Breda, Netherlands|Arrays, Fusion and CPU vs GPU|
 
-1 - Also known as: APL Implementer's Workshop
-* - Engineering Virtual Meetup
+1 - Also known as: APL Implementer's Workshop <br>
+\* - Engineering Virtual Meetup
 
 ## Lightning Talks
 
