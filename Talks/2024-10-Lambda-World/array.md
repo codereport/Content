@@ -1,0 +1,10 @@
+### Array Language Solutions
+
+|  Language  |      Solution      |                                                                                                            Link                                                                                                            |
+| :--------: | :----------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    Kap     |     `∧/2≠/2\|`     |                                                             [Link](https://kapdemo.dhsdevelopments.com/clientweb2/#c=SXNTcGVjaWFsQXJyYXkg4oeQIOKIpy8y4omgLzJ8)                                                             |
+| Dyalog APL |    `∧/2≠/2\|⊢`     |                                                                [Link](https://tryapl.org/?clear&q=(%E2%88%A7%2F2%E2%89%A0%2F2%7C%E2%8A%A2)%204%201%206&run)                                                                |
+|    Uiua    |    `/↧≡/≠◫2◿2`     |                    [Link](https://uiua.org/pad?src=0_11_0-dev_1__SXNTcGVjaWFsQXJyYXkg4oaQIC_ihqfiiaEv4omg4perMuKXvzIKCklzU3BlY2lhbEFycmF5IFsyIDEgNF0gICAjIDEKSXNTcGVjaWFsQXJyYXkgWzQgMyAxIDZdICMgMAo=)                     |
+|    BQN     | `` ∧´·≠´˘2↕2\|⊢ `` | [Link](https://mlochbaum.github.io/BQN/try.html#code=SXNTcGVjaWFsQXJyYXkg4oaQIOKIp8K0wrfiiaDCtMuYMuKGlTJ84oqiCgrigKJTaG93IElzU3BlY2lhbEFycmF5IDLigL8x4oC/NCAgICMgMQogICAgICBJc1NwZWNpYWxBcnJheSA04oC/M+KAvzHigL82ICMgMA==) |
+|     J      |  `[:*./2~:/\2\|[`  |                        [Link](https://jsoftware.github.io/j-playground/bin/html2/#base64=SXNTcGVjaWFsQXJyYXkgPS4gWzoqLi8yfjovXDJ8WwoKSXNTcGVjaWFsQXJyYXkgNCAxIDYKSXNTcGVjaWFsQXJyYXkgNCAzIDEgNgo=)                         |
+|   Jello    | `odd? differ all`  |                                                                                                             -                                                                                                              |
