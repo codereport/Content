@@ -51,10 +51,10 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:blue_heart: Dyalog APL|2023-10|Toronto, Canada|Why Combinators?|
 |:green_heart: Minnowbrook¹|2023-10|Indian Lake, USA|Why Combinators?|
 |:green_heart: Craft Conf|2024-05|Budapest, Hungary|[The Power of Function Composition](https://www.youtube.com/watch?v=umb5vTP_g7c)|
-|:green_heart: NDC Oslo|2024-06|Oslo, Norway|The Power of Function Composition|
+|:green_heart: NDC Oslo|2024-06|Oslo, Norway|[The Power of Function Composition](https://www.youtube.com/watch?v=fuX4bQefvWQ)|
 |:green_heart: CppNorth|2024-07|Toronto, Canada|Composition Intuition II|
-|:green_heart: Lambda World|2024-10|Cadiz, Spain| The Power of Function Composition|
-|:green_heart: C++ Under the Sea|2024-10|Breda, Netherlands|Arrays, Fusion and CPU vs GPU|
+|:green_heart: Lambda World|2024-10|Cadiz, Spain|:star: [The Power of Function Composition](https://www.youtube.com/watch?v=W7fjzdEJnvY)|
+|:green_heart: C++ Under the Sea|2024-10|Breda, Netherlands|Arrays, Fusion and CPUs vs GPUs|
 
 1 - Also known as: APL Implementer's Workshop <br>
 \* - Engineering Virtual Meetup
@@ -75,7 +75,6 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:blue_heart: YouTube|2022-12|Online|:star: [From C ➡️ C++ ➡️ Rust](https://youtu.be/wGCWlI4A5z4)|
 |:green_heart: LambdaDays |2023-06|Krakow, Poland|:star: [C++ vs Haskell vs BQN](https://www.youtube.com/watch?v=XJ3QWOSZ8Nk)|
 |:green_heart: C++ On Sea|2023-06|Folkstone, UK|[C++ vs Haskell vs BQN](https://youtu.be/OSlo22JL8h0?si=81-VbBLWXQ7dJe1S&t=3187)|
-|:green_heart: ? |2024-??|?|Parallel Algorithm Selection|
 
 `* ~ Unofficially`
 
@@ -83,7 +82,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 
 |Conference/Meetup|Year|Location|Talk|
 |:---------------|:--:|:--:|:--:|
-|:green_heart: Lambda World|2024-10|Cadiz, Spain|Tacit Programming in BQN, Kap and Uiua|
+|:green_heart: Lambda World|2024-10|Cadiz, Spain|[Tacit Programming in BQN, Kap and Uiua](https://github.com/codereport/2024-10-Lambda-World-Workshop)|
 
 ## Podcast Appearances
 
