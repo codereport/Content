@@ -52,7 +52,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: Minnowbrook¹|2023-10|Indian Lake, USA|Why Combinators?|
 |:green_heart: Craft Conf|2024-05|Budapest, Hungary|[The Power of Function Composition](https://www.youtube.com/watch?v=umb5vTP_g7c)|
 |:green_heart: NDC Oslo|2024-06|Oslo, Norway|[The Power of Function Composition](https://www.youtube.com/watch?v=fuX4bQefvWQ)|
-|:green_heart: CppNorth|2024-07|Toronto, Canada|Composition Intuition II|
+|:green_heart: CppNorth|2024-07|Toronto, Canada|:star: [Composition Intuition II](https://www.youtube.com/watch?v=Tsa5JK4nnQE)|
 |:green_heart: Lambda World|2024-10|Cadiz, Spain|:star: [The Power of Function Composition](https://www.youtube.com/watch?v=W7fjzdEJnvY)|
 |:green_heart: C++ Under the Sea|2024-10|Breda, Netherlands|Arrays, Fusion and CPUs vs GPUs|
 
