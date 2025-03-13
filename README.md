@@ -55,6 +55,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: CppNorth|2024-07|Toronto, Canada|:star: [Composition Intuition II](https://www.youtube.com/watch?v=Tsa5JK4nnQE)|
 |:green_heart: Lambda World|2024-10|Cadiz, Spain|:star: [The Power of Function Composition](https://www.youtube.com/watch?v=W7fjzdEJnvY)|
 |:green_heart: C++ Under the Sea|2024-10|Breda, Netherlands|Arrays, Fusion and CPUs vs GPUs|
+|:green_heart: YOW!|2025-12|Australia|Enter the Matrix|
 
 1 - Also known as: APL Implementer's Workshop <br>
 \* - Engineering Virtual Meetup
