@@ -123,7 +123,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |:-:|:-:|:-:|
 |[combinatorylogic.com](https://combinatorylogic.com/)|:construction:|:information_source:|
 |[plrank.com](https://plrank.com)|:heavy_check_mark:|:information_source:|
-|hoogletranslate.com|:no_entry:|:information_source:|
+|[hoogletranslate.com](https://hoogletranslate.com/)|:heavy_check_mark:|:information_source:|
 |[thatsarotate.com](https://www.youtube.com/watch?v=NiferfBvN3s&t=1398s)|:heavy_check_mark:|:video_camera:|
 |[norawloops.com](https://www.youtube.com/watch?v=NiferfBvN3s)|:heavy_check_mark:|:video_camera:|
 |[adspthepodcast.com](https://adspthepodcast.com/)|:heavy_check_mark:|:microphone:|
