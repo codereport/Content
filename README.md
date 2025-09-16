@@ -122,19 +122,19 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 
 ## Websites
 
-|Website|Status|Type|
-|:-:|:-:|:-:|
-|[combinatorylogic.com](https://combinatorylogic.com/)|:construction:|:information_source:|
-|[plrank.com](https://plrank.com)|:heavy_check_mark:|:information_source:|
-|[hoogletranslate.com](https://hoogletranslate.com/)|:heavy_check_mark:|:information_source:|
-|[thatsarotate.com](https://www.youtube.com/watch?v=NiferfBvN3s&t=1398s)|:heavy_check_mark:|:video_camera:|
-|[norawloops.com](https://www.youtube.com/watch?v=NiferfBvN3s)|:heavy_check_mark:|:video_camera:|
-|[adspthepodcast.com](https://adspthepodcast.com/)|:heavy_check_mark:|:microphone:|
-|[runforthefunofit.com](https://runforthefunofit.com/)|:heavy_check_mark:|:microphone:|
-|[tacittalk.com](https://tacittalk.com/)|:heavy_check_mark:|:microphone:|
+|Website|Type|
+|:-:|:-:|
+|[combinatorylogic.com](https://combinatorylogic.com/)|:information_source:|
+|[plrank.com](https://plrank.com)|:information_source:|
+|[hoogletranslate.com](https://hoogletranslate.com/)|:information_source:|
+|[thatsarotate.com](https://www.youtube.com/watch?v=NiferfBvN3s&t=1398s)|:video_camera:|
+|[norawloops.com](https://www.youtube.com/watch?v=NiferfBvN3s)|:video_camera:|
+|[adspthepodcast.com](https://adspthepodcast.com/)|:microphone:|
+|[runforthefunofit.com](https://runforthefunofit.com/)|:microphone:|
+|[tacittalk.com](https://tacittalk.com/)|:microphone:|
 
-||Status||Type|
-|:-:|:-:|:-:|:-:|
-|:heavy_check_mark:| Up and running|:information_source: |Resource|
-|:construction:| Under Construction|:microphone:| Podcast|
-| :no_entry:| TODO|:video_camera:| YouTube Time Stamp|
+||Type|
+|:-:|:-:|
+|:information_source: |Resource|
+|:microphone:| Podcast|
+|:video_camera:| YouTube Time Stamp|
