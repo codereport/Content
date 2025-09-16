@@ -56,7 +56,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 |:green_heart: Lambda World|2024-10|Cadiz, Spain|:star: [The Power of Function Composition](https://www.youtube.com/watch?v=W7fjzdEJnvY)|
 |:green_heart: C++ Under the Sea|2024-10|Breda, Netherlands|[Arrays, Fusion and CPUs vs GPUs](https://www.youtube.com/watch?v=q5FmkSEDA2M)|
 |:blue_heart: Roku Symposium|2025-09|Aarhus, Denmark|Postmodern C++ for GPUs|
-|:blue_heart: Copenhagen C++ Meetup|2025-09|Copenhagen, Denmark|Postmodern C++ for GPUs|
+|:blue_heart: Copenhagen C++|2025-09|Copenhagen, Denmark|Postmodern C++ for GPUs|
 |:green_heart: C++ Under the Sea|2025-10|Breda, Netherlands|Functional GPU Programming|
 |:green_heart: YOW!|2025-12|Australia|Enter the Matrix|
 
