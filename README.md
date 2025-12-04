@@ -117,7 +117,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvfXxpn
 |Blog|[The `code_report` Blog](https://codereport.github.io/)|2020-04-10|
 |Podcast|[ADSP: Algorithms + Data Structures = Programs](https://adspthepodcast.com/)|2020-11-20|
 |Podcast|[ArrayCast](https://www.arraycast.com/)|2021-05-15|
-|Podcast|[RUN FOR THE FUN OF IT!](https://runforthefunofit.com/)|2023-02-20|
+|Podcast|[The R4 Podcast](https://runforthefunofit.com/)|2023-02-20|
 |Podcast|[Tacit Talk](https://tacittalk.com/)|2024-05-10|
 
 ## Websites
