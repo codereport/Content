@@ -3,12 +3,20 @@
 Script to analyze talk statistics from README.md
 Counts total talks and talks with recordings from the Conference Talks table.
 Also tracks countries visited by year.
+Generates an HTML page with the statistics.
 """
 
 import re
 import sys
+import webbrowser
+import tempfile
 from pathlib import Path
 from collections import defaultdict
+
+# Talk location types
+LOCATION_COUNTRY = "country"
+LOCATION_ONLINE = "online"
+LOCATION_YOUTUBE = "youtube"
 
 # Map country names to ISO 3166-1 alpha-2 codes for flag emojis
 COUNTRY_TO_ISO = {
@@ -46,6 +54,18 @@ def extract_country(location):
         return location.split(",")[-1].strip()
     # Otherwise the whole string is likely the country
     return location.strip()
+
+
+def get_location_type(location):
+    """Determine the type of location: country, online (Zoom), or youtube."""
+    if not location:
+        return LOCATION_ONLINE
+    loc_lower = location.strip().lower()
+    if loc_lower == "youtube":
+        return LOCATION_YOUTUBE
+    if loc_lower == "online":
+        return LOCATION_ONLINE
+    return LOCATION_COUNTRY
 
 
 def parse_conference_talks_table(readme_content):
@@ -132,8 +152,8 @@ def parse_conference_talks_table(readme_content):
             countries_by_year[year].add(country)
 
         # Track each talk for the talks-by-year display
-        is_online = location_col.lower() in ("online", "youtube")
-        talks_by_year[year].append((month, country if not is_online else None))
+        location_type = get_location_type(location_col)
+        talks_by_year[year].append((month, location_type, country))
 
         # Check if it's a conference or meetup
         is_conference = ":green_heart:" in conference_meetup
@@ -177,20 +197,294 @@ def format_flags_only(countries):
 
 
 def format_talks_as_emojis(talks):
-    """Format a list of (month, country) talks as emojis in chronological order.
+    """Format a list of (month, location_type, country) talks as emojis in chronological order.
 
     Uses flag emoji for in-person talks and 📺 for online/YouTube talks.
     """
     # Sort by month to ensure chronological order
     sorted_talks = sorted(talks, key=lambda x: x[0])
     emojis = []
-    for _, country in sorted_talks:
-        if country is None:
+    for _, location_type, country in sorted_talks:
+        if location_type != LOCATION_COUNTRY:
             emojis.append("📺")
         else:
             flag = country_to_flag(country)
             emojis.append(flag if flag else "❓")
     return " ".join(emojis)
+
+
+def format_talks_as_html(talks):
+    """Format a list of (month, location_type, country) talks as HTML with logos/flags."""
+    # Sort by month to ensure chronological order
+    sorted_talks = sorted(talks, key=lambda x: x[0])
+    html_parts = []
+    for _, location_type, country in sorted_talks:
+        if location_type == LOCATION_YOUTUBE:
+            html_parts.append(
+                '<img src="https://www.youtube.com/favicon.ico" alt="YouTube" '
+                'class="icon" title="YouTube">'
+            )
+        elif location_type == LOCATION_ONLINE:
+            html_parts.append(
+                '<img src="https://st1.zoom.us/zoom.ico" alt="Zoom" '
+                'class="icon" title="Online (Zoom)">'
+            )
+        else:
+            flag = country_to_flag(country)
+            html_parts.append(
+                f'<span class="flag" title="{country}">{flag if flag else "❓"}</span>'
+            )
+    return "".join(html_parts)
+
+
+def generate_html(stats):
+    """Generate an HTML page with the statistics."""
+    (
+        total_talks,
+        talks_with_recordings,
+        conference_talks,
+        meetup_talks,
+        conferences_with_recordings,
+        meetups_with_recordings,
+        countries_by_year,
+        talks_by_year,
+    ) = stats
+
+    all_countries = set()
+    for countries in countries_by_year.values():
+        all_countries.update(countries)
+
+    # Build countries by year HTML
+    countries_by_year_html = ""
+    for year in sorted(countries_by_year.keys()):
+        countries = countries_by_year[year]
+        flags = "".join(
+            f'<span class="flag" title="{c}">{country_to_flag(c)}</span>'
+            for c in sorted(countries)
+        )
+        countries_by_year_html += f'<div class="year-row"><span class="year">{year}</span> <span class="count">({len(countries):2d})</span> <span class="flags">{flags}</span></div>\n'
+
+    # Build talks by year HTML
+    talks_by_year_html = ""
+    for year in sorted(talks_by_year.keys()):
+        talks = talks_by_year[year]
+        talks_html = format_talks_as_html(talks)
+        talks_by_year_html += f'<div class="year-row"><span class="year">{year}</span> <span class="count">({len(talks):2d})</span> <span class="flags">{talks_html}</span></div>\n'
+
+    # All countries as flags only
+    all_countries_html = " ".join(
+        f'<span class="flag" title="{c}">{country_to_flag(c)}</span>'
+        for c in sorted(all_countries)
+    )
+
+    meetup_percentage = (
+        f"{meetups_with_recordings/meetup_talks*100:.1f}%"
+        if meetup_talks > 0
+        else "N/A"
+    )
+
+    html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Talks Statistics</title>
+    <style>
+        * {{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }}
+        
+        body {{
+            font-family: 'SF Mono', 'Fira Code', 'Consolas', 'Monaco', monospace;
+            background: #0d0d0d;
+            min-height: 100vh;
+            color: #c0c0c0;
+            padding: 3rem 4.5rem;
+            font-size: 1.5rem;
+        }}
+        
+        .container {{
+            max-width: 1200px;
+            margin: 0 auto;
+        }}
+        
+        h1 {{
+            font-size: 2.1rem;
+            font-weight: normal;
+            margin-bottom: 3rem;
+            color: #808080;
+        }}
+        
+        .row {{
+            display: flex;
+            gap: 6rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }}
+        
+        .section {{
+            margin-bottom: 2.25rem;
+        }}
+        
+        .section-inline {{
+            display: flex;
+            align-items: baseline;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }}
+        
+        h2 {{
+            font-size: 1.5rem;
+            font-weight: normal;
+            color: #5a5a5a;
+            margin-bottom: 1.125rem;
+        }}
+        
+        h2::before {{
+            content: "# ";
+            color: #3a3a3a;
+        }}
+        
+        .stats {{
+            display: flex;
+            gap: 3rem;
+            flex-wrap: wrap;
+        }}
+        
+        .stat {{
+            display: flex;
+            gap: 0.75rem;
+        }}
+        
+        .stat-label {{
+            color: #5a5a5a;
+        }}
+        
+        .stat-label::after {{
+            content: ":";
+        }}
+        
+        .stat-value {{
+            color: #4ec9b0;
+        }}
+        
+        .year-row {{
+            display: flex;
+            align-items: center;
+            gap: 1.125rem;
+            margin-bottom: 0.75rem;
+        }}
+        
+        .year {{
+            color: #569cd6;
+            min-width: 75px;
+        }}
+        
+        .count {{
+            color: #5a5a5a;
+            min-width: 53px;
+        }}
+        
+        .flags {{
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            align-items: center;
+        }}
+        
+        .flag {{
+            font-size: 1.875rem;
+            cursor: default;
+        }}
+        
+        .icon {{
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+        }}
+        
+        .countries-list {{
+            line-height: 2.5;
+            color: #c0c0c0;
+        }}
+        
+        .legend {{
+            display: flex;
+            gap: 3rem;
+            margin-top: 1.5rem;
+            color: #5a5a5a;
+            font-size: 1.275rem;
+        }}
+        
+        .legend-item {{
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }}
+
+        .divider {{
+            border: none;
+            border-top: 1px solid #2a2a2a;
+            margin: 2.25rem 0;
+        }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Conference Talks Statistics</h1>
+        
+        <div class="section">
+            <h2>overall</h2>
+            <div class="stats">
+                <div class="stat"><span class="stat-label">total</span> <span class="stat-value">{total_talks}</span></div>
+                <div class="stat"><span class="stat-label">recorded</span> <span class="stat-value">{talks_with_recordings}</span></div>
+                <div class="stat"><span class="stat-label">unrecorded</span> <span class="stat-value">{total_talks - talks_with_recordings}</span></div>
+                <div class="stat"><span class="stat-label">recording %</span> <span class="stat-value">{talks_with_recordings/total_talks*100:.1f}%</span></div>
+            </div>
+            <div class="stats" style="margin-top: 0.75rem;">
+                <div class="stat"><span class="stat-label">conferences</span> <span class="stat-value">{conference_talks}</span> <span class="stat-label" style="margin-left: 0.75rem">recorded</span> <span class="stat-value">{conferences_with_recordings} ({conferences_with_recordings/conference_talks*100:.0f}%)</span></div>
+                <div class="stat"><span class="stat-label">meetups</span> <span class="stat-value">{meetup_talks}</span> <span class="stat-label" style="margin-left: 0.75rem">recorded</span> <span class="stat-value">{meetups_with_recordings} ({meetup_percentage})</span></div>
+            </div>
+        </div>
+        
+        <hr class="divider">
+        
+        <div class="section">
+            <h2>all countries ({len(all_countries)})</h2>
+            <div class="countries-list">{all_countries_html}</div>
+        </div>
+        
+        <hr class="divider">
+        
+        <div class="row">
+            <div class="section">
+                <h2>countries by year</h2>
+                {countries_by_year_html}
+            </div>
+            
+            <div class="section" style="flex: 1;">
+                <h2>talks by year</h2>
+                {talks_by_year_html}
+                <div class="legend">
+                    <div class="legend-item">
+                        <img src="https://www.youtube.com/favicon.ico" alt="YouTube" class="icon"> youtube
+                    </div>
+                    <div class="legend-item">
+                        <img src="https://st1.zoom.us/zoom.ico" alt="Zoom" class="icon"> online
+                    </div>
+                    <div class="legend-item">
+                        <span class="flag">🇺🇸</span> in-person
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+"""
+    return html
 
 
 def main():
@@ -205,6 +499,7 @@ def main():
         with open(readme_path, "r", encoding="utf-8") as f:
             content = f.read()
 
+        stats = parse_conference_talks_table(content)
         (
             total_talks,
             talks_with_recordings,
@@ -214,53 +509,27 @@ def main():
             meetups_with_recordings,
             countries_by_year,
             talks_by_year,
-        ) = parse_conference_talks_table(content)
+        ) = stats
 
+        # Print summary to console
         print("=== Conference Talks Statistics ===")
         print(f"Total talks: {total_talks}")
         print(f"Talks with recordings: {talks_with_recordings}")
-        print(f"Talks without recordings: {total_talks - talks_with_recordings}")
         print(f"Recording percentage: {talks_with_recordings/total_talks*100:.1f}%")
         print()
 
-        print("=== Breakdown by Type ===")
-        print(f"Conference talks: {conference_talks}")
-        print(f"Conference talks with recordings: {conferences_with_recordings}")
-        print(
-            f"Conference recording percentage: {conferences_with_recordings/conference_talks*100:.1f}%"
-        )
-        print()
+        # Generate and open HTML page
+        html_content = generate_html(stats)
 
-        print(f"Meetup talks: {meetup_talks}")
-        print(f"Meetup talks with recordings: {meetups_with_recordings}")
-        if meetup_talks > 0:
-            print(
-                f"Meetup recording percentage: {meetups_with_recordings/meetup_talks*100:.1f}%"
-            )
-        else:
-            print("Meetup recording percentage: N/A")
-        print()
+        # Write to a temporary HTML file
+        with tempfile.NamedTemporaryFile(
+            mode="w", suffix=".html", delete=False, encoding="utf-8"
+        ) as f:
+            f.write(html_content)
+            html_path = f.name
 
-        # Country statistics
-        all_countries = set()
-        for countries in countries_by_year.values():
-            all_countries.update(countries)
-
-        print("=== Countries Visited ===")
-        print(f"Total countries: {len(all_countries)}")
-        print(f"Countries: {format_countries_with_flags(all_countries)}")
-        print()
-
-        print("=== Countries by Year ===")
-        for year in sorted(countries_by_year.keys()):
-            countries = countries_by_year[year]
-            print(f"{year}: ({len(countries)}) {format_flags_only(countries)}")
-        print()
-
-        print("=== Talks by Year ===")
-        for year in sorted(talks_by_year.keys()):
-            talks = talks_by_year[year]
-            print(f"{year}: ({len(talks)}) {format_talks_as_emojis(talks)}")
+        print(f"Opening statistics page: {html_path}")
+        webbrowser.open(f"file://{html_path}")
 
     except Exception as e:
         print(f"Error: {e}")
