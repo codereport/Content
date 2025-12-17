@@ -56,14 +56,15 @@ def extract_country(location):
     return location.strip()
 
 
-def get_location_type(location):
+def get_location_type(location, conference_name=""):
     """Determine the type of location: country, online (Zoom), or youtube."""
-    if not location:
-        return LOCATION_ONLINE
-    loc_lower = location.strip().lower()
-    if loc_lower == "youtube":
+    loc_lower = location.strip().lower() if location else ""
+    conf_lower = conference_name.lower() if conference_name else ""
+
+    # YouTube if location or conference name contains "youtube"
+    if "youtube" in loc_lower or "youtube" in conf_lower:
         return LOCATION_YOUTUBE
-    if loc_lower == "online":
+    if not location or loc_lower == "online":
         return LOCATION_ONLINE
     return LOCATION_COUNTRY
 
@@ -152,7 +153,7 @@ def parse_conference_talks_table(readme_content):
             countries_by_year[year].add(country)
 
         # Track each talk for the talks-by-year display
-        location_type = get_location_type(location_col)
+        location_type = get_location_type(location_col, conference_meetup)
         talks_by_year[year].append((month, location_type, country))
 
         # Check if it's a conference or meetup
@@ -467,17 +468,6 @@ def generate_html(stats):
             <div class="section" style="flex: 1;">
                 <h2>talks by year</h2>
                 {talks_by_year_html}
-                <div class="legend">
-                    <div class="legend-item">
-                        <img src="https://www.youtube.com/favicon.ico" alt="YouTube" class="icon"> youtube
-                    </div>
-                    <div class="legend-item">
-                        <img src="https://st1.zoom.us/zoom.ico" alt="Zoom" class="icon"> online
-                    </div>
-                    <div class="legend-item">
-                        <span class="flag">🇺🇸</span> in-person
-                    </div>
-                </div>
             </div>
         </div>
     </div>
