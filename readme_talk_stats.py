@@ -263,14 +263,14 @@ def generate_html(stats):
             f'<span class="flag" title="{c}">{country_to_flag(c)}</span>'
             for c in sorted(countries)
         )
-        countries_by_year_html += f'<div class="year-row"><span class="year">{year}</span> <span class="count">({len(countries):2d})</span> <span class="flags">{flags}</span></div>\n'
+        countries_by_year_html += f'<div class="year-row"><span class="year">{year}</span> <span class="count">({len(countries)})</span> <span class="flags">{flags}</span></div>\n'
 
     # Build talks by year HTML
     talks_by_year_html = ""
     for year in sorted(talks_by_year.keys()):
         talks = talks_by_year[year]
         talks_html = format_talks_as_html(talks)
-        talks_by_year_html += f'<div class="year-row"><span class="year">{year}</span> <span class="count">({len(talks):2d})</span> <span class="flags">{talks_html}</span></div>\n'
+        talks_by_year_html += f'<div class="year-row"><span class="year">{year}</span> <span class="count">({len(talks)})</span> <span class="flags">{talks_html}</span></div>\n'
 
     # All countries as flags only
     all_countries_html = " ".join(
