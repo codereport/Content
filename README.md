@@ -34,7 +34,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 | 💚 APL Seeds         | 2021-03 |     Online     |                 ⭐ [Algorithms as a Tool of Thought](https://youtu.be/GZuZgCDql6g)                 |
 | 💚 GTC               | 2021-04 |     Online     |      ⭐ [Thrust and the C++ Standard Algorithms](https://www.youtube.com/watch?v=zlJg9mCNfkQ)      |
 | 💚 Strange Loop*     | 2021-10 |    YouTube     |         ⭐ [Functional vs Array Programming](https://www.youtube.com/watch?v=UogkQ67d0nY)          |
-| 💚 ARRAY             | 2022-06 |  San Diego, 🇺🇸  |                       Combinatory Logic and Combinators in Array Languages                        |
+| 💚 ARRAY             | 2022-06 |  San Diego, 🇺🇸  |                     Combinatory Logic and Combinators <br> in Array Languages                     |
 | 💚 CppNorth          | 2022-07 |   Toronto, 🇨🇦   |                [The Twin Algorithms](https://www.youtube.com/watch?v=w37XnvIf6qE)                 |
 | 💚 YouTube           | 2022-07 |     Online     |               ⭐ [The Twin Algorithms](https://www.youtube.com/watch?v=NiferfBvN3s)                |
 | 💙 Dyalog APL        | 2022-09 |   Toronto, 🇨🇦   |                                     A Look at Array Languages                                     |
