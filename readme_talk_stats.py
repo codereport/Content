@@ -18,26 +18,57 @@ LOCATION_COUNTRY = "country"
 LOCATION_ONLINE = "online"
 LOCATION_YOUTUBE = "youtube"
 
-# Map country names to ISO 3166-1 alpha-2 codes for flag emojis
-COUNTRY_TO_ISO = {
-    "USA": "US",
-    "UK": "GB",
-    "Germany": "DE",
-    "Poland": "PL",
-    "Canada": "CA",
-    "Hungary": "HU",
-    "Norway": "NO",
-    "Spain": "ES",
-    "Netherlands": "NL",
-    "Denmark": "DK",
-    "Australia": "AU",
-    "Italy": "IT",
+# Map ISO codes to country names (for display)
+ISO_TO_COUNTRY = {
+    "US": "USA",
+    "GB": "UK",
+    "DE": "Germany",
+    "PL": "Poland",
+    "CA": "Canada",
+    "HU": "Hungary",
+    "NO": "Norway",
+    "ES": "Spain",
+    "NL": "Netherlands",
+    "DK": "Denmark",
+    "AU": "Australia",
+    "IT": "Italy",
 }
+
+# Map country names to ISO codes (legacy support)
+COUNTRY_TO_ISO = {v: k for k, v in ISO_TO_COUNTRY.items()}
+
+
+def flag_to_iso(flag):
+    """Convert a flag emoji to its ISO code."""
+    if len(flag) != 2:
+        return None
+    try:
+        # Regional indicator symbols start at 0x1F1E6 for 'A'
+        first = ord(flag[0]) - 0x1F1E6
+        second = ord(flag[1]) - 0x1F1E6
+        if 0 <= first <= 25 and 0 <= second <= 25:
+            return chr(ord("A") + first) + chr(ord("A") + second)
+    except (TypeError, ValueError):
+        pass
+    return None
+
+
+def flag_to_country(flag):
+    """Convert a flag emoji to country name."""
+    iso = flag_to_iso(flag)
+    return ISO_TO_COUNTRY.get(iso, iso) if iso else None
 
 
 def country_to_flag(country):
-    """Convert a country name to its flag emoji."""
+    """Convert a country name or ISO code to its flag emoji."""
+    # If it's already a flag emoji, return it
+    if country and len(country) == 2 and ord(country[0]) >= 0x1F1E6:
+        return country
+    # Try as country name first
     iso_code = COUNTRY_TO_ISO.get(country, "")
+    # If not found, try as ISO code directly
+    if not iso_code and country and len(country) == 2:
+        iso_code = country.upper()
     if not iso_code:
         return ""
     # Convert ISO code to regional indicator symbols (flag emoji)
@@ -45,15 +76,30 @@ def country_to_flag(country):
 
 
 def extract_country(location):
-    """Extract country from location string like 'Santa Clara, USA' or 'Australia'."""
+    """Extract country from location string like 'Santa Clara, 🇺🇸' or '🇦🇺'."""
     if not location or location.lower() in ("online", "youtube"):
         return None
 
+    location = location.strip()
+
     # If there's a comma, take the part after the last comma
     if "," in location:
-        return location.split(",")[-1].strip()
-    # Otherwise the whole string is likely the country
-    return location.strip()
+        country_part = location.split(",")[-1].strip()
+    else:
+        country_part = location
+
+    # Check if it's a flag emoji (2 regional indicator symbols)
+    if len(country_part) >= 2:
+        # Try to parse as flag emoji
+        potential_flag = country_part[:2]
+        if ord(potential_flag[0]) >= 0x1F1E6:
+            return potential_flag
+
+    # Legacy: check if it's a country name
+    if country_part in COUNTRY_TO_ISO:
+        return country_to_flag(country_part)
+
+    return None
 
 
 def get_location_type(location, conference_name=""):
@@ -86,9 +132,15 @@ def parse_conference_talks_table(readme_content):
 
     for i, line in enumerate(lines):
         if "## Conference Talks" in line:
-            # Look for the table header
+            # Look for the table header (flexible matching)
             for j in range(i, min(i + 10, len(lines))):
-                if "|Conference/Meetup|Year|Location|Talk|" in lines[j]:
+                # Check if line contains the key column headers
+                line_lower = lines[j].lower().replace(" ", "")
+                if (
+                    "conference/meetup" in line_lower
+                    and "year" in line_lower
+                    and "location" in line_lower
+                ):
                     table_start = j + 2  # Skip header and separator
                     break
             break
@@ -188,38 +240,41 @@ def parse_conference_talks_table(readme_content):
 
 
 def format_countries_with_flags(countries):
-    """Format a set of countries with their flag emojis and names."""
-    return ", ".join(f"{country_to_flag(c)} {c}" for c in sorted(countries))
+    """Format a set of countries (as emoji flags) with their names."""
+    result = []
+    for flag in sorted(countries):
+        name = flag_to_country(flag) or flag
+        result.append(f"{flag} {name}")
+    return ", ".join(result)
 
 
 def format_flags_only(countries):
     """Format a set of countries as emoji flags only (no names)."""
-    return " ".join(country_to_flag(c) for c in sorted(countries))
+    return " ".join(sorted(countries))
 
 
 def format_talks_as_emojis(talks):
-    """Format a list of (month, location_type, country) talks as emojis in chronological order.
+    """Format a list of (month, location_type, country_flag) talks as emojis in chronological order.
 
     Uses flag emoji for in-person talks and 📺 for online/YouTube talks.
     """
     # Sort by month to ensure chronological order
     sorted_talks = sorted(talks, key=lambda x: x[0])
     emojis = []
-    for _, location_type, country in sorted_talks:
+    for _, location_type, country_flag in sorted_talks:
         if location_type != LOCATION_COUNTRY:
             emojis.append("📺")
         else:
-            flag = country_to_flag(country)
-            emojis.append(flag if flag else "❓")
+            emojis.append(country_flag if country_flag else "❓")
     return " ".join(emojis)
 
 
 def format_talks_as_html(talks):
-    """Format a list of (month, location_type, country) talks as HTML with logos/flags."""
+    """Format a list of (month, location_type, country_flag) talks as HTML with logos/flags."""
     # Sort by month to ensure chronological order
     sorted_talks = sorted(talks, key=lambda x: x[0])
     html_parts = []
-    for _, location_type, country in sorted_talks:
+    for _, location_type, country_flag in sorted_talks:
         if location_type == LOCATION_YOUTUBE:
             html_parts.append(
                 '<img src="https://www.youtube.com/favicon.ico" alt="YouTube" '
@@ -231,9 +286,9 @@ def format_talks_as_html(talks):
                 'class="icon" title="Online (Zoom)">'
             )
         else:
-            flag = country_to_flag(country)
+            country_name = flag_to_country(country_flag) or country_flag
             html_parts.append(
-                f'<span class="flag" title="{country}">{flag if flag else "❓"}</span>'
+                f'<span class="flag" title="{country_name}">{country_flag if country_flag else "❓"}</span>'
             )
     return "".join(html_parts)
 
@@ -258,12 +313,12 @@ def generate_html(stats):
     # Build countries by year HTML
     countries_by_year_html = ""
     for year in sorted(countries_by_year.keys()):
-        countries = countries_by_year[year]
+        country_flags = countries_by_year[year]
         flags = "".join(
-            f'<span class="flag" title="{c}">{country_to_flag(c)}</span>'
-            for c in sorted(countries)
+            f'<span class="flag" title="{flag_to_country(f) or f}">{f}</span>'
+            for f in sorted(country_flags)
         )
-        countries_by_year_html += f'<div class="year-row"><span class="year">{year}</span> <span class="count">({len(countries)})</span> <span class="flags">{flags}</span></div>\n'
+        countries_by_year_html += f'<div class="year-row"><span class="year">{year}</span> <span class="count">({len(country_flags)})</span> <span class="flags">{flags}</span></div>\n'
 
     # Build talks by year HTML
     talks_by_year_html = ""
@@ -274,8 +329,8 @@ def generate_html(stats):
 
     # All countries as flags only
     all_countries_html = " ".join(
-        f'<span class="flag" title="{c}">{country_to_flag(c)}</span>'
-        for c in sorted(all_countries)
+        f'<span class="flag" title="{flag_to_country(f) or f}">{f}</span>'
+        for f in sorted(all_countries)
     )
 
     meetup_percentage = (
