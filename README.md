@@ -63,7 +63,8 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 | 💚 YOW! Melbourne    | 2025-12 |       🇦🇺        |                                         Enter the Matrix                                          |
 | 💚 YOW! Brisbane     | 2025-12 |       🇦🇺        |                                         Enter the Matrix                                          |
 | 💚 YOW! Sydney       | 2025-12 |       🇦🇺        |                                         Enter the Matrix                                          |
-| 💚 NDC Toronto | 2026-05 | Toronto, 🇨🇦 | Algorithms & Combinators | 
+| 💙 C++ Africa | 2026-04 | Online | Functional GPU Programming | 
+| 💚 NDC Toronto | 2026-05 | Toronto, 🇨🇦 | Algorithms & Combinators |
 
 1 - Also known as: APL Implementer's Workshop <br>
 \* - Engineering Virtual Meetup
