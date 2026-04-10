@@ -23,7 +23,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 | 💚 code::dive        | 2019-11 |   Wroclaw, 🇵🇱   |                    [Better Algorithm Intuition](https://youtu.be/0z-cv3gartw)                     |
 | 💙 C++TO             | 2019-12 |   Toronto, 🇨🇦   |                    [Better Algorithm Intuition](https://youtu.be/L0kwN3A-HkM)                     |
 | 💚 PyCon             | 2020-04 |     Online     |                  ⭐ [Beautiful Python Refactoring](https://youtu.be/W-lZttZhsUY)                   |
-| 💙 MUC++             | 2020-06 |     Online     |                  [My Least Favorite Anti-Pattern](https://youtu.be/VV9vwFsaQ6U)                   |
+| 💙 MUC++             | 2020-06 |     Online     |                  [My Least Favorite Anti-Pattern](https://youtu.be/VV9vwFsaQ6U)  https://www.youtube.com/watch?v=OJ6keePxWPg                 |
 | 💚 Italian C++       | 2020-06 |     Online     |           [My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=CjHgL5EQdcY)           |
 | 💚 CppCon            | 2020-09 |     Online     |        ⭐ [Structure and Interpretation of Computer Programs](https://youtu.be/7oV7hiAsVTI)        |
 | 💙 C++TO             | 2020-11 |     Online     |                         C++ Concepts - Rust Traits - Haskell Typeclasses                          |
@@ -61,7 +61,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 | 💙 Copenhagen C++    | 2025-09 | Copenhagen, 🇩🇰  |                                      Postmodern C++ for GPUs                                      |
 | 💚 C++ Under the Sea | 2025-10 |    Breda, 🇳🇱    |                                    Functional GPU Programming                                     |
 | 💚 YOW! Melbourne    | 2025-12 |       🇦🇺        |                                         Enter the Matrix                                          |
-| 💚 YOW! Brisbane     | 2025-12 |       🇦🇺        |                                         Enter the Matrix                                          |
+| 💚 YOW! Brisbane     | 2025-12 |       🇦🇺        |          [Enter the Matrix](https://www.youtube.com/watch?v=OJ6keePxWPg)                          |
 | 💚 YOW! Sydney       | 2025-12 |       🇦🇺        |                                         Enter the Matrix                                          |
 | 💙 C++ Africa | 2026-04 | Online | Functional GPU Programming | 
 | 💙 C++ Toronto | 2026-04 | Toronto, 🇨🇦 | Functional GPU Programming | 
