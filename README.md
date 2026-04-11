@@ -25,7 +25,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 | 💚 PyCon             | 2020-04 |     Online     |                  ⭐ [Beautiful Python Refactoring](https://youtu.be/W-lZttZhsUY)                   |
 | 💙 MUC++             | 2020-06 |     Online     |                  [My Least Favorite Anti-Pattern](https://youtu.be/VV9vwFsaQ6U)                   |
 | 💚 Italian C++       | 2020-06 |     Online     |           [My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=CjHgL5EQdcY)           |
-| 💚 CppCon            | 2020-09 |     Online     |        ⭐ [Structure and Interpretation of Computer Programs](https://youtu.be/7oV7hiAsVTI)        |
+| 💚 CppCon            | 2020-09 |     Online     |                              ⭐ [SICP](https://youtu.be/7oV7hiAsVTI)                               |
 | 💙 C++TO             | 2020-11 |     Online     |                         C++ Concepts - Rust Traits - Haskell Typeclasses                          |
 | 💚 Meeting C++       | 2020-11 |     Online     | ⭐ [C++ Concepts - Rust Traits - Haskell Typeclasses](https://www.youtube.com/watch?v=Qh7QdG5RK9E) |
 | 💚 C++ Russia        | 2020-11 |     Online     |       ⭐ [ITM: My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=vOgyn1jcKGY)        |
@@ -40,7 +40,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 | 💙 Dyalog APL        | 2022-09 |   Toronto, 🇨🇦   |                                     A Look at Array Languages                                     |
 | 💙 Dyalog APL        | 2022-09 |  New York, 🇺🇸   |                                     A Look at Array Languages                                     |
 | 💙 YouTube           | 2022-09 |     Online     |                    ⭐ [A Look at Array Languages](https://youtu.be/8ynsN4nJxzU)                    |
-| 💚 Paradigm Conf     | 2022-09 |     Online     | ⭐ [Popular vs Less Well Known Programming Languages](https://www.youtube.com/watch?v=8oKAHQsh1oM) |
+| 💚 Paradigm Conf     | 2022-09 |     Online     |          ⭐ [Popular vs Less Well Known PLs](https://www.youtube.com/watch?v=8oKAHQsh1oM)          |
 | 💙 HelwanU GDSC      | 2022-10 |     Online     |                                     A Look at Array Languages                                     |
 | 💚 code::dive        | 2022-11 |   Wroclaw, 🇵🇱   |         ⭐ [Beautiful Python Refactoring II](https://www.youtube.com/watch?v=nXZQfdxWgh0)          |
 | 💚 KX Con            | 2023-05 |   Montauk, 🇺🇸   |                  [Algorithms in q](https://www.youtube.com/watch?v=7ANmsW7crIQ)                   |
