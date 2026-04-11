@@ -11,61 +11,61 @@
 
 YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7nPNCjA00m31MkNIlb)
 
-| Conference/Meetup   |  Year   |    Location    |                                               Talk                                                |
-| :------------------ | :-----: | :------------: | :-----------------------------------------------------------------------------------------------: |
-| 💙 Bay Area C++      | 2019-01 | Santa Clara, 🇺🇸 |                                        Algorithm Intuition                                        |
-| 💚 C++Now            | 2019-05 |    Aspen, 🇺🇸    |                       ⭐ [Algorithm Intuition](https://youtu.be/48gV1SNm3WA)                       |
-| 💙 Bay Area C++      | 2019-06 |  San Fran, 🇺🇸   |                                        Algorithm Intuition                                        |
-| 💚  CppCon           | 2019-09 |   Aurora, 🇺🇸    |                        [Algorithm Intuition](https://youtu.be/pUEnO6SvAMo)                        |
-| 💙 Bay Area C++      | 2019-10 | Santa Clara, 🇺🇸 |                                    Better Algorithm Intuition                                     |
-| 💚 ACCU Belfast      | 2019-11 |   Belfast, 🇬🇧   |                                    Better Algorithm Intuition                                     |
-| 💚 Meeting C++       | 2019-11 |   Berlin, 🇩🇪    |                   ⭐ [Better Algorithm Intuition](https://youtu.be/TSZzvo4htTQ)                    |
-| 💚 code::dive        | 2019-11 |   Wroclaw, 🇵🇱   |                    [Better Algorithm Intuition](https://youtu.be/0z-cv3gartw)                     |
-| 💙 C++TO             | 2019-12 |   Toronto, 🇨🇦   |                    [Better Algorithm Intuition](https://youtu.be/L0kwN3A-HkM)                     |
-| 💚 PyCon             | 2020-04 |     Online     |                  ⭐ [Beautiful Python Refactoring](https://youtu.be/W-lZttZhsUY)                   |
-| 💙 MUC++             | 2020-06 |     Online     |                  [My Least Favorite Anti-Pattern](https://youtu.be/VV9vwFsaQ6U)  https://www.youtube.com/watch?v=OJ6keePxWPg                 |
-| 💚 Italian C++       | 2020-06 |     Online     |           [My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=CjHgL5EQdcY)           |
-| 💚 CppCon            | 2020-09 |     Online     |        ⭐ [Structure and Interpretation of Computer Programs](https://youtu.be/7oV7hiAsVTI)        |
-| 💙 C++TO             | 2020-11 |     Online     |                         C++ Concepts - Rust Traits - Haskell Typeclasses                          |
-| 💚 Meeting C++       | 2020-11 |     Online     | ⭐ [C++ Concepts - Rust Traits - Haskell Typeclasses](https://www.youtube.com/watch?v=Qh7QdG5RK9E) |
-| 💚 C++ Russia        | 2020-11 |     Online     |       ⭐ [ITM: My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=vOgyn1jcKGY)        |
-| 💚 ACCU              | 2021-03 |     Online     |  [C++ Concepts - Rust Traits - Haskell Typeclasses](https://www.youtube.com/watch?v=iPVoCTgvi8M)  |
-| 💙 Britsh APL        | 2021-03 |     Online     |                                  Algorithms as a Tool of Thought                                  |
-| 💚 APL Seeds         | 2021-03 |     Online     |                 ⭐ [Algorithms as a Tool of Thought](https://youtu.be/GZuZgCDql6g)                 |
-| 💚 GTC               | 2021-04 |     Online     |      ⭐ [Thrust and the C++ Standard Algorithms](https://www.youtube.com/watch?v=zlJg9mCNfkQ)      |
-| 💚 Strange Loop*     | 2021-10 |    YouTube     |         ⭐ [Functional vs Array Programming](https://www.youtube.com/watch?v=UogkQ67d0nY)          |
-| 💚 ARRAY             | 2022-06 |  San Diego, 🇺🇸  |                     Combinatory Logic and Combinators <br> in Array Languages                     |
-| 💚 CppNorth          | 2022-07 |   Toronto, 🇨🇦   |                [The Twin Algorithms](https://www.youtube.com/watch?v=w37XnvIf6qE)                 |
-| 💚 YouTube           | 2022-07 |     Online     |               ⭐ [The Twin Algorithms](https://www.youtube.com/watch?v=NiferfBvN3s)                |
-| 💙 Dyalog APL        | 2022-09 |   Toronto, 🇨🇦   |                                     A Look at Array Languages                                     |
-| 💙 Dyalog APL        | 2022-09 |  New York, 🇺🇸   |                                     A Look at Array Languages                                     |
-| 💙 YouTube           | 2022-09 |     Online     |                    ⭐ [A Look at Array Languages](https://youtu.be/8ynsN4nJxzU)                    |
-| 💚 Paradigm Conf     | 2022-09 |     Online     | ⭐ [Popular vs Less Well Known Programming Languages](https://www.youtube.com/watch?v=8oKAHQsh1oM) |
-| 💙 HelwanU GDSC      | 2022-10 |     Online     |                                     A Look at Array Languages                                     |
-| 💚 code::dive        | 2022-11 |   Wroclaw, 🇵🇱   |         ⭐ [Beautiful Python Refactoring II](https://www.youtube.com/watch?v=nXZQfdxWgh0)          |
-| 💚 KX Con            | 2023-05 |   Montauk, 🇺🇸   |                  [Algorithms in q](https://www.youtube.com/watch?v=7ANmsW7crIQ)                   |
-| 💚 LambdaDays        | 2023-06 |   Krakow, 🇵🇱    |               [Composition Intuition](https://www.youtube.com/watch?v=Mj8jxYS-hi4)                |
-| 💚 Italian C++       | 2023-06 |    Rome, 🇮🇹     |              [New Algorithms in C++23](https://www.youtube.com/watch?v=5FU7Gtkb0IA)               |
-| 💚 C++ on Sea        | 2023-06 | Folkestone, 🇬🇧  |              [New Algorithms in C++23](https://www.youtube.com/watch?v=uYFRnsMD9ks)               |
-| 💚 CppNorth          | 2023-07 |   Toronto, 🇨🇦   |              ⭐ [Composition Intuition](https://www.youtube.com/watch?v=JELcdZLre3s)               |
-| 💚 CppNorth          | 2023-07 |   Toronto, 🇨🇦   |             ⭐ [New Algorithms in C++23](https://www.youtube.com/watch?v=VZPKHqeUQqQ)              |
-| 💙 iO EVM*           | 2023-07 |     Online     |                  [New Algorithms in C++23](https://youtu.be/d5-jboUZ7w8?t=3758)                   |
-| 💙 Dyalog APL        | 2023-10 |   Toronto, 🇨🇦   |                                         Why Combinators?                                          |
-| 💚 Minnowbrook¹      | 2023-10 | Indian Lake, 🇺🇸 |                                         Why Combinators?                                          |
-| 💚 Craft Conf        | 2024-05 |  Budapest, 🇭🇺   |         [The Power of Function Composition](https://www.youtube.com/watch?v=umb5vTP_g7c)          |
-| 💚 NDC Oslo          | 2024-06 |    Oslo, 🇳🇴     |         [The Power of Function Composition](https://www.youtube.com/watch?v=fuX4bQefvWQ)          |
-| 💚 CppNorth          | 2024-07 |   Toronto, 🇨🇦   |             ⭐ [Composition Intuition II](https://www.youtube.com/watch?v=Tsa5JK4nnQE)             |
-| 💚 Lambda World      | 2024-10 |    Cadiz, 🇪🇸    |        ⭐ [The Power of Function Composition](https://www.youtube.com/watch?v=W7fjzdEJnvY)         |
-| 💚 C++ Under the Sea | 2024-10 |    Breda, 🇳🇱    |          [Arrays, Fusion and CPUs vs GPUs](https://www.youtube.com/watch?v=q5FmkSEDA2M)           |
-| 💙 Roku Symposium    | 2025-09 |   Aarhus, 🇩🇰    |                                      Postmodern C++ for GPUs                                      |
-| 💙 Copenhagen C++    | 2025-09 | Copenhagen, 🇩🇰  |                                      Postmodern C++ for GPUs                                      |
-| 💚 C++ Under the Sea | 2025-10 |    Breda, 🇳🇱    |                                    Functional GPU Programming                                     |
-| 💚 YOW! Melbourne    | 2025-12 |       🇦🇺        |                                         Enter the Matrix                                          |
-| 💚 YOW! Brisbane     | 2025-12 |       🇦🇺        |          [Enter the Matrix](https://www.youtube.com/watch?v=OJ6keePxWPg)                          |
-| 💚 YOW! Sydney       | 2025-12 |       🇦🇺        |                                         Enter the Matrix                                          |
-| 💙 C++ Africa | 2026-04 | Online | Functional GPU Programming | 
-| 💙 C++ Toronto | 2026-04 | Toronto, 🇨🇦 | Functional GPU Programming | 
-| 💚 NDC Toronto | 2026-05 | Toronto, 🇨🇦 | Algorithms & Combinators |
+| Conference/Meetup   |  Year   |    Location    |                                                    Talk                                                     |
+| :------------------ | :-----: | :------------: | :---------------------------------------------------------------------------------------------------------: |
+| 💙 Bay Area C++      | 2019-01 | Santa Clara, 🇺🇸 |                                             Algorithm Intuition                                             |
+| 💚 C++Now            | 2019-05 |    Aspen, 🇺🇸    |                            ⭐ [Algorithm Intuition](https://youtu.be/48gV1SNm3WA)                            |
+| 💙 Bay Area C++      | 2019-06 |  San Fran, 🇺🇸   |                                             Algorithm Intuition                                             |
+| 💚  CppCon           | 2019-09 |   Aurora, 🇺🇸    |                             [Algorithm Intuition](https://youtu.be/pUEnO6SvAMo)                             |
+| 💙 Bay Area C++      | 2019-10 | Santa Clara, 🇺🇸 |                                         Better Algorithm Intuition                                          |
+| 💚 ACCU Belfast      | 2019-11 |   Belfast, 🇬🇧   |                                         Better Algorithm Intuition                                          |
+| 💚 Meeting C++       | 2019-11 |   Berlin, 🇩🇪    |                        ⭐ [Better Algorithm Intuition](https://youtu.be/TSZzvo4htTQ)                         |
+| 💚 code::dive        | 2019-11 |   Wroclaw, 🇵🇱   |                         [Better Algorithm Intuition](https://youtu.be/0z-cv3gartw)                          |
+| 💙 C++TO             | 2019-12 |   Toronto, 🇨🇦   |                         [Better Algorithm Intuition](https://youtu.be/L0kwN3A-HkM)                          |
+| 💚 PyCon             | 2020-04 |     Online     |                       ⭐ [Beautiful Python Refactoring](https://youtu.be/W-lZttZhsUY)                        |
+| 💙 MUC++             | 2020-06 |     Online     | [My Least Favorite Anti-Pattern](https://youtu.be/VV9vwFsaQ6U)  https://www.youtube.com/watch?v=OJ6keePxWPg |
+| 💚 Italian C++       | 2020-06 |     Online     |                [My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=CjHgL5EQdcY)                |
+| 💚 CppCon            | 2020-09 |     Online     |             ⭐ [Structure and Interpretation of Computer Programs](https://youtu.be/7oV7hiAsVTI)             |
+| 💙 C++TO             | 2020-11 |     Online     |                              C++ Concepts - Rust Traits - Haskell Typeclasses                               |
+| 💚 Meeting C++       | 2020-11 |     Online     |      ⭐ [C++ Concepts - Rust Traits - Haskell Typeclasses](https://www.youtube.com/watch?v=Qh7QdG5RK9E)      |
+| 💚 C++ Russia        | 2020-11 |     Online     |            ⭐ [ITM: My Least Favorite Anti-Pattern](https://www.youtube.com/watch?v=vOgyn1jcKGY)             |
+| 💚 ACCU              | 2021-03 |     Online     |       [C++ Concepts - Rust Traits - Haskell Typeclasses](https://www.youtube.com/watch?v=iPVoCTgvi8M)       |
+| 💙 Britsh APL        | 2021-03 |     Online     |                                       Algorithms as a Tool of Thought                                       |
+| 💚 APL Seeds         | 2021-03 |     Online     |                      ⭐ [Algorithms as a Tool of Thought](https://youtu.be/GZuZgCDql6g)                      |
+| 💚 GTC               | 2021-04 |     Online     |           ⭐ [Thrust and the C++ Standard Algorithms](https://www.youtube.com/watch?v=zlJg9mCNfkQ)           |
+| 💚 Strange Loop*     | 2021-10 |    YouTube     |              ⭐ [Functional vs Array Programming](https://www.youtube.com/watch?v=UogkQ67d0nY)               |
+| 💚 ARRAY             | 2022-06 |  San Diego, 🇺🇸  |                          Combinatory Logic and Combinators <br> in Array Languages                          |
+| 💚 CppNorth          | 2022-07 |   Toronto, 🇨🇦   |                     [The Twin Algorithms](https://www.youtube.com/watch?v=w37XnvIf6qE)                      |
+| 💚 YouTube           | 2022-07 |     Online     |                    ⭐ [The Twin Algorithms](https://www.youtube.com/watch?v=NiferfBvN3s)                     |
+| 💙 Dyalog APL        | 2022-09 |   Toronto, 🇨🇦   |                                          A Look at Array Languages                                          |
+| 💙 Dyalog APL        | 2022-09 |  New York, 🇺🇸   |                                          A Look at Array Languages                                          |
+| 💙 YouTube           | 2022-09 |     Online     |                         ⭐ [A Look at Array Languages](https://youtu.be/8ynsN4nJxzU)                         |
+| 💚 Paradigm Conf     | 2022-09 |     Online     |      ⭐ [Popular vs Less Well Known Programming Languages](https://www.youtube.com/watch?v=8oKAHQsh1oM)      |
+| 💙 HelwanU GDSC      | 2022-10 |     Online     |                                          A Look at Array Languages                                          |
+| 💚 code::dive        | 2022-11 |   Wroclaw, 🇵🇱   |              ⭐ [Beautiful Python Refactoring II](https://www.youtube.com/watch?v=nXZQfdxWgh0)               |
+| 💚 KX Con            | 2023-05 |   Montauk, 🇺🇸   |                       [Algorithms in q](https://www.youtube.com/watch?v=7ANmsW7crIQ)                        |
+| 💚 LambdaDays        | 2023-06 |   Krakow, 🇵🇱    |                    [Composition Intuition](https://www.youtube.com/watch?v=Mj8jxYS-hi4)                     |
+| 💚 Italian C++       | 2023-06 |    Rome, 🇮🇹     |                   [New Algorithms in C++23](https://www.youtube.com/watch?v=5FU7Gtkb0IA)                    |
+| 💚 C++ on Sea        | 2023-06 | Folkestone, 🇬🇧  |                   [New Algorithms in C++23](https://www.youtube.com/watch?v=uYFRnsMD9ks)                    |
+| 💚 CppNorth          | 2023-07 |   Toronto, 🇨🇦   |                   ⭐ [Composition Intuition](https://www.youtube.com/watch?v=JELcdZLre3s)                    |
+| 💚 CppNorth          | 2023-07 |   Toronto, 🇨🇦   |                  ⭐ [New Algorithms in C++23](https://www.youtube.com/watch?v=VZPKHqeUQqQ)                   |
+| 💙 iO EVM*           | 2023-07 |     Online     |                       [New Algorithms in C++23](https://youtu.be/d5-jboUZ7w8?t=3758)                        |
+| 💙 Dyalog APL        | 2023-10 |   Toronto, 🇨🇦   |                                              Why Combinators?                                               |
+| 💚 Minnowbrook¹      | 2023-10 | Indian Lake, 🇺🇸 |                                              Why Combinators?                                               |
+| 💚 Craft Conf        | 2024-05 |  Budapest, 🇭🇺   |              [The Power of Function Composition](https://www.youtube.com/watch?v=umb5vTP_g7c)               |
+| 💚 NDC Oslo          | 2024-06 |    Oslo, 🇳🇴     |              [The Power of Function Composition](https://www.youtube.com/watch?v=fuX4bQefvWQ)               |
+| 💚 CppNorth          | 2024-07 |   Toronto, 🇨🇦   |                  ⭐ [Composition Intuition II](https://www.youtube.com/watch?v=Tsa5JK4nnQE)                  |
+| 💚 Lambda World      | 2024-10 |    Cadiz, 🇪🇸    |             ⭐ [The Power of Function Composition](https://www.youtube.com/watch?v=W7fjzdEJnvY)              |
+| 💚 C++ Under the Sea | 2024-10 |    Breda, 🇳🇱    |               [Arrays, Fusion and CPUs vs GPUs](https://www.youtube.com/watch?v=q5FmkSEDA2M)                |
+| 💙 Roku Symposium    | 2025-09 |   Aarhus, 🇩🇰    |                                           Postmodern C++ for GPUs                                           |
+| 💙 Copenhagen C++    | 2025-09 | Copenhagen, 🇩🇰  |                                           Postmodern C++ for GPUs                                           |
+| 💚 C++ Under the Sea | 2025-10 |    Breda, 🇳🇱    |                                         Functional GPU Programming                                          |
+| 💚 YOW! Melbourne    | 2025-12 |       🇦🇺        |                                              Enter the Matrix                                               |
+| 💚 YOW! Brisbane     | 2025-12 |       🇦🇺        |                       [Enter the Matrix](https://www.youtube.com/watch?v=OJ6keePxWPg)                       |
+| 💚 YOW! Sydney       | 2025-12 |       🇦🇺        |                                              Enter the Matrix                                               |
+| 💙 C++ Africa        | 2026-04 |     Online     |                                        Parrot: Array GPU Programming                                        |
+| 💙 C++ Toronto       | 2026-04 |   Toronto, 🇨🇦   |                                        Parrot: Array GPU Programming                                        |
+| 💚 NDC Toronto       | 2026-05 |   Toronto, 🇨🇦   |                                          Algorithms & Combinators                                           |
 
 1 - Also known as: APL Implementer's Workshop <br>
 \* - Engineering Virtual Meetup
