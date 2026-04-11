@@ -63,7 +63,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 | 💚 YOW! Melbourne    | 2025-12 |       🇦🇺        |                                         Enter the Matrix                                          |
 | 💚 YOW! Brisbane     | 2025-12 |       🇦🇺        |                  [Enter the Matrix](https://www.youtube.com/watch?v=OJ6keePxWPg)                  |
 | 💚 YOW! Sydney       | 2025-12 |       🇦🇺        |                                         Enter the Matrix                                          |
-| 💙 C++ Africa        | 2026-04 |     Online     |                                   Parrot: Array GPU Programming                                   |
+| 💙 C++ Africa        | 2026-04 |     Online     |                     [Parrot: Array GPU Programming](https://www.youtube.com/watch?v=Sm7pLXT_9Qs)                              |
 | 💙 C++ Toronto       | 2026-04 |   Toronto, 🇨🇦   |                                   Parrot: Array GPU Programming                                   |
 | 💚 NDC Toronto       | 2026-05 |   Toronto, 🇨🇦   |                                     Algorithms & Combinators                                      |
 
