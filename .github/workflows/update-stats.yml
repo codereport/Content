@@ -1,0 +1,33 @@
+name: Update stats image
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v4
+
+      - name: Install Playwright browsers
+        run: uv run --with playwright python -m playwright install --with-deps chromium
+
+      - name: Generate stats screenshot
+        run: uv run readme_talk_stats.py --screenshot
+
+      - name: Commit updated image
+        run: |
+          git diff --quiet stats.png && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats.png
+          git commit -m "Update stats image"
+          git push

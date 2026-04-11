@@ -1,4 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "playwright",
+# ]
+# ///
 """
 Script to analyze talk statistics from README.md
 Counts total talks and talks with recordings from the Conference Talks table.
@@ -6,6 +12,7 @@ Also tracks countries visited by year.
 Generates an HTML page with the statistics.
 """
 
+import argparse
 import re
 import sys
 import webbrowser
@@ -369,6 +376,7 @@ def generate_html(stats):
         .container {{
             max-width: 1200px;
             margin: 0 auto;
+            padding: 1.5rem 2rem;
         }}
         
         h1 {{
@@ -537,9 +545,38 @@ def generate_html(stats):
     return html
 
 
+def take_screenshot(html_content, output_path):
+    """Render HTML in headless Chromium via Playwright and save a screenshot."""
+    from playwright.sync_api import sync_playwright
+
+    with tempfile.NamedTemporaryFile(
+        mode="w", suffix=".html", delete=False, encoding="utf-8"
+    ) as f:
+        f.write(html_content)
+        html_path = f.name
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page(viewport={"width": 1305, "height": 800})
+        page.goto(f"file://{html_path}")
+        page.wait_for_load_state("networkidle")
+        container = page.locator(".container")
+        container.screenshot(path=str(output_path))
+        browser.close()
+
+    Path(html_path).unlink(missing_ok=True)
+
+
 def main():
     """Main function to run the analysis."""
-    readme_path = Path("README.md")
+    parser = argparse.ArgumentParser(description="Conference talk statistics from README.md")
+    parser.add_argument(
+        "--screenshot", metavar="PATH", nargs="?", const="stats.png",
+        help="Save a screenshot to PATH (default: stats.png) instead of opening browser",
+    )
+    args = parser.parse_args()
+
+    readme_path = Path(__file__).resolve().parent / "README.md"
 
     if not readme_path.exists():
         print("Error: README.md not found in current directory")
@@ -568,18 +605,21 @@ def main():
         print(f"Recording percentage: {talks_with_recordings/total_talks*100:.1f}%")
         print()
 
-        # Generate and open HTML page
         html_content = generate_html(stats)
 
-        # Write to a temporary HTML file
-        with tempfile.NamedTemporaryFile(
-            mode="w", suffix=".html", delete=False, encoding="utf-8"
-        ) as f:
-            f.write(html_content)
-            html_path = f.name
+        if args.screenshot:
+            output = Path(args.screenshot)
+            take_screenshot(html_content, output)
+            print(f"Screenshot saved to {output}")
+        else:
+            with tempfile.NamedTemporaryFile(
+                mode="w", suffix=".html", delete=False, encoding="utf-8"
+            ) as f:
+                f.write(html_content)
+                html_path = f.name
 
-        print(f"Opening statistics page: {html_path}")
-        webbrowser.open(f"file://{html_path}")
+            print(f"Opening statistics page: {html_path}")
+            webbrowser.open(f"file://{html_path}")
 
     except Exception as e:
         print(f"Error: {e}")
