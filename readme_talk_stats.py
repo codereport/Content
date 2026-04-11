@@ -208,9 +208,9 @@ def parse_conference_talks_table(readme_content):
         location_type = get_location_type(location_col, conference_meetup)
         talks_by_year[year].append((month, location_type, country))
 
-        # Check if it's a conference or meetup
-        is_conference = ":green_heart:" in conference_meetup
-        is_meetup = ":blue_heart:" in conference_meetup
+        # Check if it's a conference or meetup (💚 = conference, 💙 = meetup)
+        is_conference = "💚" in conference_meetup or ":green_heart:" in conference_meetup
+        is_meetup = "💙" in conference_meetup or ":blue_heart:" in conference_meetup
 
         if is_conference:
             conference_talks += 1
@@ -333,6 +333,11 @@ def generate_html(stats):
         for f in sorted(all_countries)
     )
 
+    conference_percentage = (
+        f"{conferences_with_recordings/conference_talks*100:.0f}%"
+        if conference_talks > 0
+        else "N/A"
+    )
     meetup_percentage = (
         f"{meetups_with_recordings/meetup_talks*100:.1f}%"
         if meetup_talks > 0
@@ -500,7 +505,7 @@ def generate_html(stats):
                 <div class="stat"><span class="stat-label">recording %</span> <span class="stat-value">{talks_with_recordings/total_talks*100:.1f}%</span></div>
             </div>
             <div class="stats" style="margin-top: 0.75rem;">
-                <div class="stat"><span class="stat-label">conferences</span> <span class="stat-value">{conference_talks}</span> <span class="stat-label" style="margin-left: 0.75rem">recorded</span> <span class="stat-value">{conferences_with_recordings} ({conferences_with_recordings/conference_talks*100:.0f}%)</span></div>
+                <div class="stat"><span class="stat-label">conferences</span> <span class="stat-value">{conference_talks}</span> <span class="stat-label" style="margin-left: 0.75rem">recorded</span> <span class="stat-value">{conferences_with_recordings} ({conference_percentage})</span></div>
                 <div class="stat"><span class="stat-label">meetups</span> <span class="stat-value">{meetup_talks}</span> <span class="stat-label" style="margin-left: 0.75rem">recorded</span> <span class="stat-value">{meetups_with_recordings} ({meetup_percentage})</span></div>
             </div>
         </div>
