@@ -1,4 +1,4 @@
-![Conference Talks Statistics](stats.png)
+![Conference Talks Statistics](.github/stats.png)
 
 ### Legend
 

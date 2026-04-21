@@ -576,7 +576,7 @@ def main():
     )
     args = parser.parse_args()
 
-    readme_path = Path(__file__).resolve().parent / "README.md"
+    readme_path = Path(__file__).resolve().parent.parent / "README.md"
 
     if not readme_path.exists():
         print("Error: README.md not found in current directory")
