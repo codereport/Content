@@ -59,11 +59,11 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 | 💚 C++ Under the Sea | 2024-10 |    Breda, 🇳🇱    |          [Arrays, Fusion and CPUs vs GPUs](https://www.youtube.com/watch?v=q5FmkSEDA2M)           |
 | 💙 Roku Symposium    | 2025-09 |   Aarhus, 🇩🇰    |                                      Postmodern C++ for GPUs                                      |
 | 💙 Copenhagen C++    | 2025-09 | Copenhagen, 🇩🇰  |                                      Postmodern C++ for GPUs                                      |
-| 💚 C++ Under the Sea | 2025-10 |    Breda, 🇳🇱    |                                    Functional GPU Programming                                     |
+| 💚 C++ Under the Sea | 2025-10 |    Breda, 🇳🇱    |             [Functional GPU Programming](https://www.youtube.com/watch?v=r-qJW4rw0dw)             |
 | 💚 YOW! Melbourne    | 2025-12 |       🇦🇺        |                                         Enter the Matrix                                          |
 | 💚 YOW! Brisbane     | 2025-12 |       🇦🇺        |                  [Enter the Matrix](https://www.youtube.com/watch?v=OJ6keePxWPg)                  |
 | 💚 YOW! Sydney       | 2025-12 |       🇦🇺        |                                         Enter the Matrix                                          |
-| 💙 C++ Africa        | 2026-04 |     Online     |                     [Parrot: Array GPU Programming](https://www.youtube.com/watch?v=Sm7pLXT_9Qs)                              |
+| 💙 C++ Africa        | 2026-04 |     Online     |                     [Parrot: Array GPU Programming](https://www.youtube.com/watch?v=Sm7pLXT_9Qs)   |
 | 💙 C++ Toronto       | 2026-04 |   Toronto, 🇨🇦   |                                   Parrot: Array GPU Programming                                   |
 | 💚 NDC Toronto       | 2026-05 |   Toronto, 🇨🇦   |                                     Algorithms & Combinators                                      |
 
