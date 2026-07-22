@@ -65,7 +65,7 @@ YouTube Playlist: [Link](https://www.youtube.com/playlist?list=PLVFrD1dmDdvdwBa7
 | 💚 YOW! Sydney       | 2025-12 |       🇦🇺        |                                         Enter the Matrix                                          |
 | 💙 C++ Africa        | 2026-04 |     Online     |                     [Parrot: Array GPU Programming](https://www.youtube.com/watch?v=Sm7pLXT_9Qs)   |
 | 💙 C++ Toronto       | 2026-04 |   Toronto, 🇨🇦   |                                   Parrot: Array GPU Programming                                   |
-| 💚 NDC Toronto       | 2026-05 |   Toronto, 🇨🇦   |                                     Algorithms & Combinators                                      |
+| 💚 NDC Toronto       | 2026-05 |   Toronto, 🇨🇦   |                [Algorithms & Combinators](https://www.youtube.com/watch?v=preMtk8Jlc0)            |
 
 1 - Also known as: APL Implementer's Workshop <br>
 \* - Engineering Virtual Meetup
