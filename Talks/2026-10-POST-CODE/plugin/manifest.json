@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "cph.presentations",
+  "name": "Desktop presentations",
+  "version": "1.0.0",
+  "author": "Conor Shakory",
+  "description": "Transparent presentations on the live desktop with an animated parrot",
+  "kinds": ["service"],
+  "entryPoints": {"service": "Service.qml"}
+}

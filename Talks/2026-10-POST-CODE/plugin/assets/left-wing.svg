@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Vector wing matching the nvlabs-parrot logo; the shoulder is (145, 220). -->
+  <path fill="#05a8dc" d="M145 140 L32 94 Q18 87 14 105 C-3 180 8 248 58 288 Q96 314 147 323 Z"/>
+  <path fill="#ffb52c" d="M62 106 L145 140 L147 323 C74 301 42 212 62 106 Z"/>
+</svg>
